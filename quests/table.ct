@@ -451,8 +451,8 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>142</ID>
-      <Description>"142"</Description>
+      <ID>0xDD4625BC</ID>
+      <Description>"Adrea: Liberate Ardea from the orcs! (Ардеа: Освободи Ардею от орков)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"Script.dll"+00066E00</Address>
@@ -1331,8 +1331,8 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>87</ID>
-      <Description>"87"</Description>
+      <ID>0xDD464EFC</ID>
+      <Description>"Reddock: Kill the aggressive wild boars. (Реддок: Убей диких кабанов)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"Script.dll"+00066E00</Address>
@@ -2867,8 +2867,8 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>8</ID>
-      <Description>"8"</Description>
+      <ID>0xDD4696FC</ID>
+      <Description>"Ardea: Gorn shows you the rebels' hideout. (Ардеа: Горн показывает убежище повстанцев)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"Script.dll"+00066E00</Address>
@@ -3107,8 +3107,8 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>23</ID>
-      <Description>"23"</Description>
+      <ID>0xDD46A23C</ID>
+      <Description>"Ardea: Talk to the leader of the rebels! (Ардеа: Поговори с предводителем повстанцев в Реддоке)"</Description>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"Script.dll"+00066E00</Address>
