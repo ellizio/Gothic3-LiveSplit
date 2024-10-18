@@ -9122,5 +9122,20 @@
         <Offset>F4</Offset>
       </Offsets>
     </CheatEntry>
+
+      <CheatEntry>
+          <ID>398</ID>
+          <Description>"TEST Game.exe + 00097ADC"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"Game.dll"+00097ADC</Address>
+          <Offsets>
+              <Offset>3E0</Offset>
+              <Offset>C</Offset>
+              <Offset>20</Offset>
+              <Offset>48</Offset>
+              <Offset>ED4</Offset>
+          </Offsets>
+      </CheatEntry>
   </CheatEntries>
 </CheatTable>
