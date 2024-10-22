@@ -2,37 +2,35 @@
 <CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
-      <ID>574</ID>
-      <Description>"Unpaused"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"Game.dll"+003F54B0</Address>
-      <Offsets>
-        <Offset>2C</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>575</ID>
-      <Description>"Loading"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"Gothic3.exe"+0002638C</Address>
-      <Offsets>
-        <Offset>E68</Offset>
-        <Offset>4</Offset>
-        <Offset>20</Offset>
-        <Offset>8</Offset>
-        <Offset>F0</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
       <ID>578</ID>
       <Description>"Saving"</Description>
       <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
+      <VariableType>Binary</VariableType>
+      <BitStart>1</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
       <Address>"Game.dll"+003F66E0</Address>
       <Offsets>
         <Offset>18</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>591</ID>
+      <Description>"Loading"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Engine.dll"+0036A3C0</Address>
+      <Offsets>
+        <Offset>D14</Offset>
+        <Offset>83C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>587</ID>
+      <Description>"Paused"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Engine.dll"+00602A98</Address>
+      <Offsets>
+        <Offset>928</Offset>
       </Offsets>
     </CheatEntry>
   </CheatEntries>
