@@ -5,15 +5,15 @@ import { Pagination } from 'swiper/modules';
 import type { Swiper as SwiperClass} from "swiper/types";
 
 import Welcome from "./slides/welcome/welcome";
+import Generator from "./slides/generator/generator";
+import Download from "./slides/download/download";
+
 import Panel from "./slides/panel/panel";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './App.css';
-import Generator from "./slides/generator/generator";
-import ConditionComponent from "./slides/generator/elems/condition/condition-component";
 import {Quest, SharedContextValues} from "./types";
-import SplitComponent from "./slides/generator/elems/split/split-component";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
@@ -49,7 +49,9 @@ function App() {
                 <SwiperSlide>
                     <Generator />
                 </SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
+                <SwiperSlide>
+                    <Download />
+                </SwiperSlide>
                 <SwiperSlide>Slide 6</SwiperSlide>
                 <SwiperSlide>Slide 7</SwiperSlide>
                 <SwiperSlide>Slide 8</SwiperSlide>
