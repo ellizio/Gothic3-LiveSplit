@@ -3,6 +3,7 @@ export declare type SharedContextValues = {
     techs: Tech[]
 }
 
+
 export declare type Quest = {
     id: string,
     name: string,
@@ -16,6 +17,7 @@ export declare type Tech = {
     baseAddress: string,
     offsets: string[]
 }
+
 
 export declare type Condition = {
     type: string,
