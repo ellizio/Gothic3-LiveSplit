@@ -1,10 +1,20 @@
 export declare type SharedContextValues = {
-    quests: Quest[]
+    quests: Quest[],
+    techs: Tech[]
 }
 
 export declare type Quest = {
     id: string,
-    name: string
+    name: string,
+    baseAddress: string,
+    offsets: string[]
+}
+
+export declare type Tech = {
+    id: string,
+    name: string,
+    baseAddress: string,
+    offsets: string[]
 }
 
 export declare type Condition = {

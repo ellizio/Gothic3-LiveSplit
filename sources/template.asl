@@ -4,9 +4,9 @@ state("Gothic3")
     bool loading    : "Engine.dll", 0x36A3C0, 0x83C, 0xD14;
     bool paused     : "Engine.dll", 0x602A98, 0x928;
 
-	{{  }}
-
-	{{  }}
+{{#each quests}}
+    int {{id}} : {{baseAddress}}{{#each offsets}}, 0x{{this}}{{/each}};
+{{/each}}
 }
 
 startup
@@ -31,11 +31,24 @@ startup
 
     vars.SetupSplits = (Action)(() =>
     {
-        var q_bogir = helper.CreateQuestCondition("bogir");
-        var s_bogir = helper.CreateSaveCondition();
-        var split_bogir = helper.CreateSplit("bogir", q_bogir, s_bogir);
+{{#each splits}}
+        var split_{{@index}} = helper.CreateSplit(
+            "split_{{@index}}",
+{{#each conditions}}
+{{#if (isQuest this)}}
+          , helper.CreateQuestCondition("{{value}}")
+{{else}}
+          , helper.CreateSaveCondition()
+{{/if}}
+{{/each}}
+        );
+{{/each}}
 
-        vars.Splits = helper.BuildSplits(split_bogir);
+        vars.Splits = helper.BuildSplits(
+{{#each splits}}
+{{#if @first}}            split_{{@index}}{{else}}          , split_{{@index}}{{/if}}
+{{/each}}
+        );
     });
     vars.SetupSplits();
 }

@@ -9,22 +9,34 @@ import "./style.css"
 import {Condition, Split} from "../../types";
 import SplitComponent from "./elems/split/split-component";
 
-export const Generator: React.FC = () => {
+declare type GeneratorProps = {
+    onSplitsChanged?: (splits: Split[]) => void
+}
+
+export const Generator: React.FC<GeneratorProps> = (props) => {
     const [splits, setSplits] = useState<Split[]>([createSplit()]);
 
     const onNameChanged = (split: Split, name: string) => {
         split.name = name
         setSplits([...splits])
+        props.onSplitsChanged?.(splits)
     }
 
     const onConditionsChanged = (split: Split, conditions: Condition[]) => {
         split.conditions = conditions
         setSplits([...splits])
+        props.onSplitsChanged?.(splits)
     }
 
-    const onSplitDeleted = (index: number) => setSplits(splits.filter(((s, i) => i !== index)))
+    const onSplitDeleted = (index: number) => {
+        setSplits(splits.filter(((s, i) => i !== index)))
+        props.onSplitsChanged?.(splits)
+    }
 
-    const addSplit = () => setSplits([...splits, createSplit()])
+    const addSplit = () => {
+        setSplits([...splits, createSplit()])
+        props.onSplitsChanged?.(splits)
+    }
 
     return (
         <div>

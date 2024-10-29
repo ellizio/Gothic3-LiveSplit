@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 import { Button } from 'primereact/button';
 import { Panel } from 'primereact/panel';
@@ -6,14 +6,17 @@ import { Panel } from 'primereact/panel';
 import "primereact/resources/themes/lara-light-amber/theme.css";
 import "/node_modules/primeflex/primeflex.css";
 
-export const Download: React.FC = () => {
+declare type DownloadProps = {
+    script: string
+}
+
+export const Download: React.FC<DownloadProps> = (props) => {
     const onDownloadScriptClicked = () => {
-        const texts = ["line 1", "line 2", "line 3"]
-        const file = new Blob(texts, {type: 'text/plain'});
+        const file = new Blob([props.script], { type: 'text/plain' });
 
         const element = document.createElement("a");
         const object = element.href = URL.createObjectURL(file);
-        element.download = "100ideas-" + Date.now() + ".txt";
+        element.download = "Gothic3-LiveSplit.asl";
 
         document.body.appendChild(element);
         element.click();
@@ -42,15 +45,15 @@ export const Download: React.FC = () => {
     return (
         <div>
             <p className="text-6xl mb-5">
-                Download the files and place them in the Components in your LiveSplit directory
+                Download the files and place them into Components in your LiveSplit directory
             </p>
             <Panel className='mb-5 inline-block'
                    header='For example'>
                 <p>
-                    D:\LiveSplit\Components\script.asl
+                    C:\LiveSplit\Components\script.asl
                 </p>
                 <p>
-                    D:\LiveSplit\Components\helper.dll
+                    C:\LiveSplit\Components\helper.dll
                 </p>
             </Panel>
             <div className='flex justify-content-center gap-8'>
@@ -61,4 +64,6 @@ export const Download: React.FC = () => {
     );
 }
 
-export default Download;
+// export const DownloadSlide = Object.assign(Download, {
+//     Help: <Button></Button>
+// })
