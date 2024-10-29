@@ -5,7 +5,7 @@ state("Gothic3")
     bool paused     : "Engine.dll", 0x602A98, 0x928;
 
 {{#each quests}}
-    int {{id}} : {{baseAddress}}{{#each offsets}}, 0x{{this}}{{/each}};
+    int {{id}} : "{{baseAddress}}"{{#each offsets}}, 0x{{this}}{{/each}};
 {{/each}}
 }
 
@@ -26,19 +26,15 @@ startup
     });
 
     // Splits
-    var helper = Assembly.Load(File.ReadAllBytes("D:\\Projects\\dotnet\\Tests\\G3Helpers\\AslHelperFr\\bin\\Release\\AslHelperFr.dll"))
-        .CreateInstance("AslHelperFr.Helper");
+    var helper = vars.Helper = Assembly.Load(File.ReadAllBytes("Components/Gothic3-LiveSplit.dll")).CreateInstance("Helper.Helper");
 
     vars.SetupSplits = (Action)(() =>
     {
 {{#each splits}}
         var split_{{@index}} = helper.CreateSplit(
-            "split_{{@index}}",
 {{#each conditions}}
-{{#if (isQuest this)}}
-          , helper.CreateQuestCondition("{{value}}")
-{{else}}
-          , helper.CreateSaveCondition()
+{{#if @first}}           {{else}}          ,{{/if}}{{#if (isQuest this)}} helper.CreateQuestCondition("{{value}}")
+{{else}} helper.CreateSaveCondition()
 {{/if}}
 {{/each}}
         );

@@ -42,7 +42,7 @@ export class DataRetriever {
     }
 
     static async retrieveScriptTemplate(): Promise<string> {
-        const response = await fetch('https://gist.githubusercontent.com/ellizio/e3acfcffe0a8aa3b8ff37c1ea8103998/raw/59ee770ac6434d36d12aedd2f557af0c487ab448/template');
+        const response = await fetch('https://gist.githubusercontent.com/ellizio/e3acfcffe0a8aa3b8ff37c1ea8103998/raw/615e16d7b92db1027263f1a1365b0aa163a9eda6/template');
         return await response.text();
     }
 }
