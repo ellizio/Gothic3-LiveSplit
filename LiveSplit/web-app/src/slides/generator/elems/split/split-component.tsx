@@ -1,9 +1,7 @@
-import React, {ChangeEventHandler, useContext, useMemo, useState} from "react";
-import {Dropdown, DropdownChangeEvent} from "primereact/dropdown";
+import React from "react";
 
 import './styles.css'
 import {Button} from "primereact/button";
-import {SharedContext} from "../../../../App";
 import {InputText} from "primereact/inputtext";
 import ConditionComponent from "../condition/condition-component";
 import {Condition} from "../../../../types";
