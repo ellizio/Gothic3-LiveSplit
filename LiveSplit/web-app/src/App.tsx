@@ -13,9 +13,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './App.css';
 import {Quest, SharedContextValues, Split, Tech} from "./types";
-import {retrieveQuests, retrieveScriptTemplate, retrieveTechs} from "./helpers/data-retriever";
 import {Download} from "./slides/download/download";
 import {ScriptGenerator} from "./helpers/script-generator";
+import {DataRetriever} from "./helpers/data-retriever";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
@@ -25,11 +25,11 @@ function App() {
     const [techs, setTechs] = useState<Tech[]>([]);
     const [scriptTemplate, setScriptTemplate] = useState<string>('');
     useEffect(() => {
-        retrieveQuests()
+        DataRetriever.retrieveQuests()
             .then(quests => setQuests(quests))
-        retrieveTechs()
+        DataRetriever.retrieveTechs()
             .then(techs => setTechs(techs))
-        retrieveScriptTemplate()
+        DataRetriever.retrieveScriptTemplate()
             .then(template => setScriptTemplate(template))
     }, []);
 

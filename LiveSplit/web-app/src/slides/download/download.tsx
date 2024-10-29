@@ -3,8 +3,7 @@ import React from "react";
 import { Button } from 'primereact/button';
 import { Panel } from 'primereact/panel';
 
-import "primereact/resources/themes/lara-light-amber/theme.css";
-import "/node_modules/primeflex/primeflex.css";
+import {HELPER_FILENAME, SCRIPT_FILENAME} from "../../consts";
 
 declare type DownloadProps = {
     script: string
@@ -16,7 +15,7 @@ export const Download: React.FC<DownloadProps> = (props) => {
 
         const element = document.createElement("a");
         const object = element.href = URL.createObjectURL(file);
-        element.download = "Gothic3-LiveSplit.asl";
+        element.download = SCRIPT_FILENAME;
 
         document.body.appendChild(element);
         element.click();
@@ -26,12 +25,12 @@ export const Download: React.FC<DownloadProps> = (props) => {
     }
 
     const onDownloadHelperClicked = () => {
-        fetch('https://raw.githubusercontent.com/ellizio/odata-cli-ui/refs/heads/master/CHANGELOG.md')
+        fetch('https://raw.githubusercontent.com/ellizio/odata-cli-ui/refs/heads/master/CHANGELOG.md') // TODO: url from consts
             .then(response => response.blob())
             .then(blob => {
                 const element = document.createElement("a");
                 const object = element.href = URL.createObjectURL(blob)
-                element.download = "100ideas-" + Date.now() + ".md";
+                element.download = HELPER_FILENAME;
 
                 document.body.appendChild(element);
                 element.click();
@@ -50,15 +49,15 @@ export const Download: React.FC<DownloadProps> = (props) => {
             <Panel className='mb-5 inline-block'
                    header='For example'>
                 <p>
-                    C:\LiveSplit\Components\script.asl
+                    C:\LiveSplit\Components\{SCRIPT_FILENAME}
                 </p>
                 <p>
-                    C:\LiveSplit\Components\helper.dll
+                    C:\LiveSplit\Components\{HELPER_FILENAME}
                 </p>
             </Panel>
             <div className='flex justify-content-center gap-8'>
-            <Button icon="pi pi-download" label="Download script" onClick={onDownloadScriptClicked}/>
-                <Button icon="pi pi-download" label="Download helper" onClick={onDownloadHelperClicked}/>
+                <Button icon="pi pi-download" label={`Download ${SCRIPT_FILENAME}`} onClick={onDownloadScriptClicked}/>
+                <Button icon="pi pi-download" label={`Download ${HELPER_FILENAME}`} onClick={onDownloadHelperClicked}/>
             </div>
         </div>
     );
