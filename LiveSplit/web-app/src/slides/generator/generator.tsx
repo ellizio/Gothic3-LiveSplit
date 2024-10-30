@@ -41,7 +41,7 @@ export const Generator: React.FC<GeneratorProps> = (props) => {
 
     return (
         <div>
-            <ScrollPanel style={{minWidth: '36vw', height: '85vh'}}>
+            <ScrollPanel style={{minWidth: '36vw', height: '88vh'}}>
                 {
                     splits.map((s, i) => (
                         <SplitComponent className='mb-4'

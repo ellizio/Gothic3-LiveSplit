@@ -1,40 +1,39 @@
 import React, {useEffect, useState} from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
 import type { Swiper as SwiperClass} from "swiper/types";
+
+import {Button} from "primereact/button";
+import {Dialog} from "primereact/dialog";
 
 import Welcome from "./slides/welcome/welcome";
 import Generator from "./slides/generator/generator";
-import {DownloadScript} from "./slides/download/download-script";
-import {DownloadSplits} from "./slides/download/download-splits";
 import Panel from "./slides/panel/panel";
 
 import 'swiper/css';
-import 'swiper/css/pagination';
 import './App.css';
-
-import {Quest, SharedContextValues, Split, Tech} from "./types";
+import "primereact/resources/themes/lara-light-amber/theme.css";
+import 'primeicons/primeicons.css';
+import "/node_modules/primeflex/primeflex.css";
 
 import {ScriptGenerator} from "./helpers/script-generator";
 import {SplitsGenerator} from "./helpers/splits-generator";
 import {DataRetriever} from "./helpers/data-retriever";
-import Guide from "./slides/guide/guide";
+import {Downloader} from "./helpers/downloader";
 
+import {Quest, SharedContextValues, Split} from "./types";
+import {HELPER_FILENAME, SCRIPT_FILENAME, SPLITS_FILENAME} from "./consts";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
 function App() {
     // Global
     const [quests, setQuests] = useState<Quest[]>([]);
-    const [techs, setTechs] = useState<Tech[]>([]);
     const [scriptTemplate, setScriptTemplate] = useState<string>('');
     const [splitsTemplate, setSplitsTemplate] = useState<string>('');
     useEffect(() => {
         DataRetriever.retrieveQuests()
             .then(quests => setQuests(quests))
-        DataRetriever.retrieveTechs()
-            .then(techs => setTechs(techs))
         DataRetriever.retrieveScriptTemplate()
             .then(template => setScriptTemplate(template))
         DataRetriever.retrieveSplitsTemplate()
@@ -42,50 +41,37 @@ function App() {
     }, []);
 
     // Swiper
-    const [swiper, setSwiper] = useState<SwiperClass>();
-    const [currentSlide, setCurrentSlide] = useState<number>(0);
     const [panelVisible, setPanelVisible] = useState(false);
-    const [panelHelpEnabled, setPanelHelpEnabled] = useState(false);
 
-    const onSlideChanged = (index: number) => {
-        setPanelVisible(index !== 0)
-        setCurrentSlide(index)
+    const onSlideChanged = (index: number) => setPanelVisible(index !== 0)
 
-        switch (index) {
-            case 2:
-                setPanelHelpEnabled(false)
-                break;
-            default:
-                setPanelHelpEnabled(true)
-        }
+    const onGenerateClicked = () => {
+        // TODO: validate splits
+
+        setModalVisible(true)
     }
 
-    const onHelpClicked = () => {
-
-    }
-
-    const onNextClicked = () => {
-        switch (currentSlide) {
-            case 1: // generator
-                const scriptText = new ScriptGenerator(scriptTemplate, quests).generate(splits)
-                setScriptText(scriptText)
-                swiper?.slideNext()
-                break;
-            case 2: // download-script
-                const splitsText = new SplitsGenerator(splitsTemplate).generate(splits)
-                setSplitsText(splitsText)
-                swiper?.slideNext()
-                break;
-        }
-    }
+    // Modal
+    const [modalVisible, setModalVisible] = useState(false);
 
     // Slides data
     const [splits, setSplits] = useState<Split[]>([]);
-    const [scriptText, setScriptText] = useState<string>('')
-    const [splitsText, setSplitsText] = useState<string>('')
+
+    // Downloading
+    const onDownloadScriptClicked = () => {
+        const scriptText = new ScriptGenerator(scriptTemplate, quests).generate(splits)
+        Downloader.downloadScript(scriptText)
+    }
+
+    const onDownloadHelperClicked = () => Downloader.downloadHelper()
+
+    const onDownloadSplitsClicked = () => {
+        const splitsText = new SplitsGenerator(splitsTemplate).generate(splits)
+        Downloader.downloadSplits(splitsText)
+    }
 
     return (
-        <SharedContext.Provider value={{ quests, techs }}>
+        <SharedContext.Provider value={{ quests }}>
             <Swiper
                 direction={'vertical'}
                 pagination={{
@@ -96,9 +82,7 @@ function App() {
                 }}
                 noSwiping={false}
                 noSwipingClass='swiper-slide'
-                modules={[Pagination]}
                 className="mySwiper"
-                onSwiper={(s: SwiperClass) => setSwiper(s)}
                 onSlideChange={(s: SwiperClass) => onSlideChanged(s.activeIndex)}
             >
                 <SwiperSlide>
@@ -107,18 +91,6 @@ function App() {
                 <SwiperSlide>
                     <Generator onSplitsChanged={s => setSplits(s)} />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <DownloadScript script={scriptText} />
-                    {/*<DownloadSlide.Help />*/}
-                </SwiperSlide>
-                <SwiperSlide>
-                    <DownloadSplits splits={splitsText} />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Guide />
-                </SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-
                 {
                     <div className="bottom-panel"
                          slot="container-end"
@@ -127,12 +99,44 @@ function App() {
                             opacity: panelVisible ? 1 : 0,
                             transition: "visibility 0.3s linear, opacity 0.3s linear"
                     }}>
-                        <Panel helpEnabled={panelHelpEnabled}
-                               onHelpClick={onHelpClicked}
-                               onNextClick={onNextClicked} />
+                        <Panel onGenerateClick={onGenerateClicked} />
                     </div>
                 }
             </Swiper>
+            <Dialog visible={modalVisible}
+                    position='bottom'
+                    draggable={false}
+                    onHide={() => setModalVisible(false)} >
+                <div className='flex gap-8'>
+                    <Button
+                        icon="pi pi-download"
+                        onClick={onDownloadScriptClicked}
+                    >
+                        <div className='ml-3'>
+                            <p className='p-button-label p-c m-0'>Download script</p>
+                            <p className='text-xs m-0'>{SCRIPT_FILENAME}</p>
+                        </div>
+                    </Button>
+                    <Button
+                        icon="pi pi-download"
+                        onClick={onDownloadHelperClicked}
+                    >
+                        <div className='ml-3'>
+                            <p className='p-button-label p-c m-0'>Download helper</p>
+                            <p className='text-xs m-0'>{HELPER_FILENAME}</p>
+                        </div>
+                    </Button>
+                    <Button
+                        icon="pi pi-download"
+                        onClick={onDownloadSplitsClicked}
+                    >
+                        <div className='ml-3'>
+                            <p className='p-button-label p-c m-0'>Download splits</p>
+                            <p className='text-xs m-0'>{SPLITS_FILENAME}</p>
+                        </div>
+                    </Button>
+                </div>
+            </Dialog>
         </SharedContext.Provider>
     );
 }
