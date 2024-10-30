@@ -19,6 +19,7 @@ import {Quest, SharedContextValues, Split, Tech} from "./types";
 import {ScriptGenerator} from "./helpers/script-generator";
 import {SplitsGenerator} from "./helpers/splits-generator";
 import {DataRetriever} from "./helpers/data-retriever";
+import Guide from "./slides/guide/guide";
 
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
@@ -44,10 +45,19 @@ function App() {
     const [swiper, setSwiper] = useState<SwiperClass>();
     const [currentSlide, setCurrentSlide] = useState<number>(0);
     const [panelVisible, setPanelVisible] = useState(false);
+    const [panelHelpEnabled, setPanelHelpEnabled] = useState(false);
 
     const onSlideChanged = (index: number) => {
         setPanelVisible(index !== 0)
         setCurrentSlide(index)
+
+        switch (index) {
+            case 2:
+                setPanelHelpEnabled(false)
+                break;
+            default:
+                setPanelHelpEnabled(true)
+        }
     }
 
     const onHelpClicked = () => {
@@ -104,9 +114,10 @@ function App() {
                 <SwiperSlide>
                     <DownloadSplits splits={splitsText} />
                 </SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
+                <SwiperSlide>
+                    <Guide />
+                </SwiperSlide>
                 <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
 
                 {
                     <div className="bottom-panel"
@@ -116,7 +127,9 @@ function App() {
                             opacity: panelVisible ? 1 : 0,
                             transition: "visibility 0.3s linear, opacity 0.3s linear"
                     }}>
-                        <Panel onHelpClick={onHelpClicked} onNextClick={onNextClicked} />
+                        <Panel helpEnabled={panelHelpEnabled}
+                               onHelpClick={onHelpClicked}
+                               onNextClick={onNextClicked} />
                     </div>
                 }
             </Swiper>

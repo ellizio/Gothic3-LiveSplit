@@ -4,12 +4,17 @@ import { Button } from 'primereact/button';
 
 import { useSwiper } from "swiper/react";
 
-import "primereact/resources/themes/lara-light-amber/theme.css";
-import "/node_modules/primeflex/primeflex.css";
+import {MANUAL_URL} from "../../consts";
+
 import "./style.css"
 
 function Welcome() {
     const swiper = useSwiper();
+
+    const onManualButtonClicked = () => {
+        const newWindow = window.open(MANUAL_URL, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
 
     return (
         <div>
@@ -19,7 +24,17 @@ function Welcome() {
             <p className="text-l text-gray-600 mb-8">
                 ver. 1.0.0
             </p>
-            <Button className="wide-button" onClick={() => swiper.slideNext()} label="START" />
+            <div className='flex justify-content-center gap-8'>
+                <Button className="wide-button"
+                        icon="pi pi-info-circle"
+                        label="Manual"
+                        onClick={onManualButtonClicked} />
+                <Button className="wide-button"
+                        icon="pi pi-arrow-right"
+                        iconPos="right"
+                        label="Start"
+                        onClick={() => swiper.slideNext()} />
+            </div>
         </div>
     );
 }
