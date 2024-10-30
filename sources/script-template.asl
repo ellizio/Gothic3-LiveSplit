@@ -96,7 +96,7 @@ split
 onReset
 {
     vars.Started = false;
-	vars.SetupSplits();
+    vars.SetupSplits();
 }
 
 onStart

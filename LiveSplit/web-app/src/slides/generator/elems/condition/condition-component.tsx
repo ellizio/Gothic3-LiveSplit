@@ -3,10 +3,10 @@ import React, {useContext, useEffect, useMemo, useState} from "react";
 import {Dropdown, DropdownChangeEvent} from "primereact/dropdown";
 import {Button} from "primereact/button";
 
-import './styles.css'
-
 import {SharedContext} from "../../../../App";
 import {QUEST} from "../../../../consts";
+
+import './styles.css'
 
 const types = [
     { value: "quest", label: 'Quest' },

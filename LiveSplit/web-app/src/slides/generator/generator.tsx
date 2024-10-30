@@ -2,12 +2,13 @@ import React, {useState} from "react";
 
 import { Button } from 'primereact/button';
 import { ScrollPanel } from 'primereact/scrollpanel';
+import SplitComponent from "./elems/split/split-component";
+
+import {Condition, Split} from "../../types";
 
 import "primereact/resources/themes/lara-light-amber/theme.css";
 import "/node_modules/primeflex/primeflex.css";
 import "./style.css"
-import {Condition, Split} from "../../types";
-import SplitComponent from "./elems/split/split-component";
 
 declare type GeneratorProps = {
     onSplitsChanged?: (splits: Split[]) => void

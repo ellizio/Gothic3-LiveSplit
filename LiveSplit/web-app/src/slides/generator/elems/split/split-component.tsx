@@ -1,54 +1,43 @@
 import React from "react";
 
-import './styles.css'
 import {Button} from "primereact/button";
 import {InputText} from "primereact/inputtext";
 import ConditionComponent from "../condition/condition-component";
+
 import {Condition} from "../../../../types";
+
+import './styles.css'
 
 declare type SplitComponentProps = {
     className?: string,
 
     name: string,
+    onNameChange?: (name: string) => void,
+
     conditions: Condition[],
+    onConditionsChange?: (conditions: Condition[]) => void,
 
     deleteEnabled: boolean,
-    onDelete?: () => void,
-
-    onNameChange?: (name: string) => void,
-    onConditionsChange?: (conditions: Condition[]) => void
+    onDelete?: () => void
 }
 
 export const SplitComponent: React.FC<SplitComponentProps> = (props) => {
-    //const [name, setName] = useState('')
-    //const [conditions, setConditions] = useState<Condition[]>([createCondition()])
 
-    const onNameChanged = (e: React.ChangeEvent<HTMLInputElement>) => {
-        //setName(e.target.value);
-        props.onNameChange?.(e.target.value);
-    }
+    const onNameChanged = (e: React.ChangeEvent<HTMLInputElement>) => props.onNameChange?.(e.target.value)
 
-    const addCondition = () => {
-        props.onConditionsChange?.([...props.conditions, createCondition()])
-        //setConditions([...conditions, createCondition()]);
-    }
+    const addCondition = () => props.onConditionsChange?.([...props.conditions, createCondition()])
 
     const onTypeChanged = (condition: Condition, type: string) => {
         condition.type = type;
         props.onConditionsChange?.(props.conditions)
-        //setConditions([...conditions])
     }
 
     const onValueChanged = (condition: Condition, value: string) => {
         condition.value = value;
         props.onConditionsChange?.(props.conditions)
-        //setConditions([...conditions])
     }
 
-    const onConditionDeleted = (index: number) => {
-        props.onConditionsChange?.(props.conditions.filter(((c, i) => i !== index)))
-        //setConditions(conditions.filter(((c, i) => i !== index)))
-    }
+    const onConditionDeleted = (index: number) => props.onConditionsChange?.(props.conditions.filter(((c, i) => i !== index)))
 
     return (
         <div className={props.className}>

@@ -45,4 +45,9 @@ export class DataRetriever {
         const response = await fetch('https://gist.githubusercontent.com/ellizio/e3acfcffe0a8aa3b8ff37c1ea8103998/raw/615e16d7b92db1027263f1a1365b0aa163a9eda6/template');
         return await response.text();
     }
+
+    static async retrieveSplitsTemplate(): Promise<string> {
+        const response = await fetch('https://gist.githubusercontent.com/ellizio/e3acfcffe0a8aa3b8ff37c1ea8103998/raw/76cf4d4dbf3a8a37b4a91fa581092dbfd153c087/splits-template');
+        return await response.text();
+    }
 }

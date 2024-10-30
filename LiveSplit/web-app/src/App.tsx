@@ -6,16 +6,20 @@ import type { Swiper as SwiperClass} from "swiper/types";
 
 import Welcome from "./slides/welcome/welcome";
 import Generator from "./slides/generator/generator";
-
+import {DownloadScript} from "./slides/download/download-script";
+import {DownloadSplits} from "./slides/download/download-splits";
 import Panel from "./slides/panel/panel";
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './App.css';
+
 import {Quest, SharedContextValues, Split, Tech} from "./types";
-import {Download} from "./slides/download/download";
+
 import {ScriptGenerator} from "./helpers/script-generator";
+import {SplitsGenerator} from "./helpers/splits-generator";
 import {DataRetriever} from "./helpers/data-retriever";
+
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
@@ -24,6 +28,7 @@ function App() {
     const [quests, setQuests] = useState<Quest[]>([]);
     const [techs, setTechs] = useState<Tech[]>([]);
     const [scriptTemplate, setScriptTemplate] = useState<string>('');
+    const [splitsTemplate, setSplitsTemplate] = useState<string>('');
     useEffect(() => {
         DataRetriever.retrieveQuests()
             .then(quests => setQuests(quests))
@@ -31,6 +36,8 @@ function App() {
             .then(techs => setTechs(techs))
         DataRetriever.retrieveScriptTemplate()
             .then(template => setScriptTemplate(template))
+        DataRetriever.retrieveSplitsTemplate()
+            .then(template => setSplitsTemplate(template))
     }, []);
 
     // Swiper
@@ -50,11 +57,13 @@ function App() {
     const onNextClicked = () => {
         switch (currentSlide) {
             case 1: // generator
-                const script = new ScriptGenerator(scriptTemplate, quests).generate(splits)
-                setScript(script)
+                const scriptText = new ScriptGenerator(scriptTemplate, quests).generate(splits)
+                setScriptText(scriptText)
                 swiper?.slideNext()
                 break;
-            case 2: // download
+            case 2: // download-script
+                const splitsText = new SplitsGenerator(splitsTemplate).generate(splits)
+                setSplitsText(splitsText)
                 swiper?.slideNext()
                 break;
         }
@@ -62,7 +71,8 @@ function App() {
 
     // Slides data
     const [splits, setSplits] = useState<Split[]>([]);
-    const [script, setScript] = useState<string>('')
+    const [scriptText, setScriptText] = useState<string>('')
+    const [splitsText, setSplitsText] = useState<string>('')
 
     return (
         <SharedContext.Provider value={{ quests, techs }}>
@@ -88,10 +98,12 @@ function App() {
                     <Generator onSplitsChanged={s => setSplits(s)} />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Download script={script} />
+                    <DownloadScript script={scriptText} />
                     {/*<DownloadSlide.Help />*/}
                 </SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
+                <SwiperSlide>
+                    <DownloadSplits splits={splitsText} />
+                </SwiperSlide>
                 <SwiperSlide>Slide 7</SwiperSlide>
                 <SwiperSlide>Slide 8</SwiperSlide>
                 <SwiperSlide>Slide 9</SwiperSlide>

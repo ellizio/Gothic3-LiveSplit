@@ -3,6 +3,7 @@ export const SAVE: string = 'save'
 
 
 export const SCRIPT_FILENAME = 'Gothic3-LiveSplit.asl'
+export const SPLITS_FILENAME = 'Gothic3-LiveSplit.lss'
 export const HELPER_FILENAME = 'Gothic3-LiveSplit.dll'
 
 

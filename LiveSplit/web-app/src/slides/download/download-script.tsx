@@ -5,11 +5,11 @@ import { Panel } from 'primereact/panel';
 
 import {HELPER_FILENAME, SCRIPT_FILENAME} from "../../consts";
 
-declare type DownloadProps = {
+declare type DownloadScriptProps = {
     script: string
 }
 
-export const Download: React.FC<DownloadProps> = (props) => {
+export const DownloadScript: React.FC<DownloadScriptProps> = (props) => {
     const onDownloadScriptClicked = () => {
         const file = new Blob([props.script], { type: 'text/plain' });
 
