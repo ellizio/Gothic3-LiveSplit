@@ -48,11 +48,13 @@ export const SplitComponent: React.FC<SplitComponentProps> = (props) => {
                     placeholder='Enter split name...'
                     className='w-full mb-2'
                 />
+                { props.deleteEnabled && <div className='w-1rem' /> }
                 <Button visible={props.deleteEnabled}
                         icon="pi pi-times"
                         rounded
                         text
                         severity="danger"
+                        className="delete-button"
                         onClick={() => props.onDelete?.()}
                 />
             </div>
