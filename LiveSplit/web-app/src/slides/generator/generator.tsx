@@ -15,28 +15,35 @@ declare type GeneratorProps = {
 }
 
 export const Generator: React.FC<GeneratorProps> = (props) => {
+    // TODO: delete?
     const [splits, setSplits] = useState<Split[]>([createSplit()]);
 
     const onNameChanged = (split: Split, name: string) => {
         split.name = name
-        setSplits([...splits])
-        props.onSplitsChanged?.(splits)
+
+        const newSplits = [...splits]
+        setSplits(newSplits)
+        props.onSplitsChanged?.(newSplits)
     }
 
     const onConditionsChanged = (split: Split, conditions: Condition[]) => {
         split.conditions = conditions
-        setSplits([...splits])
-        props.onSplitsChanged?.(splits)
+
+        const newSplits = [...splits]
+        setSplits(newSplits)
+        props.onSplitsChanged?.(newSplits)
     }
 
     const onSplitDeleted = (index: number) => {
-        setSplits(splits.filter(((s, i) => i !== index)))
-        props.onSplitsChanged?.(splits)
+        const newSplits = splits.filter(((s, i) => i !== index))
+        setSplits(newSplits)
+        props.onSplitsChanged?.(newSplits)
     }
 
     const addSplit = () => {
-        setSplits([...splits, createSplit()])
-        props.onSplitsChanged?.(splits)
+        const newSplits = [...splits, createSplit()]
+        setSplits(newSplits)
+        props.onSplitsChanged?.(newSplits)
     }
 
     return (

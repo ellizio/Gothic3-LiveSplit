@@ -22,7 +22,7 @@ import {DataRetriever} from "./helpers/data-retriever";
 import {Downloader} from "./helpers/downloader";
 
 import {Quest, SharedContextValues, Split} from "./types";
-import {HELPER_FILENAME, SCRIPT_FILENAME, SPLITS_FILENAME} from "./consts";
+import {HELPER_FILENAME, QUEST, SCRIPT_FILENAME, SPLITS_FILENAME} from "./consts";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
@@ -54,10 +54,22 @@ function App() {
     // Modal
     const [modalVisible, setModalVisible] = useState(false);
 
-    // Slides data
+    // Generator
     const [splits, setSplits] = useState<Split[]>([]);
+    const [generateEnabled, setGenerateEnabled] = useState<boolean>(false);
+
+    const onSplitsChanged = (splits: Split[]) => {
+        setSplits(splits)
+
+        const valid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value)))
+        console.log(valid)
+        console.log(splits)
+        setGenerateEnabled(valid)
+    }
 
     // Downloading
+    const [splitsValid, setSplitsValid] = useState(false);
+
     const onDownloadScriptClicked = () => {
         const scriptText = new ScriptGenerator(scriptTemplate, quests).generate(splits)
         Downloader.downloadScript(scriptText)
@@ -89,7 +101,7 @@ function App() {
                     <Welcome />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Generator onSplitsChanged={s => setSplits(s)} />
+                    <Generator onSplitsChanged={onSplitsChanged} />
                 </SwiperSlide>
                 {
                     <div className="bottom-panel"
@@ -99,7 +111,8 @@ function App() {
                             opacity: panelVisible ? 1 : 0,
                             transition: "visibility 0.3s linear, opacity 0.3s linear"
                     }}>
-                        <Panel onGenerateClick={onGenerateClicked} />
+                        <Panel generateEnabled={generateEnabled}
+                               onGenerateClick={onGenerateClicked} />
                     </div>
                 }
             </Swiper>
@@ -128,6 +141,7 @@ function App() {
                     </Button>
                     <Button
                         icon="pi pi-download"
+                        disabled={!splitsValid}
                         onClick={onDownloadSplitsClicked}
                     >
                         <div className='ml-3'>
