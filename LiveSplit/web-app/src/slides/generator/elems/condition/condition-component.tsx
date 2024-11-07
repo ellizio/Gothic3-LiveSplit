@@ -76,6 +76,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                 options={values}
                 checkmark
                 filter
+                virtualScrollerOptions={{ itemSize: 42, scrollHeight: '300px' }}
                 onChange={onValueChanged}
                 className='value-dropdown'
             />
@@ -85,9 +86,10 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                     rounded
                     text
                     severity="danger"
+                    className="delete-button"
                     onClick={onDeleteClicked}
             />
-            { !props.deleteEnabled && <div style={{ width: '48px' }} /> }
+            { !props.deleteEnabled && <div style={{ minWidth: '48px' }} /> }
         </div>
     );
 }
