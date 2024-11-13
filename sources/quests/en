@@ -1,63 +1,63 @@
-Adanos_DestroyArtefacts Main: Destroy the five artifacts of Adanos
-PC_Hero_FindAllFiremageCups Main: Find all the fire chalices of the Fire Mages
-PC_Hero_FindCrown Main: Find the crown
-PC_Hero_FindRing_01 Main: Find the divine ring of life
-PC_Hero_FindRing_02 Main: Find the divine ring of magic
-PC_Hero_FindArtefacts Main: Find the five artifacts of Adanos
-PC_Hero_FindRobe Main: Find the robe
-PC_Hero_FIndTeleportToKing Main: Find the teleporter rune that takes you to the king
-PC_Hero_FindAmulet Main: The divine artifact of Trelis
-PC_Hero_FindScepter Main: The scepter of Varant
-PC_Hero_FindStaff Main: The staff of the Eternal Wanderer
-PC_Hero_Bless_FiremageCups Main: Throw the fire chalices into the sacred fire
-Ali_StealArtefact Faring: Ali's artifact
-Flint_BringBooze_01 Faring: Booze for Mojok
-UrgGosh_BringHerb Faring: Bring Ur-Gosh three king's sorrel plants
-Tom_AlisArtefact Faring: Take Ali's gift to Tom
-Gnar_BuyFur Faring: Wolf skins for Gnar
-Nemrok_GetRuinArtefact Geldern: Bring Nemrok the artifact from the ruin in the north
-Renwik_BringPlant Geldern: Bring Renwik the rare plant king's sorrel
-Grimboll_BringSulfur Geldern: Bring the shaman Grimboll some sulphur
-Grok_FindDruidsSecret Geldern: Discover the secret of the druid Runak
-Geldern_Helmet Geldern: Find the first paladin's helmet
-Lares_BringGoldChalice Geldern: Golden plates for Lares
-Nemrok_BringGoldNuggets Geldern: Nemrok expects a delivery of gold from the mines
-Nemrok_BringSulfurNuggets Geldern: Nemrok expects a delivery of sulphur from the sulphur mine
-Grok_BringAllFiremageCups Geldern: The orc shaman Grok wants all the fire chalices
-Geldern_Rings Geldern: The seven ancient rings of the alchemists
-KapDun_UrkrassSupplies Cape Dun: Bring his goods back to Urkrass
-KapDun_Phil_BringWeapons Cape Dun: Bundles of weapons for Phil
-KapDun_Cyrus_Booze Cape Dun: Cyrus needs booze
-KapDun_Harek_BringFood Cape Dun: Harek wants meat
-KapDun_Alchemist_BringPlants Cape Dun: Healing plants for the alchemist
-Iomar_BringLampoil Cape Dun: Lamp oil for Ardea
-KapDun_Hunter_Fur Cape Dun: Pelts for Jens the hunter
-KapDun_Treasure Cape Dun: Steal 3 golden goblets from Urkrass's warehouse
+Adanos_DestroyArtefacts             Main: Destroy the five artifacts of Adanos
+PC_Hero_FindAllFiremageCups         Main: Find all the fire chalices of the Fire Mages
+PC_Hero_FindCrown                   Main: Find the crown
+PC_Hero_FindRing_01                 Main: Find the divine ring of life
+PC_Hero_FindRing_02                 Main: Find the divine ring of magic
+PC_Hero_FindArtefacts               Main: Find the five artifacts of Adanos
+PC_Hero_FindRobe                    Main: Find the robe
+PC_Hero_FIndTeleportToKing          Main: Find the teleporter rune that takes you to the king
+PC_Hero_FindAmulet                  Main: The divine artifact of Trelis
+PC_Hero_FindScepter                 Main: The scepter of Varant
+PC_Hero_FindStaff                   Main: The staff of the Eternal Wanderer
+PC_Hero_Bless_FiremageCups          Main: Throw the fire chalices into the sacred fire
+Ali_StealArtefact                   Faring: Ali's artifact
+Flint_BringBooze_01                 Faring: Booze for Mojok
+UrgGosh_BringHerb                   Faring: Bring Ur-Gosh three king's sorrel plants
+Tom_AlisArtefact                    Faring: Take Ali's gift to Tom
+Gnar_BuyFur                         Faring: Wolf skins for Gnar
+Nemrok_GetRuinArtefact              Geldern: Bring Nemrok the artifact from the ruin in the north
+Renwik_BringPlant                   Geldern: Bring Renwik the rare plant king's sorrel
+Grimboll_BringSulfur                Geldern: Bring the shaman Grimboll some sulphur
+Grok_FindDruidsSecret               Geldern: Discover the secret of the druid Runak
+Geldern_Helmet Geldern:             Find the first paladin's helmet
+Lares_BringGoldChalice              Geldern: Golden plates for Lares
+Nemrok_BringGoldNuggets             Geldern: Nemrok expects a delivery of gold from the mines
+Nemrok_BringSulfurNuggets           Geldern: Nemrok expects a delivery of sulphur from the sulphur mine
+Grok_BringAllFiremageCups           Geldern: The orc shaman Grok wants all the fire chalices
+Geldern_Rings                       Geldern: The seven ancient rings of the alchemists
+KapDun_UrkrassSupplies              Cape Dun: Bring his goods back to Urkrass
+KapDun_Phil_BringWeapons            Cape Dun: Bundles of weapons for Phil
+KapDun_Cyrus_Booze                  Cape Dun: Cyrus needs booze
+KapDun_Harek_BringFood              Cape Dun: Harek wants meat
+KapDun_Alchemist_BringPlants        Cape Dun: Healing plants for the alchemist
+Iomar_BringLampoil                  Cape Dun: Lamp oil for Ardea
+KapDun_Hunter_Fur                   Cape Dun: Pelts for Jens the hunter
+KapDun_Treasure                     Cape Dun: Steal 3 golden goblets from Urkrass's warehouse
 KapDun_Proviantmeister_BringPotions Cape Dun: The quartermaster in Cape Dun needs healing potions
-KapDun_Wenzel_FindSword Cape Dun: Wenzel's lost sword
-Sanford_BringLetterToRoland Montera: A message for Okara
-Basir_BringOldGoldChest Montera: Basir wants his old gold casket
-Marik_BringAshtonChest Montera: Bring Marik proof that Ashton embezzles gold
-Marik_TestLoyaltyOfMyMen Montera: How loyal are the orcs' mercenaries?
-Marik_BringBradleysSlaveList Montera: Marik wants Bradley's slave list.
-Sanford_BringMilkBarrels Montera: Milk for the warehouse keeper.
-Progan_BringDruidStone Montera: Porgan's druid stone.
-Marik_BringBradleyStolenListBack Montera: Return the stolen slave list to Bradley.
-Porgan_BringStonePlant Montera: Stoneroots for the druid Porgan.
-Thorek_BringOre Montera: Thorek wants magic ore for his smithy.
-Sanford_BringWheatSacks Montera: Wheat for the warehouse keeper.
-Yorik_BringWeaponPacks Montera: Yorik needs old weapons.
-Russel_BringSupply Nemora: Bring Russel the goods from the desert.
-Treslott_BringHerb Nemora: Bring Treslott the rare plant herbaceous lobelia.
-Karlen_BringBackMagic Nemora: Karlen the paladin wants his magic back.
-Dudley_BringSupply Nemora: Weapons for Nemora.
-Owen_BringBooze Okara: Booze for the prospector.
-Mannig_BringIronOre Okara: Bring Mannig some iron ore.
-Candela_BringShadowHorn Okara: Two shadowbeast horns for Candela.
-Sebastian_BringHealthPlants Reddock: Bring the Fire Mage Sebastian some healing plants.
-Norris_BringWeapons Reddock: Weapons for the rebels in Reddock.
-Grompel_BringSupply Silden: A delivery from Nordmar.
-Bozep_BringWoodToStan Silden: A package of wild berries for Stan the fisherman.
+KapDun_Wenzel_FindSword             Cape Dun: Wenzel's lost sword
+Sanford_BringLetterToRoland         Montera: A message for Okara
+Basir_BringOldGoldChest             Montera: Basir wants his old gold casket
+Marik_BringAshtonChest              Montera: Bring Marik proof that Ashton embezzles gold
+Marik_TestLoyaltyOfMyMen            Montera: How loyal are the orcs' mercenaries?
+Marik_BringBradleysSlaveList        Montera: Marik wants Bradley's slave list.
+Sanford_BringMilkBarrels            Montera: Milk for the warehouse keeper.
+Progan_BringDruidStone              Montera: Porgan's druid stone.
+Marik_BringBradleyStolenListBack    Montera: Return the stolen slave list to Bradley.
+Porgan_BringStonePlant              Montera: Stoneroots for the druid Porgan.
+Thorek_BringOre                     Montera: Thorek wants magic ore for his smithy.
+Sanford_BringWheatSacks             Montera: Wheat for the warehouse keeper.
+Yorik_BringWeaponPacks              Montera: Yorik needs old weapons.
+Russel_BringSupply                  Nemora: Bring Russel the goods from the desert.
+Treslott_BringHerb                  Nemora: Bring Treslott the rare plant herbaceous lobelia.
+Karlen_BringBackMagic               Nemora: Karlen the paladin wants his magic back.
+Dudley_BringSupply                  Nemora: Weapons for Nemora.
+Owen_BringBooze                     Okara: Booze for the prospector.
+Mannig_BringIronOre                 Okara: Bring Mannig some iron ore.
+Candela_BringShadowHorn             Okara: Two shadowbeast horns for Candela.
+Sebastian_BringHealthPlants         Reddock: Bring the Fire Mage Sebastian some healing plants.
+Norris_BringWeapons                 Reddock: Weapons for the rebels in Reddock.
+Grompel_BringSupply                 Silden: A delivery from Nordmar.
+Bozep_BringWoodToStan               Silden: A package of wild berries for Stan the fisherman.
 
 q_61 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF7AC
 q_62 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF86C
