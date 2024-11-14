@@ -19,7 +19,7 @@ Nemrok_GetRuinArtefact              Geldern: Bring Nemrok the artifact from the 
 Renwik_BringPlant                   Geldern: Bring Renwik the rare plant king's sorrel
 Grimboll_BringSulfur                Geldern: Bring the shaman Grimboll some sulphur
 Grok_FindDruidsSecret               Geldern: Discover the secret of the druid Runak
-Geldern_Helmet Geldern:             Find the first paladin's helmet
+Geldern_Helmet                      Geldern: Find the first paladin's helmet
 Lares_BringGoldChalice              Geldern: Golden plates for Lares
 Nemrok_BringGoldNuggets             Geldern: Nemrok expects a delivery of gold from the mines
 Nemrok_BringSulfurNuggets           Geldern: Nemrok expects a delivery of sulphur from the sulphur mine
@@ -58,71 +58,67 @@ Sebastian_BringHealthPlants         Reddock: Bring the Fire Mage Sebastian some 
 Norris_BringWeapons                 Reddock: Weapons for the rebels in Reddock.
 Grompel_BringSupply                 Silden: A delivery from Nordmar.
 Bozep_BringWoodToStan               Silden: A package of wild berries for Stan the fisherman.
+Gambal_BringMeat                    Silden: Gambal the cook needs heaps of raw meat to feed the orcs in Silden.
+Hatlod_MissingTools                 Silden: Hatlod's lost tools.
+Inog_BringWeaponPacks               Silden: Inog needs five bundles of weapons for the resistance.
+Irmak_GetHalberd                    Silden: Irmak's halberd is missing.
+Kadok_GetSmithHammer                Silden: Kadok is missing his smith's hammer.
+Frillock_BringMeat                  Silden: Roasted meat for Frillock.
+Jerek_BringFood                     Silden: Supply the convict Jerek with roasted meat.
+Jerek_BringWeaponPacks              Silden: Supply the convict Jerek with weapons.
+Temmy_BringFishToGivess             Silden: Take the fish barrels to the mill.
+Lukjan_BringFurPacksToGivess        Silden: Take the hunters' delivery of pelts to the mill.
+Anog_PlunderPassOrks                Silden: Take the orcs' shipment from Nordmar to Anog the rebel.
+Hatlod_Blueprint                    Silden: The quest for the perfect ship.
+Givess_BringWood                    Silden: The wood from the prison camp must be brought to Givess in the mill.
+Ben_BringMyShovel                   Trelis: Ben the servant needs his shovel.
+Kamak_Artefact                      Trelis: Kamak's artifact.
+Milok_BringOldSword                 Trelis: Milok is looking for his old sword.
+Pranck_GivePotion                   Trelis: The orc warrior Pranck needs healing potions.
+Konrad_BringMagic                   Trelis: The paladin Konrad wants his magic back.
+Abe_BringBread                      Vengard: Bring Abe bread for the castle.
+Abe_BringMeat                       Vengard: Bring Abe roast meat for the castle.
+Keldron_BringWeaponPacks            Vengard: Bring Keldron weapons for the castle.
+Vandorn_BringHammer                 Vengard: Bring hammers to Vandorn for the castle.
+Vandorn_BringPickaxe                Vengard: Bring pickaxes to Vandorn for the castle.
+Vandorn_BringSaws                   Vengard: Bring saws to Vandorn for the castle.
+Lee_BringTeleport                   Fire Clan: A teleporter stone for Lee.
+Living_Ancestor_01_BringStone       Fire Clan: Akascha's ancestor stone.
+Living_Ancestor_05_BringStone       Fire Clan: Angir's tomb.
+Thorald_Armor                       Fire Clan: Armor for Thorald.
+Living_Ancestor_04_BringStone       Fire Clan: Baldar's tomb.
+Living_Ancestor_06_BringStone       Fire Clan: Berek's tomb.
+Rathgar_EjnarsHelm                  Fire Clan: Ejnar's helmet.
+Living_Ancestor_02_BringStone       Fire Clan: Ejnar's tomb.
+Kalan_BringSteel                    Fire Clan: Raw materials for Kalan.
+Living_Ancestor_03_BringStone       Fire Clan: Snorre's tomb.
+Leif_BringSabertooth                Fire Clan: Ten sabertooth teeth for Leif.
+Pedar_BringWeaponStuff              Hammer Clan: A shadowbeast horn for Pedar.
+Hauke_BringOre                      Hammer Clan: Hauke needs ore.
+Hjalte_BringMeat                    Hammer Clan: Hjalte is hungry.
+Hjalte_BringBooze                   Hammer Clan: Hjalte is thirsty.
+Ingvar_BringSword                   Hammer Clan: Ingvar wants a sword.
+Ketil_BringFur                      Hammer Clan: Ketil needs 12 buffalo skins.
+Ugolf_MakeBooze                     Hammer Clan: Making booze with Ugolf.
+Stejnar_Ingredients                 Hammer Clan: Stejnar's armor.
+Pedar_BringGoods                    Hammer Clan: Supplies for Pedar.
+Aidan_BringDruidstone               Monastery: Bring Aidan the secret of the druids.
+Innostian_BringHerb                 Monastery: Mana plants for the monastery.
+Pyran_BringPotions                  Monastery: Mana potions for Pyran.
+Jorn_BringArrows                    Wolf Clan: Jorn needs exploding arrows.
+Jensgar_BringFur                    Wolf Clan: Pelts for Jensgar.
+Hanson_BringFur                     Wolf Clan: Take the ice wolf skins to the Wolf Clan.
+Bogir_GetWolfStone                  Wolf Clan: The druid stone of the wolf.
+Test_HasItems                       Test: (Test_HasItems)
+Bakaresh_Schatullen                 Bakaresh: Three caskets.
+Murak_Weapons                       Bakaresh: Words are not enough...
+Vasco_Kraut                         Ben Erai: Swampweed for Vasco.
+Eusebio_Plants                      Ben Erai: Ten cactus flowers.
+Eusebio_Gold                        Ben Erai: Ten gold nuggets.
+Giores_BringWarez                   Ben Sala: Looted goods.
+Enzo_BringSteel                     Ben Sala: Six crates of steel.
+Luca_Leather                        Braga: Dark snapper leather.
 
-q_61 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF7AC
-q_62 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF86C
-q_63 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF92C
-q_64 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFF9EC
-q_65 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFAAC
-q_66 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFB6C
-q_67 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFC2C
-q_68 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFCEC
-q_69 Wolf Clan: The druid stone of the wolf 
-q_70 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFE6C
-
-q_71 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFF2C
-q_72 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFFFFFEC
-q_73 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AC
-q_74 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16C
-q_75 Gothic3.exe 15CA0 C8 C C 340 20 48 198 22C
-q_76 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2EC
-q_77 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3AC
-q_78 Gothic3.exe 15CA0 C8 C C 340 20 48 198 46C
-q_79 Gothic3.exe 15CA0 C8 C C 340 20 48 198 52C
-q_80 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5EC
-
-q_81 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6AC
-q_82 Gothic3.exe 15CA0 C8 C C 340 20 48 198 76C
-q_83 Gothic3.exe 15CA0 C8 C C 340 20 48 198 82C
-q_84 Reddock: Kill the aggressive wild boars
-q_85 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9AC
-q_86 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A6C
-q_87 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B2C
-q_88 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BEC
-q_89 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CAC
-q_90 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D6C
-
-q_91 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E2C
-q_92 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EEC
-q_93 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FAC
-q_94 Gothic3.exe 15CA0 C8 C C 340 20 48 198 106C
-q_95 Gothic3.exe 15CA0 C8 C C 340 20 48 198 112C
-q_96 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11EC
-q_97 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12AC
-q_98 Gothic3.exe 15CA0 C8 C C 340 20 48 198 136C
-q_99 Gothic3.exe 15CA0 C8 C C 340 20 48 198 142C
-q_100 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14EC
-
-q_101 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15AC
-q_102 Gothic3.exe 15CA0 C8 C C 340 20 48 198 166C
-q_103 Gothic3.exe 15CA0 C8 C C 340 20 48 198 172C
-q_104 Gothic3.exe 15CA0 C8 C C 340 20 48 198 17EC
-q_105 Gothic3.exe 15CA0 C8 C C 340 20 48 198 18AC
-q_106 Gothic3.exe 15CA0 C8 C C 340 20 48 198 196C
-q_107 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1A2C
-q_108 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1AEC
-q_109 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1BAC
-q_110 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1C6C
-q_111 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1D2C
-q_112 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1DEC
-q_113 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1EAC
-q_114 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1F6C
-q_115 Gothic3.exe 15CA0 C8 C C 340 20 48 198 202C
-q_116 Gothic3.exe 15CA0 C8 C C 340 20 48 198 20EC
-q_117 Gothic3.exe 15CA0 C8 C C 340 20 48 198 21AC
-q_118 Gothic3.exe 15CA0 C8 C C 340 20 48 198 226C
-q_119 Gothic3.exe 15CA0 C8 C C 340 20 48 198 232C
-q_120 Gothic3.exe 15CA0 C8 C C 340 20 48 198 23EC
 q_121 Gothic3.exe 15CA0 C8 C C 340 20 48 198 24AC
 q_122 Gothic3.exe 15CA0 C8 C C 340 20 48 198 256C
 q_123 Gothic3.exe 15CA0 C8 C C 340 20 48 198 262C
@@ -133,6 +129,7 @@ q_127 Gothic3.exe 15CA0 C8 C C 340 20 48 198 292C
 q_128 Gothic3.exe 15CA0 C8 C C 340 20 48 198 29EC
 q_129 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2AAC
 q_130 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2B6C
+
 q_131 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2C2C
 q_132 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2CEC
 q_133 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2DAC
@@ -143,6 +140,7 @@ q_137 Gothic3.exe 15CA0 C8 C C 340 20 48 198 30AC
 q_138 Gothic3.exe 15CA0 C8 C C 340 20 48 198 316C
 q_139 Gothic3.exe 15CA0 C8 C C 340 20 48 198 322C
 q_140 Gothic3.exe 15CA0 C8 C C 340 20 48 198 32EC
+
 q_141 Gothic3.exe 15CA0 C8 C C 340 20 48 198 33AC
 q_142 Gothic3.exe 15CA0 C8 C C 340 20 48 198 346C
 q_143 Gothic3.exe 15CA0 C8 C C 340 20 48 198 352C
@@ -153,6 +151,7 @@ q_147 Gothic3.exe 15CA0 C8 C C 340 20 48 198 382C
 q_148 Gothic3.exe 15CA0 C8 C C 340 20 48 198 38EC
 q_149 Gothic3.exe 15CA0 C8 C C 340 20 48 198 39AC
 q_150 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3A6C
+
 q_151 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3B2C
 q_152 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3BEC
 q_153 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3CAC
