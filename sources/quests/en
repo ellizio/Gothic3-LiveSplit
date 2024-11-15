@@ -155,62 +155,61 @@ AlShedim_OpenTemple                 Mora Sul: Open the temple of Al Shedim.
 MoraSul_OpenTemple                  Mora Sul: Open the temple of Mora Sul.
 Ismael_BringSword                   Mora Sul: The moonblade.
 Ramon_SoulCups                      Mora Sul: The soul chalices.
+Rhobar_XardasPlan                   Main: Find out for Rhobar what Xardas is planning.
+Zuben_XardasPlan                    Main: Find out for Zuben what Xardas is planning.
+Beliar_Contact                      Main: For Beliar!
+Innos_Contact                       Main: For Innos!
+Adanos_OpenGate                     Main: Open the gate to the unknown land!
+Adanos_OpenGateXardasDead           Main: Open the gate to the unknown land! (Xardas is dead)
+PC_Hero_FifthTemple                 Main: The fifth temple.
+Ardea_Pocket                        Ardea: Jack's rebel gold.
+Hamlar_gotoReddock                  Ardea: Talk to the leader of the rebels in Reddock!
+Tarok_ArenaChamp                    Faring: Become champion of the arena in Mora Sul.
+Flint_BoozeDelivery                 Faring: Distribute booze to the orcs.
+Zakosh_TeachSmith                   Faring: Forging in Faring.
+Tippler_BringIngredients            Faring: Making booze with Tippler.
+Wilson_SellFur                      Faring: Sell the skin to Gnar for 500 gold coins.
+Gnar_EnterCastle                    Faring: The castle of Faring.
+Mojok_JoinHunter                    Faring: The hunters of Faring.
+Geldern_Slave_01_BringSlaves        Geldern: Bring more eager slaves to the wolf mine.
+Nemrok_GetSlavesForWolfMine         Geldern: Find some eager slaves for the wolf mine.
+Grok_FindDruidHunter                Geldern: Find the orcs' druid search party.
+Gunock_ReportGrok                   Geldern: Gunock, the lazy orc.
+Hamil_SolveSecret                   Geldern: Hamil, the audacious artifact trader among the slaves.
+Jared_ReportLares                   Geldern: Jared the artifact trader wants to meet Lares.
+Torn_GimmeStone                     Geldern: Mobilize the people in Geldern for Torn's druid stone.
+Dawson_BringSLD                     Geldern: Talk to Samuel about the destroyed mine.
+Mirzo_ReportNemrokMine              Geldern: Tell the orcs about the abandoned mine in the north.
+Mazin_SolveSecret                   Geldern: The secret of Mirzo, the Hashishin merchant.
+Gotha_Rebuild                       Gotha: Rebuild Gotha.
+Gorn_FreeHim                        Gotha: Rescue Gorn from the orcs in Gotha.
+Urkrass_BuyFiremageCup              Cape Dun: The captured paladin's belongings.
+Bradley_FindWeakSlaves              Montera: Change of shift in the slave camp.
+Marik_TakeSold                      Montera: Collect the rent for Domenik's farm.
+Dennis_ReportBradley                Montera: Dennis wants Bradley to go easy on the slaves.
+Kelvin_GoesTemple                   Montera: Kelvin goes back to work in the temple.
+Kelvin_ReportDennisHeCanStay        Montera: Kelvin the slave wants certainty.
+Marik_ForceTrano                    Montera: Let the mercenary Trano know his pay has been cut.
+KorShack_BringFollockToWork         Montera: Make Folleck go back to work in the castle yard.
+Domenik_ReportMarik                 Montera: Report to the leader of the orcs' mercenaries in Montera.
+Bradley_BringNewSlave               Montera: Tell Dennis that Bradley needs a new slave.
+Leon_GoesTemple                     Montera: The slave Leon is working in the temple again.
+Russel_ReportCharles                Nemora: A message for the rebel Charles.
+Karlen_JoinNemora                   Nemora: A new man for Nemora.
+Hengley_ReportRusselHeIsRobber      Nemora: Hengley the farm raider.
+Hengley_FarmRobber                  Nemora: Rebels stole the rent from Farmon's farm.
 
-q_158 
-q_159 
-q_160 
+q_201 
+q_202 
+q_203 
+q_204 
+q_205 
+q_206 
+q_207 
+q_208 
+q_209 
+q_210 
 
-q_161 
-q_162 
-q_163 
-q_164 
-q_165 
-q_166 
-q_167 
-q_168 
-q_169 
-q_170 
-
-q_171 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4A2C
-q_172 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4AEC
-q_173 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4BAC
-q_174 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4C6C
-q_175 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4D2C
-q_176 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4DEC
-q_177 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4EAC
-q_178 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4F6C
-q_179 Gothic3.exe 15CA0 C8 C C 340 20 48 198 502C
-q_180 Ardea: Gorn shows you the rebels' hideout
-q_181 Gothic3.exe 15CA0 C8 C C 340 20 48 198 51AC
-q_182 Gothic3.exe 15CA0 C8 C C 340 20 48 198 526C
-q_183 Gothic3.exe 15CA0 C8 C C 340 20 48 198 532C
-q_184 Gothic3.exe 15CA0 C8 C C 340 20 48 198 53EC
-q_185 Gothic3.exe 15CA0 C8 C C 340 20 48 198 54AC
-q_186 Gothic3.exe 15CA0 C8 C C 340 20 48 198 556C
-q_187 Gothic3.exe 15CA0 C8 C C 340 20 48 198 562C
-q_188 Gothic3.exe 15CA0 C8 C C 340 20 48 198 56EC
-q_189 Gothic3.exe 15CA0 C8 C C 340 20 48 198 57AC
-q_190 Gothic3.exe 15CA0 C8 C C 340 20 48 198 586C
-q_191 Gothic3.exe 15CA0 C8 C C 340 20 48 198 592C
-q_192 Gothic3.exe 15CA0 C8 C C 340 20 48 198 59EC
-q_193 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5AAC
-q_194 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5B6C
-q_195 Ardea: Talk to the leader of the rebels
-q_196 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5CEC
-q_197 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5DAC
-q_198 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5E6C
-q_199 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5F2C
-q_200 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5FEC
-q_201 Gothic3.exe 15CA0 C8 C C 340 20 48 198 60AC
-q_202 Gothic3.exe 15CA0 C8 C C 340 20 48 198 616C
-q_203 Gothic3.exe 15CA0 C8 C C 340 20 48 198 622C
-q_204 Gothic3.exe 15CA0 C8 C C 340 20 48 198 62EC
-q_205 Gothic3.exe 15CA0 C8 C C 340 20 48 198 63AC
-q_206 Gothic3.exe 15CA0 C8 C C 340 20 48 198 646C
-q_207 Gothic3.exe 15CA0 C8 C C 340 20 48 198 652C
-q_208 Gothic3.exe 15CA0 C8 C C 340 20 48 198 65EC
-q_209 Gothic3.exe 15CA0 C8 C C 340 20 48 198 66AC
-q_210 Gothic3.exe 15CA0 C8 C C 340 20 48 198 676C
 q_211 Gothic3.exe 15CA0 C8 C C 340 20 48 198 682C
 q_212 Gothic3.exe 15CA0 C8 C C 340 20 48 198 68EC
 q_213 Gothic3.exe 15CA0 C8 C C 340 20 48 198 69AC

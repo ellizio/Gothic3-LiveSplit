@@ -155,62 +155,61 @@ AlShedim_OpenTemple                 Gothic3.exe 2638C C8 40 140 20 30 264 AC
 MoraSul_OpenTemple                  Gothic3.exe 2638C C8 40 140 20 30 268 AC
 Ismael_BringSword                   Gothic3.exe 2638C C8 40 140 20 30 26C AC
 Ramon_SoulCups                      Gothic3.exe 2638C C8 40 140 20 30 270 AC
+Rhobar_XardasPlan                   Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+Zuben_XardasPlan                    Gothic3.exe 2638C C8 40 140 20 3C 4 AC
+Beliar_Contact                      Gothic3.exe 2638C C8 40 140 20 3C 8 AC
+Innos_Contact                       Gothic3.exe 2638C C8 40 140 20 3C C AC
+Adanos_OpenGate                     Gothic3.exe 2638C C8 40 140 20 3C 10 AC
+Adanos_OpenGateXardasDead           Gothic3.exe 2638C C8 40 140 20 3C 14 AC
+PC_Hero_FifthTemple                 Gothic3.exe 2638C C8 40 140 20 3C 18 AC
+Ardea_Pocket                        Gothic3.exe 2638C C8 40 140 20 3C 1C AC
+Hamlar_gotoReddock                  Gothic3.exe 2638C C8 40 140 20 3C 20 AC
+Tarok_ArenaChamp                    Gothic3.exe 2638C C8 40 140 20 3C 24 AC
+Flint_BoozeDelivery                 Gothic3.exe 2638C C8 40 140 20 3C 28 AC
+Zakosh_TeachSmith                   Gothic3.exe 2638C C8 40 140 20 3C 2C AC
+Tippler_BringIngredients            Gothic3.exe 2638C C8 40 140 20 3C 30 AC
+Wilson_SellFur                      Gothic3.exe 2638C C8 40 140 20 3C 34 AC
+Gnar_EnterCastle                    Gothic3.exe 2638C C8 40 140 20 3C 38 AC
+Mojok_JoinHunter                    Gothic3.exe 2638C C8 40 140 20 3C 3C AC
+Geldern_Slave_01_BringSlaves        Gothic3.exe 2638C C8 40 140 20 3C 40 AC
+Nemrok_GetSlavesForWolfMine         Gothic3.exe 2638C C8 40 140 20 3C 44 AC
+Grok_FindDruidHunter                Gothic3.exe 2638C C8 40 140 20 3C 48 AC
+Gunock_ReportGrok                   Gothic3.exe 2638C C8 40 140 20 3C 4C AC
+Hamil_SolveSecret                   Gothic3.exe 2638C C8 40 140 20 3C 50 AC
+Jared_ReportLares                   Gothic3.exe 2638C C8 40 140 20 3C 54 AC
+Torn_GimmeStone                     Gothic3.exe 2638C C8 40 140 20 3C 58 AC
+Dawson_BringSLD                     Gothic3.exe 2638C C8 40 140 20 3C 5C AC
+Mirzo_ReportNemrokMine              Gothic3.exe 2638C C8 40 140 20 3C 60 AC
+Mazin_SolveSecret                   Gothic3.exe 2638C C8 40 140 20 3C 64 AC
+Gotha_Rebuild                       Gothic3.exe 2638C C8 40 140 20 3C 68 AC
+Gorn_FreeHim                        Gothic3.exe 2638C C8 40 140 20 3C 6C AC
+Urkrass_BuyFiremageCup              Gothic3.exe 2638C C8 40 140 20 3C 70 AC
+Bradley_FindWeakSlaves              Gothic3.exe 2638C C8 40 140 20 3C 74 AC
+Marik_TakeSold                      Gothic3.exe 2638C C8 40 140 20 3C 78 AC
+Dennis_ReportBradley                Gothic3.exe 2638C C8 40 140 20 3C 7C AC
+Kelvin_GoesTemple                   Gothic3.exe 2638C C8 40 140 20 3C 80 AC
+Kelvin_ReportDennisHeCanStay        Gothic3.exe 2638C C8 40 140 20 3C 84 AC
+Marik_ForceTrano                    Gothic3.exe 2638C C8 40 140 20 3C 88 AC
+KorShack_BringFollockToWork         Gothic3.exe 2638C C8 40 140 20 3C 8C AC
+Domenik_ReportMarik                 Gothic3.exe 2638C C8 40 140 20 3C 90 AC
+Bradley_BringNewSlave               Gothic3.exe 2638C C8 40 140 20 3C 94 AC
+Leon_GoesTemple                     Gothic3.exe 2638C C8 40 140 20 3C 98 AC
+Russel_ReportCharles                Gothic3.exe 2638C C8 40 140 20 3C 9C AC
+Karlen_JoinNemora                   Gothic3.exe 2638C C8 40 140 20 3C A0 AC
+Hengley_ReportRusselHeIsRobber      Gothic3.exe 2638C C8 40 140 20 3C A4 AC
+Hengley_FarmRobber                  Gothic3.exe 2638C C8 40 140 20 3C A8 AC
 
-q_158 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_159 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_160 Gothic3.exe 2638C C8 40 140 20 30 200 AC
+q_201 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_202 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_203 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_204 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_205 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_206 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_207 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_208 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_209 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
+q_210 Gothic3.exe 2638C C8 40 140 20 3C 0 AC
 
-q_161 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_162 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_163 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_164 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_165 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_166 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_167 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_168 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_169 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-q_170 Gothic3.exe 2638C C8 40 140 20 30 200 AC
-
-q_171 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4A2C
-q_172 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4AEC
-q_173 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4BAC
-q_174 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4C6C
-q_175 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4D2C
-q_176 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4DEC
-q_177 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4EAC
-q_178 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4F6C
-q_179 Gothic3.exe 15CA0 C8 C C 340 20 48 198 502C
-q_180 Gothic3.exe 15CA0 C8 C C 340 20 48 198 50EC
-q_181 Gothic3.exe 15CA0 C8 C C 340 20 48 198 51AC
-q_182 Gothic3.exe 15CA0 C8 C C 340 20 48 198 526C
-q_183 Gothic3.exe 15CA0 C8 C C 340 20 48 198 532C
-q_184 Gothic3.exe 15CA0 C8 C C 340 20 48 198 53EC
-q_185 Gothic3.exe 15CA0 C8 C C 340 20 48 198 54AC
-q_186 Gothic3.exe 15CA0 C8 C C 340 20 48 198 556C
-q_187 Gothic3.exe 15CA0 C8 C C 340 20 48 198 562C
-q_188 Gothic3.exe 15CA0 C8 C C 340 20 48 198 56EC
-q_189 Gothic3.exe 15CA0 C8 C C 340 20 48 198 57AC
-q_190 Gothic3.exe 15CA0 C8 C C 340 20 48 198 586C
-q_191 Gothic3.exe 15CA0 C8 C C 340 20 48 198 592C
-q_192 Gothic3.exe 15CA0 C8 C C 340 20 48 198 59EC
-q_193 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5AAC
-q_194 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5B6C
-q_195 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5C2C
-q_196 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5CEC
-q_197 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5DAC
-q_198 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5E6C
-q_199 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5F2C
-q_200 Gothic3.exe 15CA0 C8 C C 340 20 48 198 5FEC
-q_201 Gothic3.exe 15CA0 C8 C C 340 20 48 198 60AC
-q_202 Gothic3.exe 15CA0 C8 C C 340 20 48 198 616C
-q_203 Gothic3.exe 15CA0 C8 C C 340 20 48 198 622C
-q_204 Gothic3.exe 15CA0 C8 C C 340 20 48 198 62EC
-q_205 Gothic3.exe 15CA0 C8 C C 340 20 48 198 63AC
-q_206 Gothic3.exe 15CA0 C8 C C 340 20 48 198 646C
-q_207 Gothic3.exe 15CA0 C8 C C 340 20 48 198 652C
-q_208 Gothic3.exe 15CA0 C8 C C 340 20 48 198 65EC
-q_209 Gothic3.exe 15CA0 C8 C C 340 20 48 198 66AC
-q_210 Gothic3.exe 15CA0 C8 C C 340 20 48 198 676C
 q_211 Gothic3.exe 15CA0 C8 C C 340 20 48 198 682C
 q_212 Gothic3.exe 15CA0 C8 C C 340 20 48 198 68EC
 q_213 Gothic3.exe 15CA0 C8 C C 340 20 48 198 69AC
