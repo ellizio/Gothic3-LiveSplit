@@ -118,60 +118,59 @@ Eusebio_Gold                        Ben Erai: Ten gold nuggets.
 Giores_BringWarez                   Ben Sala: Looted goods.
 Enzo_BringSteel                     Ben Sala: Six crates of steel.
 Luca_Leather                        Braga: Dark snapper leather.
+Marus_Weapons                       Braga: Preparations for the liberation of Braga.
+Abbas_Artefakt                      Braga: The chalice of the water vendors.
+Ishtar_Weapons                      Ishtar: Arm the slaves!
+Assassin_Ore                        Ishtar: Bring ten magic ore blanks to Sven the smith.
+Ishtar_Potions                      Ishtar: Potions for the slaves!
+Ishtar_Bastardhunt                  Ishtar: The skins of the rotten beasts.
+Ishtar_Chalice                      Ishtar: The valuable bowl.
+Ishtar_Drugs                        Ishtar: Training materials.
+AlShedim_Explore                    World: Explore the ruin fields of Al Shedim!
+AlShedim_Find_Deadkeeper            World: Find the 10 urns of the guardians of the dead!
+AlShedim_Find_Wise                  World: Find the 3 scrolls of the scholars!
+AlShedim_Find_Healer                World: Find the 5 tankards of the healers!
+AlShedim_Find_Warrior               World: Find the 7 figures of the warriors!
+AlShedim_Find_Priest                World: Find the 7 stone tablets of the priests!
+PC_Hero_AlShedim_TempleKey_05       World: Find the fifth temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_01       World: Find the first temple key of Al Shedim.
+PC_Hero_FindAlShedimTempleKey       World: Find the five keys for the temple of Al Shedim.
+PC_Hero_FindMoraSulTempleKey        World: Find the five keys for the temple of Mora Sul.
+PC_Hero_AlShedim_TempleKey_04       World: Find the fourth temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_02       World: Find the second temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_03       World: Find the third temple key of Al Shedim.
+Lago_Lurker                         Lago: Lurker trophies.
+Lago_SiburNarad_Furs                Lago: Sibur's fuzzy dreams.
+Masil_Debt                          Mora Sul: Debt and debility.
+Hamid_Amulett                       Mora Sul: Discreet business.
+Big_Potions                         Mora Sul: Eight endurance potions for the slaves.
+PC_Hero_MoraSul_TempleKey_05        Mora Sul: Find the fifth temple key of Mora Sul.
+Pc_Hero_MoraSul_TempleKey_01        Mora Sul: Find the first temple key of Mora Sul.
+PC_hero_MoraSul_TempleKey_04        Mora Sul: Find the fourth temple key of Mora Sul.
+PC_Hero_MoraSul_TempleKey_02        Mora Sul: Find the second temple key of Mora Sul.
+PC_hero_MoraSul_TempleKey_03        Mora Sul: Find the third temple key of Mora Sul.
+MoraSul_Ilja_GetArtefact            Mora Sul: Ilja wants an artifact from the temple.
+Kalesch_Find4TempleKeys             Mora Sul: Kalesch wants the temple keys of Mora Sul.
+AlShedim_OpenTemple                 Mora Sul: Open the temple of Al Shedim.
+MoraSul_OpenTemple                  Mora Sul: Open the temple of Mora Sul.
+Ismael_BringSword                   Mora Sul: The moonblade.
+Ramon_SoulCups                      Mora Sul: The soul chalices.
 
-q_121 Gothic3.exe 15CA0 C8 C C 340 20 48 198 24AC
-q_122 Gothic3.exe 15CA0 C8 C C 340 20 48 198 256C
-q_123 Gothic3.exe 15CA0 C8 C C 340 20 48 198 262C
-q_124 Gothic3.exe 15CA0 C8 C C 340 20 48 198 26EC
-q_125 Gothic3.exe 15CA0 C8 C C 340 20 48 198 27AC
-q_126 Gothic3.exe 15CA0 C8 C C 340 20 48 198 286C
-q_127 Gothic3.exe 15CA0 C8 C C 340 20 48 198 292C
-q_128 Gothic3.exe 15CA0 C8 C C 340 20 48 198 29EC
-q_129 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2AAC
-q_130 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2B6C
+q_158 
+q_159 
+q_160 
 
-q_131 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2C2C
-q_132 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2CEC
-q_133 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2DAC
-q_134 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2E6C
-q_135 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2F2C
-q_136 Gothic3.exe 15CA0 C8 C C 340 20 48 198 2FEC
-q_137 Gothic3.exe 15CA0 C8 C C 340 20 48 198 30AC
-q_138 Gothic3.exe 15CA0 C8 C C 340 20 48 198 316C
-q_139 Gothic3.exe 15CA0 C8 C C 340 20 48 198 322C
-q_140 Gothic3.exe 15CA0 C8 C C 340 20 48 198 32EC
+q_161 
+q_162 
+q_163 
+q_164 
+q_165 
+q_166 
+q_167 
+q_168 
+q_169 
+q_170 
 
-q_141 Gothic3.exe 15CA0 C8 C C 340 20 48 198 33AC
-q_142 Gothic3.exe 15CA0 C8 C C 340 20 48 198 346C
-q_143 Gothic3.exe 15CA0 C8 C C 340 20 48 198 352C
-q_144 Gothic3.exe 15CA0 C8 C C 340 20 48 198 35EC
-q_145 Gothic3.exe 15CA0 C8 C C 340 20 48 198 36AC
-q_146 Gothic3.exe 15CA0 C8 C C 340 20 48 198 376C
-q_147 Gothic3.exe 15CA0 C8 C C 340 20 48 198 382C
-q_148 Gothic3.exe 15CA0 C8 C C 340 20 48 198 38EC
-q_149 Gothic3.exe 15CA0 C8 C C 340 20 48 198 39AC
-q_150 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3A6C
-
-q_151 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3B2C
-q_152 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3BEC
-q_153 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3CAC
-q_154 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3D6C
-q_155 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3E2C
-q_156 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3EEC
-q_157 Gothic3.exe 15CA0 C8 C C 340 20 48 198 3FAC
-q_158 Gothic3.exe 15CA0 C8 C C 340 20 48 198 406C
-q_159 Gothic3.exe 15CA0 C8 C C 340 20 48 198 412C
-q_160 Gothic3.exe 15CA0 C8 C C 340 20 48 198 41EC
-q_161 Gothic3.exe 15CA0 C8 C C 340 20 48 198 42AC
-q_162 Gothic3.exe 15CA0 C8 C C 340 20 48 198 436C
-q_163 Gothic3.exe 15CA0 C8 C C 340 20 48 198 442C
-q_164 Gothic3.exe 15CA0 C8 C C 340 20 48 198 44EC
-q_165 Gothic3.exe 15CA0 C8 C C 340 20 48 198 45AC
-q_166 Gothic3.exe 15CA0 C8 C C 340 20 48 198 466C
-q_167 Gothic3.exe 15CA0 C8 C C 340 20 48 198 472C
-q_168 Gothic3.exe 15CA0 C8 C C 340 20 48 198 47EC
-q_169 Gothic3.exe 15CA0 C8 C C 340 20 48 198 48AC
-q_170 Gothic3.exe 15CA0 C8 C C 340 20 48 198 496C
 q_171 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4A2C
 q_172 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4AEC
 q_173 Gothic3.exe 15CA0 C8 C C 340 20 48 198 4BAC
