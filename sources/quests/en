@@ -198,108 +198,108 @@ Russel_ReportCharles                Nemora: A message for the rebel Charles.
 Karlen_JoinNemora                   Nemora: A new man for Nemora.
 Hengley_ReportRusselHeIsRobber      Nemora: Hengley the farm raider.
 Hengley_FarmRobber                  Nemora: Rebels stole the rent from Farmon's farm.
+Russel_WhoIsBoss                    Nemora: Who's boss in Nemora?
+Owen_2Okara                         Okara: A homeless prospector.
+Candela_2Okara                      Okara: Candela should go to Okara.
+Fraser_2Okara                       Okara: Fraser should go to Okara.
+Kent_2Okara                         Okara: Kent should go to Okara.
+Mannig_Men4Okara                    Okara: Okara needs more people.
+Rakus_2Okara                        Okara: Rakus the Fire Mage should go to Okara.
+Randall_2Okara                      Okara: Randall should go to Okara.
+Javier_HelpPhilRevolution           Reddock: Find the rebel underground in Cape Dun.
+Kliff_FreeHim                       Reddock: Free Kliff from the orcs on the farm.
+Javier_BringSmith                   Reddock: Reddock needs a smith.
+Givess_BringLukjanMoney             Silden: Bring Lukjan the hunter the money for the pelts.
+Brontobb_BecomeSildenGuard          Silden: Brontobb will stand guard in the city. Denpok needs to be told.
+Frillock_BecomeSildenGuard          Silden: Denpok needs to know that Frillock is guarding the town now.
+Irmak_BecomeSildenGuard             Silden: Denpok should be told that Irmak is guarding the town now.
+Lars_FreeHim                        Silden: Free the Nordmarian Lars from the prison camp.
+Gancka_BecomeSildenGuard            Silden: Gancka is staying in town now. Denpok needs to be told.
+Denpok_EnclaveAccess                Silden: Improve your reputation in Silden.
+Zapotek_TreatInog                   Silden: Inog secretly helps slaves escape.
+Inog_ReportAnog                     Silden: Let Anog know that his brother Inog needs help in Silden.
+Anog_ReportInog                     Silden: Let Inog know that his brother Anog cannot help him.
+Inog_ReportUmbraksSecret            Silden: Talk to the warlord Umbrak about supplies.
+Kadok_BecomeSmith                   Silden: The orcs need a smith for Silden.
+Kapotth_SuspiciousTorn              Trelis: Did the rangers devastate the farm?
+Gatork_ReportKapotth                Trelis: Find out what is wrong with the western farm.
+Pranck_FindAvogadro                 Trelis: Find the runaway alchemist Avogadro.
+Gatork_ReportTempeck                Trelis: No deliveries arriving from the eastern temple.
+Kamak_SearchTempel                  Trelis: Search for survivors in the temple of Trelis.
+Charles_ReportRussel                Trelis: Tell the leader of Nemora about the rebels' situation at the temple of Trelis.
+Pranck_MorePotions                  Trelis: The orc warrior Pranck wants twenty healing potions.
+Vak_BringMoneyForArtefact           Trelis: Vak needs fifty thousand gold coins for the Hashishin.
+Cobryn_FindThordir                  Vengard: Find the lost paladin Thordir.
+Markus_FireCup4Karrypto             Vengard: Take Markus's fire chalice to the head of the Fire Mages.
+Rathgar_GetAlisArtefact             Fire Clan: An ancestor stone for Rathgar.
+Kerth_MightOfTheAncients            Fire Clan: The power of the ancestors.
+Ingvar_OreSmith                     Hammer Clan: Approval from the ore smelters.
+Reto_BringReinforcements            Hammer Clan: Find a troop to attack the mine.
+Ugolf_Teach                         Hammer Clan: Ore for Ugolf.
+Ugolf_Booze                         Hammer Clan: Tunnelrumbler.
+Garik_BringBooze                    Wolf Clan: Garik needs booze.
+Rune_BringBacon                     Wolf Clan: Ham for the woodcutters.
+Grauhaar_WantsMeat                  Wolf Clan: Meat for Graypelt.
+Test_Report                         Test: (Test_Report)
+Bakaresh_Spende                     Bakaresh: Bring Amul the merchants' tribute.
+Bakaresh_Trader                     Bakaresh: Convince the merchants.
+Knut_FindSinikar                    Bakaresh: Find Sinikar!
+Bakaresh_Deal                       Bakaresh: Just a favor...
+Knut_Partner                        Bakaresh: Nomads and raiders.
+Bakaresh_Akrabor                    Bakaresh: Report from the north.
+Bakaresh_Benito                     Bakaresh: Report from the south.
+Sinikar_Slaves                      Bakaresh: Support.
+Bakaresh_Temple_Access              Bakaresh: The temple of Bakaresh.
+Navaras_Check                       Ben Erai: A job for Sancho...
+Sancho_Brief                        Ben Erai: An unexpected message for Sigmor in Bakaresh.
+BenErai_Bounty                      Ben Erai: Bounty hunting: Ben Erai.
+Sancho_abzocke                      Ben Erai: Dirty doings.
+Sancho_SlaveOrder                   Ben Erai: Talk to Vasco.
+Sancho_Stollen                      Ben Erai: The tunnel of Lago.
+BenSala_Save                        Ben Sala: Saving Ben Sala.
+Bernado_Pay                         Braga: Bernado's tribute.
+Jose_Bounty                         Braga: Bounty hunting: Braga.
+Jose_Pay                            Braga: Jose's tribute.
+Luca_Pay                            Braga: Luca's tribute.
+Bernado_Trade                       Braga: Secret dealings.
+Braga_Tribut                        Braga: Tribute from Braga.
+Ishtar_Access                       Ishtar: Access to Ishtar
+Ishtar_Killer                       Ishtar: Customs in Varant.
+Ishtar_Training                     Ishtar: Master of combat.
+Ishtar_Boss                         Ishtar: The instigator of the ore theft.
+Ishtar_Test                         Ishtar: The test of the Hashishin.
+Ishtar_ZubenTrust                   Ishtar: The tribute of the temple.
+Ishtar_ReportKafa                   Ishtar: The wells outside the city.
+Wutras_Gathering                    World: Notify the nomads at Al Shedim.
+Lago_Prisoner                       Lago: Find out who the prisoner is!
+Shakyor_Stone                       Lago: The stone of the lion.
+Nasib_GonzalesSword                 Mora Sul: A sword for Gonzales.
+Nasib_Swampherb                     Mora Sul: A tasty present.
+Nasib_GonzalesWoman                 Mora Sul: A woman for Gonzales.
+Faesul_Deal                         Mora Sul: Artifact trade.
+Nasib_GonzalesGold                  Mora Sul: Gold for Gonzales.
+Hector_Gold                         Mora Sul: Hector's gold.
+Kaffu_Goldback                      Mora Sul: Kaffu wants his gold back.
+Orknarok_Templeslave                Mora Sul: Orknarok the temple slave.
+Nasib_GonzalesAllGifts              Mora Sul: Presents for Gonzales.
+Nasib_GonzalesDebt                  Mora Sul: Promissory notes for Gonzales.
+Hassan_Murder                       Mora Sul: The man who killed Ramirez.
+Yussuf_Deal                         Mora Sul: Yussuf disappears.
+Beliar_KillRhobar                   Main: Kill King Rhobar!
+Beliar_KillXardas                   Main: Kill Xardas!
+Innos_KillZuben                     Main: Kill Zuben!
 
-q_201 
-q_202 
-q_203 
-q_204 
-q_205 
-q_206 
-q_207 
-q_208 
-q_209 
-q_210 
+q_291 
+q_292 
+q_293 
+q_294 
+q_295 
+q_296 
+q_297 
+q_298 
+q_299 
+q_300 
 
-q_211 Gothic3.exe 15CA0 C8 C C 340 20 48 198 682C
-q_212 Gothic3.exe 15CA0 C8 C C 340 20 48 198 68EC
-q_213 Gothic3.exe 15CA0 C8 C C 340 20 48 198 69AC
-q_214 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6A6C
-q_215 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6B2C
-q_216 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6BEC
-q_217 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6CAC
-q_218 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6D6C
-q_219 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6E2C
-q_220 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6EEC
-q_221 Gothic3.exe 15CA0 C8 C C 340 20 48 198 6FAC
-q_222 Gothic3.exe 15CA0 C8 C C 340 20 48 198 706C
-q_223 Main: Kill Zuben
-q_224 Gothic3.exe 15CA0 C8 C C 340 20 48 198 71EC
-q_225 Gothic3.exe 15CA0 C8 C C 340 20 48 198 72AC
-q_226 Gothic3.exe 15CA0 C8 C C 340 20 48 198 736C
-q_227 Gothic3.exe 15CA0 C8 C C 340 20 48 198 742C
-q_228 Gothic3.exe 15CA0 C8 C C 340 20 48 198 74EC
-q_229 Gothic3.exe 15CA0 C8 C C 340 20 48 198 75AC
-q_230 Gothic3.exe 15CA0 C8 C C 340 20 48 198 766C
-q_231 Gothic3.exe 15CA0 C8 C C 340 20 48 198 772C
-q_232 Gothic3.exe 15CA0 C8 C C 340 20 48 198 77EC
-q_233 Gothic3.exe 15CA0 C8 C C 340 20 48 198 78AC
-q_234 Gothic3.exe 15CA0 C8 C C 340 20 48 198 796C
-q_235 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7A2C
-q_236 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7AEC
-q_237 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7BAC
-q_238 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7C6C
-q_239 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7D2C
-q_240 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7DEC
-q_241 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7EAC
-q_242 Gothic3.exe 15CA0 C8 C C 340 20 48 198 7F6C
-q_243 Gothic3.exe 15CA0 C8 C C 340 20 48 198 802C
-q_244 Gothic3.exe 15CA0 C8 C C 340 20 48 198 80EC
-q_245 Gothic3.exe 15CA0 C8 C C 340 20 48 198 81AC
-q_246 Gothic3.exe 15CA0 C8 C C 340 20 48 198 826C
-q_247 Gothic3.exe 15CA0 C8 C C 340 20 48 198 832C
-q_248 Gothic3.exe 15CA0 C8 C C 340 20 48 198 83EC
-q_249 Gothic3.exe 15CA0 C8 C C 340 20 48 198 84AC
-q_250 Gothic3.exe 15CA0 C8 C C 340 20 48 198 856C
-q_251 Gothic3.exe 15CA0 C8 C C 340 20 48 198 862C
-q_252 Gothic3.exe 15CA0 C8 C C 340 20 48 198 86EC
-q_253 Gothic3.exe 15CA0 C8 C C 340 20 48 198 87AC
-q_254 Gothic3.exe 15CA0 C8 C C 340 20 48 198 886C
-q_255 Gothic3.exe 15CA0 C8 C C 340 20 48 198 892C
-q_256 Gothic3.exe 15CA0 C8 C C 340 20 48 198 89EC
-q_257 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8AAC
-q_258 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8B6C
-q_259 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8C2C
-q_260 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8CEC
-q_261 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8DAC
-q_262 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8E6C
-q_263 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8F2C
-q_264 Gothic3.exe 15CA0 C8 C C 340 20 48 198 8FEC
-q_265 Gothic3.exe 15CA0 C8 C C 340 20 48 198 90AC
-q_266 Gothic3.exe 15CA0 C8 C C 340 20 48 198 916C
-q_267 Gothic3.exe 15CA0 C8 C C 340 20 48 198 922C
-q_268 Gothic3.exe 15CA0 C8 C C 340 20 48 198 92EC
-q_269 Gothic3.exe 15CA0 C8 C C 340 20 48 198 93AC
-q_270 Gothic3.exe 15CA0 C8 C C 340 20 48 198 946C
-q_271 Gothic3.exe 15CA0 C8 C C 340 20 48 198 952C
-q_272 Gothic3.exe 15CA0 C8 C C 340 20 48 198 95EC
-q_273 Gothic3.exe 15CA0 C8 C C 340 20 48 198 96AC
-q_274 Gothic3.exe 15CA0 C8 C C 340 20 48 198 976C
-q_275 Gothic3.exe 15CA0 C8 C C 340 20 48 198 982C
-q_276 Gothic3.exe 15CA0 C8 C C 340 20 48 198 98EC
-q_277 Gothic3.exe 15CA0 C8 C C 340 20 48 198 99AC
-q_278 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9A6C
-q_279 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9B2C
-q_280 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9BEC
-q_281 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9CAC
-q_282 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9D6C
-q_283 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9E2C
-q_284 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9EEC
-q_285 Gothic3.exe 15CA0 C8 C C 340 20 48 198 9FAC
-q_286 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A06C
-q_287 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A12C
-q_288 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A1EC
-q_289 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A2AC
-q_290 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A36C
-q_291 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A42C
-q_292 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A4EC
-q_293 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A5AC
-q_294 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A66C
-q_295 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A72C
-q_296 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A7EC
-q_297 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A8AC
-q_298 Gothic3.exe 15CA0 C8 C C 340 20 48 198 A96C
-q_299 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AA2C
-q_300 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AAEC
 q_301 Gothic3.exe 15CA0 C8 C C 340 20 48 198 ABAC
 q_302 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AC6C
 q_303 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AD2C
