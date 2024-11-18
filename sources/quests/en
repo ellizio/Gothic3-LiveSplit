@@ -288,68 +288,67 @@ Yussuf_Deal                         Mora Sul: Yussuf disappears.
 Beliar_KillRhobar                   Main: Kill King Rhobar!
 Beliar_KillXardas                   Main: Kill Xardas!
 Innos_KillZuben                     Main: Kill Zuben!
+Beliar_KillOrcs                     Main: Kill the orc chieftains!
+Kill_Guru                           Main: Where's the guru?
+Jack_KillBandits                    Ardea: Jack and the bilge rats.
+Chris_KillDeer                      Ardea: Kill the shy deer.
+Kan_KillKingAndAllRebells           Faring: Break the last resistance of the Morras!
+Tippler_FreeRuin                    Faring: Eliminate the goblins in the ancient ruins of Faring.
+Wilson_KillWolves                   Faring: Kill the lurkers!
+Zakosh_KillTrolls                   Faring: Kill the three trolls in the hills near Faring.
+Rocko_ClearCave                     Faring: Rocko's cave.
+Bollock_KillRunak                   Geldern: Kill the druid Runak.
+Gunock_KillTorn                     Geldern: Kill the druid Torn.
+Runak_KillBollockBrothers           Geldern: Kill the druid hunting party from Geldern.
+Runak_KillGunock                    Geldern: Kill the leader of the southern druid search party.
+Sulfock_KillSnapper                 Geldern: Kill the threatening snappers outside the sulphur mine.
+Nemrok_KillWolves                   Geldern: Kill the tunnel wolves in the wolf mine.
+Dawson_KillIvan                     Geldern: Kill the unholy mercenary Ivan.
+Samuel_KillMineCrawler              Geldern: Open up the mine north of Geldern and kill all vermin there.
+Gotha_KillAllUndead                 Gotha: Free Gotha from its curse.
+Cyrus_KillOrtega                    Cape Dun: A plague of bandits in the coastal region.
+Uruk_KillKapDunRebel                Cape Dun: Destroy the rebel underground in Cape Dun!
+Bufford_Wolves                      Cape Dun: Kill all the hungry wolf packs around Cape Dun.
+Armon_KillGobbos                    Montera: Cowardly goblins in the night.
+Marik_KillSanford                   Montera: Do away with Sanford.
+Varek_KillRestRebells               Montera: Eliminate the rebel positions around Montera.
+Dennis_KillWolves                   Montera: Find the stray wolves and kill them.
+Daryl_OneByOneOrc                   Montera: Get rid of the slave camp guards.
+Mason_KillCows                      Montera: Kill the cattle in the stockyard.
+Elber_KillKornThieves               Montera: The grain thieves must go.
+Arakos_KillOrcs                     Montera: The thieving orc patrol.
+Kippler_KillKapotth                 Nemora: Clear the orcs out of the farm west of Trelis.
+Rendell_KillTRex                    Nemora: Kill the three monsters north of Nemora.
+Karlen_KillKurt                     Nemora: The renegade paladin at the pass to Varant must die.
+Randall_KillMinecrawler             Okara: A rich mine.
+Candela_KillShadowbeasts            Okara: Hunt the nasty shadowbeasts.
+Fraser_KillBoar                     Okara: Hunt the nasty wild boars.
+Rakus_KillAllUndead                 Okara: Kill the undead that Rakus summoned.
+Kent_KillRipper                     Okara: Malicious ripperbeasts.
+Joey_KillMonters                    Reddock: Clean out the southern caves of Reddock.
+Gelford_KillPeasantOrcs             Reddock: Eliminate the orc patrol on the farm.
+Gelford_KillPatrolOrcs              Reddock: Get rid of the roaming orc patrol between Reddock and Ardea.
+Brenton_KillBoars                   Reddock: Kill the aggressive wild boars.
+Falk_KillSnapper                    Silden: Kill snappers around Silden.
+Zapotek_KillEscapedSlaves           Silden: Kill the slaves who escaped from Silden.
+Brontobb_KillLurker                 Silden: Kill the strange lurkers by the river.
+Zapotek_KillGrompel                 Silden: Kill the town shaman Grompel.
+Umbrak_KillInog                     Silden: Kill the undercover rebel.
+Bram_KillWolves                     Silden: Kill wolves around Silden.
+Umbrak_KillAnog                     Silden: The warlord Umbrak wants Anog the rebel leader dead.
+Steve_KillUndead                    Trelis: Clean out the undead caves.
+Charles_KillTempelOrcs              Trelis: Destroy the orcs in and around the temple of Trelis.
+Josh_KillRipper                     Trelis: Kill the grunting creatures below Josh's farm.
+Gatork_KillOgre                     Trelis: Kill the sneaking ogres in the woods.
+Derec_KillThiefGoblins              Trelis: Kill the thieving goblins near Derec's farm.
+Derec_KillAmbushGoblins             Trelis: Sneaky goblin raid on Derec's farm.
+Kapotth_KillSabertooth              Trelis: The suspicious cave near the farm.
+Vangard_KillBarrierOrcs             Vengard: Destroy the orcs' ring of siege outside of the barrier.
+Markus_KillOrcBosses                Vengard: Eliminate the five leaders of the orc siege inside the barrier.
+Osmund_KillShaman                   Fire Clan: Kill the orc shamans!
+Kaelin_KillOrks                     Fire Clan: Killing orcs!
+Hammerclan_Orks                     Hammer Clan: Bridge orcs.
 
-q_291 
-q_292 
-q_293 
-q_294 
-q_295 
-q_296 
-q_297 
-q_298 
-q_299 
-q_300 
-
-q_301 Gothic3.exe 15CA0 C8 C C 340 20 48 198 ABAC
-q_302 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AC6C
-q_303 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AD2C
-q_304 Gothic3.exe 15CA0 C8 C C 340 20 48 198 ADEC
-q_305 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AEAC
-q_306 Gothic3.exe 15CA0 C8 C C 340 20 48 198 AF6C
-q_307 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B02C
-q_308 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B0EC
-q_309 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B1AC
-q_310 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B26C
-q_311 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B32C
-q_312 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B3EC
-q_313 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B4AC
-q_314 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B56C
-q_315 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B62C
-q_316 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B6EC
-q_317 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B7AC
-q_318 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B86C
-q_319 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B92C
-q_320 Gothic3.exe 15CA0 C8 C C 340 20 48 198 B9EC
-q_321 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BAAC
-q_322 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BB6C
-q_323 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BC2C
-q_324 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BCEC
-q_325 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BDAC
-q_326 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BE6C
-q_327 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BF2C
-q_328 Gothic3.exe 15CA0 C8 C C 340 20 48 198 BFEC
-q_329 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C0AC
-q_330 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C16C
-q_331 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C22C
-q_332 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C2EC
-q_333 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C3AC
-q_334 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C46C
-q_335 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C52C
-q_336 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C5EC
-q_337 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C6AC
-q_338 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C76C
-q_339 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C82C
-q_340 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C8EC
-q_341 Gothic3.exe 15CA0 C8 C C 340 20 48 198 C9AC
-q_342 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CA6C
-q_343 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CB2C
-q_344 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CBEC
-q_345 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CCAC
-q_346 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CD6C
-q_347 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CE2C
-q_348 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CEEC
-q_349 Gothic3.exe 15CA0 C8 C C 340 20 48 198 CFAC
-q_350 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D06C
 q_351 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D12C
 q_352 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D1EC
 q_353 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D2AC
@@ -360,6 +359,7 @@ q_357 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D5AC
 q_358 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D66C
 q_359 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D72C
 q_360 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D7EC
+
 q_361 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D8AC
 q_362 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D96C
 q_363 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DA2C
@@ -370,6 +370,7 @@ q_367 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DD2C
 q_368 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DDEC
 q_369 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DEAC
 q_370 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DF6C
+
 q_371 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E02C
 q_372 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E0EC
 q_373 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E1AC
@@ -380,6 +381,7 @@ q_377 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E4AC
 q_378 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E56C
 q_379 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E62C
 q_380 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E6EC
+
 q_381 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E7AC
 q_382 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E86C
 q_383 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E92C
@@ -390,6 +392,7 @@ q_387 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EC2C
 q_388 Gothic3.exe 15CA0 C8 C C 340 20 48 198 ECEC
 q_389 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EDAC
 q_390 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EE6C
+
 q_391 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EF2C
 q_392 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EFEC
 q_393 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F0AC
@@ -400,6 +403,7 @@ q_397 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F3AC
 q_398 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F46C
 q_399 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F52C
 q_400 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F5EC
+
 q_401 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F6AC
 q_402 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F76C
 q_403 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F82C
