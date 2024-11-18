@@ -348,112 +348,110 @@ Markus_KillOrcBosses                Vengard: Eliminate the five leaders of the o
 Osmund_KillShaman                   Fire Clan: Kill the orc shamans!
 Kaelin_KillOrks                     Fire Clan: Killing orcs!
 Hammerclan_Orks                     Hammer Clan: Bridge orcs.
+Reto_KillTalchef                    Hammer Clan: Kill the boss of the valley.
+Hauke_KillMCs                       Hammer Clan: Kill the minecrawler in the prospectors' camp.
+Nordmar_FatOldBastard               World: The fat bastard is dead!
+Hanson_DeerPlateau                  Wolf Clan: Bag the deers on the plateau!
+Jensgar_KillDrummer                 Wolf Clan: Eliminate the war drummer og the orcs!
+Grim_FreeEastBridge                 Wolf Clan: Free the bridge in the north.
+Hanson_TowerGoblins                 Wolf Clan: Goblin Attack!
+Bogir_KillWhiteShadowbeast          Wolf Clan: Hunt the white shadowbeast!
+Bogir_KillWolf                      Wolf Clan: Kill the White Ripper!
+Corwyn_KillSabertooth               Wolf Clan: Kill the sabertooths outside the woodcutters' camp!
+Test_Kill                           Test: (Test_Kill)
+Bakaresh_KillRaider                 Bakaresh: A lesson in hospitality.
+Bakaresh_Nomads                     Bakaresh: Nomad raiders.
+Bakaresh_Aldo                       Bakaresh: So much for Aldo!
+Bakaresh_Crawler                    Bakaresh: The crawlers' nest.
+Bakaresh_Ruins                      Bakaresh: The ruins of Bakaresh.
+Hurit_Kill                          Ben Erai: Bounty hunting: Hurit.
+Yespas_Kill                         Ben Erai: Bounty hunting: Yespas.
+Vasco_Crawler                       Ben Erai: Crawler hunt.
+Sugut_Kill                          Ben Sala: A banquet for the vultures.
+Temple_Yugul                        Ben Sala: The Cursed One!
+Julio_KillBazir                     Ben Sala: The deal with Basir.
+Zombie_Ruins                        Ben Sala: The ruins.
+Zombie_Stollen                      Ben Sala: The tunnels.
+Asaru_BountyKill                    Braga: Bounty hunting: Asaru.
+Malir_Kill                          Braga: Bounty hunting: Malir.
+Braga_Raider                        Braga: Bounty hunting: Taklar.
+Braga_Ruins                         Braga: The ruin fields of Braga.
+Ishtar_Schakalraid_01               Ishtar: Jackal attack!
+Ishtar_Schakalraid_02               Ishtar: More jackals!
+Ishtar_Orethieves                   Ishtar: Ore thieves.
+Ishtar_Punishment                   Ishtar: The fight with Surus.
+Kafa_Packleader                     Ishtar: Three pack leaders.
+Ishtar_Zarkos                       Ishtar: Zarkos.
+Lago_Bloodflies                     Lago: Bloody bloodflies.
+Lago_Shakyor                        Lago: Bounty hunting: Shakyor, the desert lion.
+Merdarion_KillAllUndead             Mora Sul: Eliminate the commanders of the undead in the fields of ruins.
+Kalesch_Shadowbeast                 Mora Sul: Get rid of the fearless desert racers.
+Hassan_Kill                         Mora Sul: Hassan.
+Cruz_KillSandcrawler                Mora Sul: Injured sandcrawler.
+Bounty_Kaffu                        Mora Sul: Kaffu's guards.
+Gonzales_KillSaturas                Mora Sul: Kill Saturas, the head of the Water Mages.
+Gonzales_KillAllKDW                 Mora Sul: Kill all Water Mages.
+Gonzales_KillCronos                 Mora Sul: Kill the Water Mage Cronos.
+Gonzales_KillMerdarion              Mora Sul: Kill the Water Mage Merdarion.
+Gonzales_KillMyxir                  Mora Sul: Kill the Water Mage Myxir.
+Gonzales_KillNefarius               Mora Sul: Kill the Water Mage Nefarius.
+Gonzales_KillRiordian               Mora Sul: Kill the Water Mage Riordian.
+Gonzales_KillVatras                 Mora Sul: Kill the Water Mage Vatras.
+Bounty_Yussuf                       Mora Sul: Punish the slave Yussuf!
+Nefarius_EnterGrave                 World: Secure the tomb!
+Agenak_DefeatMirzo                  Geldern: Teach Mirzo a lesson.
+Potros_DefeatHim                    Gotha: Defeat Potros.
+Folleck_DefeatHim                   Montera: Folleck is asking for it.
+Topork_Duell                        Reddock: Defeat Topork in a duel.
+Will_DefeatHim                      Silden: Defeat Will.
+Ben_DefeatHim                       Trelis: Hothead Ben needs to be taught a lesson.
+Sivert_Defeat                       Fire Clan: Duel with Sivert.
+Hogar_Duel                          Wolf Clan: Duel with Hogar.
+Test_Defeat                         Test: (Test_Defeat)
+Big_DefeatHim                       Mora Sul: Defeat the fat guy.
+Otis_DriveAwayMerc01                Montera: Make the tired mercenary leave the rebels' meeting point.
+Test_DriveAway                      Test: (Test_DriveAway)
+Sancho_KickLukar                    Ben Erai: Lukar had better get out!
+Curtis_Arena_Goran                  Faring: Defeat Goran in the arena.
+Curtis_Arena_Muff                   Faring: Defeat Moff in the arena.
+Tarok_Arena_Mortis                  Faring: Defeat Mortis in the arena.
+Tarok_Arena_Rozhov                  Faring: Defeat Rozhov in the arena.
+Curtis_Arena_Spike                  Faring: Defeat Spike in the arena.
+Tarok_Arena_Tukash                  Faring: Defeat Tukash in the arena.
 
-q_351 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D12C
-q_352 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D1EC
-q_353 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D2AC
-q_354 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D36C
-q_355 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D42C
-q_356 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D4EC
-q_357 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D5AC
-q_358 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D66C
-q_359 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D72C
-q_360 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D7EC
+q_421
+q_422
+q_423
+q_424
+q_425
+q_426
+q_427
+q_428
+q_429
+q_430
 
-q_361 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D8AC
-q_362 Gothic3.exe 15CA0 C8 C C 340 20 48 198 D96C
-q_363 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DA2C
-q_364 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DAEC
-q_365 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DBAC
-q_366 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DC6C
-q_367 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DD2C
-q_368 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DDEC
-q_369 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DEAC
-q_370 Gothic3.exe 15CA0 C8 C C 340 20 48 198 DF6C
+q_431
+q_432
+q_433
+q_434
+q_435
+q_436
+q_437
+q_438
+q_439
+q_440
 
-q_371 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E02C
-q_372 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E0EC
-q_373 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E1AC
-q_374 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E26C
-q_375 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E32C
-q_376 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E3EC
-q_377 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E4AC
-q_378 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E56C
-q_379 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E62C
-q_380 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E6EC
+q_441
+q_442
+q_443
+q_444
+q_445
+q_446
+q_447
+q_448
+q_449
+q_450
 
-q_381 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E7AC
-q_382 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E86C
-q_383 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E92C
-q_384 Gothic3.exe 15CA0 C8 C C 340 20 48 198 E9EC
-q_385 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EAAC
-q_386 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EB6C
-q_387 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EC2C
-q_388 Gothic3.exe 15CA0 C8 C C 340 20 48 198 ECEC
-q_389 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EDAC
-q_390 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EE6C
-
-q_391 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EF2C
-q_392 Gothic3.exe 15CA0 C8 C C 340 20 48 198 EFEC
-q_393 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F0AC
-q_394 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F16C
-q_395 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F22C
-q_396 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F2EC
-q_397 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F3AC
-q_398 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F46C
-q_399 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F52C
-q_400 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F5EC
-
-q_401 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F6AC
-q_402 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F76C
-q_403 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F82C
-q_404 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F8EC
-q_405 Gothic3.exe 15CA0 C8 C C 340 20 48 198 F9AC
-q_406 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FA6C
-q_407 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FB2C
-q_408 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FBEC
-q_409 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FCAC
-q_410 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FD6C
-q_411 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FE2C
-q_412 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FEEC
-q_413 Gothic3.exe 15CA0 C8 C C 340 20 48 198 FFAC
-q_414 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1006C
-q_415 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1012C
-q_416 Gothic3.exe 15CA0 C8 C C 340 20 48 198 101EC
-q_417 Gothic3.exe 15CA0 C8 C C 340 20 48 198 102AC
-q_418 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1036C
-q_419 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1042C
-q_420 Gothic3.exe 15CA0 C8 C C 340 20 48 198 104EC
-q_421 Gothic3.exe 15CA0 C8 C C 340 20 48 198 105AC
-q_422 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1066C
-q_423 Main: The divine artifact of Trelis
-q_424 Main: Find the five artifacts of Adanos
-q_425 Monastery: Find Akascha's tomb
-q_426 Main: Find the crown
-q_427 Gothic3.exe 15CA0 C8 C C 340 20 48 198 10A2C
-q_428 Main: Find the divine ring of life
-q_429 Main: Find the divine ring of magic
-q_430 Main: Find the robe
-q_431 Gothic3.exe 15CA0 C8 C C 340 20 48 198 10D2C
-q_432 Gothic3.exe 15CA0 C8 C C 340 20 48 198 10DEC
-q_433 Main: Find the teleporter rune that takes you to the king
-q_434 Gothic3.exe 15CA0 C8 C C 340 20 48 198 10F6C
-q_435 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1102C
-q_436 Gothic3.exe 15CA0 C8 C C 340 20 48 198 110EC
-q_437 Gothic3.exe 15CA0 C8 C C 340 20 48 198 111AC
-q_438 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1126C
-q_439 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1132C
-q_440 Gothic3.exe 15CA0 C8 C C 340 20 48 198 113EC
-q_441 Gothic3.exe 15CA0 C8 C C 340 20 48 198 114AC
-q_442 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1156C
-q_443 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1162C
-q_444 Gothic3.exe 15CA0 C8 C C 340 20 48 198 116EC
-q_445 Gothic3.exe 15CA0 C8 C C 340 20 48 198 117AC
-q_446 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1186C
-q_447 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1192C
-q_448 Gothic3.exe 15CA0 C8 C C 340 20 48 198 119EC
-q_449 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11AAC
-q_450 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11B6C
 q_451 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11C2C
 q_452 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11CEC
 q_453 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11DAC
