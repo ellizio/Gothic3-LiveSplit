@@ -418,80 +418,78 @@ Tarok_Arena_Mortis                  Faring: Defeat Mortis in the arena.
 Tarok_Arena_Rozhov                  Faring: Defeat Rozhov in the arena.
 Curtis_Arena_Spike                  Faring: Defeat Spike in the arena.
 Tarok_Arena_Tukash                  Faring: Defeat Tukash in the arena.
+Tarok_Arena_Vigo                    Faring: Defeat Vigo in the arena.
+Agenak_ArenaDefeatDimitar           Geldern: Defeat Dimitar in the arena.
+Agenak_ArenaDefeatGembak            Geldern: Defeat Gembak in the arena.
+Agenak_ArenaDefeatKulak             Geldern: Defeat Kulak in the arena.
+KapDun_Arena_02                     Cape Dun: Defeat Darmok in the arena.
+KapDun_Arena_01                     Cape Dun: Defeat Fadi in the arena.
+Dan_ArenaDefeat                     Montera: Defeat Dan in the arena.
+Fedor_ArenaDefeat                   Montera: Defeat Fedor in the arena.
+Goose_ArenaDefeat                   Montera: Defeat Goose in the arena.
+Ugo_ArenaDefeat                     Montera: Defeat Ugo in the arena.
+Ashton_ArenaDefeat                  Montera: Defeat the champion Ashton in the arena.
+Copper_Arena                        Reddock: Defeat Copper in the arena.
+Joey_Arena                          Reddock: Defeat Joey in the arena.
+Barrack_ArenaDefeatJarock           Silden: Defeat Jarock in the arena.
+Barrack_ArenaDefeatJaroll           Silden: Defeat Jaroll in the arena.
+Barrack_ArenaDefeatTrompok          Silden: Defeat Trompok in the arena.
+Bakaresh_Arena_Achmed               Bakaresh: Defeat Achmed in the arena.
+Bakaresh_Arena_Irhabar              Bakaresh: Defeat Irhabar in the arena.
+Bakaresh_Arena_Mufassa              Bakaresh: Defeat Mufassa in the arena.
+Bakaresh_Arena_Brothers             Bakaresh: The fight for the title.
+Ishtar_Arena_Makas                  Ishtar: Arena fight! (Makas)
+Ishtar_Arena_Musan                  Ishtar: Arena fight! (Musan)
+Ishtar_Arena_Emet                   Ishtar: Arena fight! (Emet)
+Lago_Arena_Grubuz                   Lago: Fight against Grubuz.
+Lago_Arena_Mamuk                    Lago: Fight against Mamuk.
+Felipe_Arena_Angar                  Mora Sul: Defeat Angar in the arena.
+Felipe_Arena_Anktos                 Mora Sul: Defeat Anktos in the arena.
+Felipe_Arena_Oelk                   Mora Sul: Defeat Oelk in the arena.
+Felipe_Arena_Paladin                Mora Sul: Defeat the Paladin in the arena.
+Harek_Away                          Cape Dun: Help Harek escape!
+Gamal_BringSlave                    Cape Dun: Take Harek the slave back to Gamal.
+Sobota_BringSlave01                 Montera: Sobota wants Dan's slave back.
+Sobota_BringSlave02                 Montera: Sobota wants Thorek's slave back.
+Kliff_BringHimToJavierJavier        Reddock: Take Kliff to Javier, the rebel leader in Reddock.
+Quadir_HuntSlave                    Silden: Quadir's hunt for a new slave for Silden.
+Freman_BringSlave_02                Silden: Rescue a Silden slave from the wilderness. (2)
+Freman_BringSlave_03                Silden: Rescue a Silden slave from the wilderness. (3)
+Freman_BringSlave_05                Silden: Rescue a Silden slave from the wilderness. (5)
+Freman_BringSlave_01                Silden: Rescue a Silden slave from the wilderness. (1)
+Freman_BringSlave_04                Silden: Rescue a Silden slave from the wilderness. (4)
+Tragak_BringHimToGrompel            Silden: Tragak wants to see the town shaman Grompel in Silden.
+Georg_BringHim2Cobryn               Vengard: Take the paladin Georg to Cobryn, the commander-in-chief of the paladins.
+Test_BringNPC                       Test: (Test_BringNPC)
+Sancho_Slaves                       Ben Erai: Slaves for Lago.
+Enzo_BringSlave                     Ben Sala: Escort Miguel safely to the village.
+Aila_BringBack                      Braga: Aila.
+Vatras_Guide                        Lago: Escort Vatras safely to Hurit.
+Alima Mora                          Sul: Alima.
+Yasmin Mora                         Sul: Yasmin.
+as_GotoGate                         Main: Go to the portal with Xardas.
+Gorn_ShowReddock                    Ardea: Gorn shows you the rebels' hideout.
+Wilson_GoHunting                    Faring: Go lurker hunting with Wilson.
+Mitch_Trolls                        Faring: Troll hunting with Mitch.
+Geldern_Slave_01_BringPCToWolfmine  Geldern: Follow the particularly eager slave to the wolf mine.
+Gembak_KillIvan                     Geldern: Gembak wants to rough up Ivan, the renegade mercenary.
+Gorn_GothaParty                     Gotha: Hunting demons with Gorn.
+Wenzel_KapDunMetzel                 Cape Dun: Wenzel cleans up.
+Arakos_BringToOrcs                  Montera: Follow Arakos to find the orc patrol.
+Rufus_FleesFromFarm                 Montera: Rufus escapes from the grain farm.
+Rufus_BringsYouToOkara              Montera: The slave Rufus wants to go to Okara.
 
-q_421
-q_422
-q_423
-q_424
-q_425
-q_426
-q_427
-q_428
-q_429
-q_430
+q_481
+q_482
+q_483
+q_484
+q_485
+q_486
+q_487
+q_488
+q_489
+q_490
 
-q_431
-q_432
-q_433
-q_434
-q_435
-q_436
-q_437
-q_438
-q_439
-q_440
-
-q_441
-q_442
-q_443
-q_444
-q_445
-q_446
-q_447
-q_448
-q_449
-q_450
-
-q_451 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11C2C
-q_452 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11CEC
-q_453 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11DAC
-q_454 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11E6C
-q_455 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11F2C
-q_456 Gothic3.exe 15CA0 C8 C C 340 20 48 198 11FEC
-q_457 Gothic3.exe 15CA0 C8 C C 340 20 48 198 120AC
-q_458 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1216C
-q_459 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1222C
-q_460 Gothic3.exe 15CA0 C8 C C 340 20 48 198 122EC
-q_461 Gothic3.exe 15CA0 C8 C C 340 20 48 198 123AC
-q_462 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1246C
-q_463 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1252C
-q_464 Gothic3.exe 15CA0 C8 C C 340 20 48 198 125EC
-q_465 Gothic3.exe 15CA0 C8 C C 340 20 48 198 126AC
-q_466 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1276C
-q_467 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1282C
-q_468 Gothic3.exe 15CA0 C8 C C 340 20 48 198 128EC
-q_469 Gothic3.exe 15CA0 C8 C C 340 20 48 198 129AC
-q_470 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12A6C
-q_471 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12B2C
-q_472 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12BEC
-q_473 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12CAC
-q_474 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12D6C
-q_475 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12E2C
-q_476 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12EEC
-q_477 Gothic3.exe 15CA0 C8 C C 340 20 48 198 12FAC
-q_478 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1306C
-q_479 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1312C
-q_480 Gothic3.exe 15CA0 C8 C C 340 20 48 198 131EC
-q_481 Gothic3.exe 15CA0 C8 C C 340 20 48 198 132AC
-q_482 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1336C
-q_483 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1342C
-q_484 Gothic3.exe 15CA0 C8 C C 340 20 48 198 134EC
-q_485 Gothic3.exe 15CA0 C8 C C 340 20 48 198 135AC
-q_486 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1366C
-q_487 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1372C
-q_488 Gothic3.exe 15CA0 C8 C C 340 20 48 198 137EC
-q_489 Gothic3.exe 15CA0 C8 C C 340 20 48 198 138AC
-q_490 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1396C
 q_491 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13A2C
 q_492 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13AEC
 q_493 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13BAC
@@ -502,6 +500,7 @@ q_497 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13EAC
 q_498 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13F6C
 q_499 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1402C
 q_500 Gothic3.exe 15CA0 C8 C C 340 20 48 198 140EC
+
 q_501 Gothic3.exe 15CA0 C8 C C 340 20 48 198 141AC
 q_502 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1426C
 q_503 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1432C
@@ -512,6 +511,7 @@ q_507 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1462C
 q_508 Gothic3.exe 15CA0 C8 C C 340 20 48 198 146EC
 q_509 Gothic3.exe 15CA0 C8 C C 340 20 48 198 147AC
 q_510 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1486C
+
 q_511 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1492C
 q_512 Gothic3.exe 15CA0 C8 C C 340 20 48 198 149EC
 q_513 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14AAC
@@ -522,6 +522,7 @@ q_517 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14DAC
 q_518 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14E6C
 q_519 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14F2C
 q_520 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14FEC
+
 q_521 Gothic3.exe 15CA0 C8 C C 340 20 48 198 150AC
 q_522 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1516C
 q_523 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1522C
@@ -532,6 +533,7 @@ q_527 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1552C
 q_528 Gothic3.exe 15CA0 C8 C C 340 20 48 198 155EC
 q_529 Gothic3.exe 15CA0 C8 C C 340 20 48 198 156AC
 q_530 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1576C
+
 q_531 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1582C
 q_532 Gothic3.exe 15CA0 C8 C C 340 20 48 198 158EC
 q_533 Gothic3.exe 15CA0 C8 C C 340 20 48 198 159AC
@@ -542,6 +544,7 @@ q_537 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15CAC
 q_538 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15D6C
 q_539 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15E2C
 q_540 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15EEC
+
 q_541 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15FAC
 q_542 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1606C
 q_543 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1612C
@@ -552,6 +555,7 @@ q_547 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1642C
 q_548 Gothic3.exe 15CA0 C8 C C 340 20 48 198 164EC
 q_549 Gothic3.exe 15CA0 C8 C C 340 20 48 198 165AC
 q_550 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1666C
+
 q_551 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1672C
 q_552 Gothic3.exe 15CA0 C8 C C 340 20 48 198 167EC
 q_553 Gothic3.exe 15CA0 C8 C C 340 20 48 198 168AC
@@ -562,6 +566,7 @@ q_557 Main: Find Xardas
 q_558 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16C6C
 q_559 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16D2C
 q_560 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16DEC
+
 q_561 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16EAC
 q_562 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16F6C
 q_563 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1702C
