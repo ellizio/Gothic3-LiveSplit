@@ -478,102 +478,93 @@ Wenzel_KapDunMetzel                 Cape Dun: Wenzel cleans up.
 Arakos_BringToOrcs                  Montera: Follow Arakos to find the orc patrol.
 Rufus_FleesFromFarm                 Montera: Rufus escapes from the grain farm.
 Rufus_BringsYouToOkara              Montera: The slave Rufus wants to go to Okara.
-
-q_481
-q_482
-q_483
-q_484
-q_485
-q_486
-q_487
-q_488
-q_489
-q_490
-
-q_491 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13A2C
-q_492 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13AEC
-q_493 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13BAC
-q_494 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13C6C
-q_495 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13D2C
-q_496 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13DEC
-q_497 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13EAC
-q_498 Gothic3.exe 15CA0 C8 C C 340 20 48 198 13F6C
-q_499 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1402C
-q_500 Gothic3.exe 15CA0 C8 C C 340 20 48 198 140EC
-
-q_501 Gothic3.exe 15CA0 C8 C C 340 20 48 198 141AC
-q_502 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1426C
-q_503 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1432C
-q_504 Gothic3.exe 15CA0 C8 C C 340 20 48 198 143EC
-q_505 Gothic3.exe 15CA0 C8 C C 340 20 48 198 144AC
-q_506 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1456C
-q_507 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1462C
-q_508 Gothic3.exe 15CA0 C8 C C 340 20 48 198 146EC
-q_509 Gothic3.exe 15CA0 C8 C C 340 20 48 198 147AC
-q_510 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1486C
-
-q_511 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1492C
-q_512 Gothic3.exe 15CA0 C8 C C 340 20 48 198 149EC
-q_513 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14AAC
-q_514 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14B6C
-q_515 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14C2C
-q_516 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14CEC
-q_517 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14DAC
-q_518 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14E6C
-q_519 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14F2C
-q_520 Gothic3.exe 15CA0 C8 C C 340 20 48 198 14FEC
-
-q_521 Gothic3.exe 15CA0 C8 C C 340 20 48 198 150AC
-q_522 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1516C
-q_523 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1522C
-q_524 Gothic3.exe 15CA0 C8 C C 340 20 48 198 152EC
-q_525 Gothic3.exe 15CA0 C8 C C 340 20 48 198 153AC
-q_526 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1546C
-q_527 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1552C
-q_528 Gothic3.exe 15CA0 C8 C C 340 20 48 198 155EC
-q_529 Gothic3.exe 15CA0 C8 C C 340 20 48 198 156AC
-q_530 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1576C
-
-q_531 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1582C
-q_532 Gothic3.exe 15CA0 C8 C C 340 20 48 198 158EC
-q_533 Gothic3.exe 15CA0 C8 C C 340 20 48 198 159AC
-q_534 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15A6C
-q_535 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15B2C
-q_536 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15BEC
-q_537 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15CAC
-q_538 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15D6C
-q_539 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15E2C
-q_540 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15EEC
-
-q_541 Gothic3.exe 15CA0 C8 C C 340 20 48 198 15FAC
-q_542 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1606C
-q_543 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1612C
-q_544 Gothic3.exe 15CA0 C8 C C 340 20 48 198 161EC
-q_545 Gothic3.exe 15CA0 C8 C C 340 20 48 198 162AC
-q_546 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1636C
-q_547 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1642C
-q_548 Gothic3.exe 15CA0 C8 C C 340 20 48 198 164EC
-q_549 Gothic3.exe 15CA0 C8 C C 340 20 48 198 165AC
-q_550 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1666C
-
-q_551 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1672C
-q_552 Gothic3.exe 15CA0 C8 C C 340 20 48 198 167EC
-q_553 Gothic3.exe 15CA0 C8 C C 340 20 48 198 168AC
-q_554 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1696C
-q_555 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16A2C
-q_556 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16AEC
-q_557 Main: Find Xardas
-q_558 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16C6C
-q_559 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16D2C
-q_560 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16DEC
-
-q_561 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16EAC
-q_562 Gothic3.exe 15CA0 C8 C C 340 20 48 198 16F6C
-q_563 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1702C
-q_564 Gothic3.exe 15CA0 C8 C C 340 20 48 198 170EC
-q_565 Gothic3.exe 15CA0 C8 C C 340 20 48 198 171AC
-q_566 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1726C
-q_567 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1732C
-q_568 Gothic3.exe 15CA0 C8 C C 340 20 48 198 173EC
-q_569 Gothic3.exe 15CA0 C8 C C 340 20 48 198 174AC
-q_570 Gothic3.exe 15CA0 C8 C C 340 20 48 198 1756C
+Cole_FollowToNemora                 Nemora: Cole the farmhand wants to go to Nemora.
+Karlen_AmbushKurt                   Nemora: Cross the pass to Varant with Karlen.
+Finley_AmbushTrelis                 Nemora: Finley attacks Trelis.
+Finley_ToTrelis                     Nemora: Finley gets all set to attack Trelis.
+Karlen_ShowsYouVarant               Nemora: Karlen the paladin shows you the desert.
+Randall_GoesItoMine                 Okara: Clean out the mine with Randall the fighter.
+Fraser_HuntBoars                    Okara: Go boar hunting with Fraser.
+Rakus_RescueHim                     Okara: Rescue Rakus the Fire Mage from the cave of the undead.
+Lars_FollowHimToPass                Silden: Follow Lars to the pass to Nordmar.
+Pavel_FollowToHunterHut             Silden: Follow Pavel to his hunting cabin.
+Falk_HuntSnapper                    Silden: Go snapper hunting with Falk.
+Grompel_FindRebells                 Silden: Grompel knows the way to the rebels at the Nordmar pass.
+Bram_HuntWolves                     Silden: Hunt the silver wolves with Bram.
+Kamak_Rescue                        Trelis: Help the shaman Kamak leave the temple.
+Pranck_BringAvogadro                Trelis: Take Avogadro the alchemist to Trelis.
+Thordir_BringToCastle               Vengard: Help the paladin Thordir to get to the castle!
+Rathgar_BringToGraveCave            Fire Clan: Accompany Rathgar to the cave tombs.
+Osmund_GoToShaman                   Fire Clan: Find the orc shamans.
+Kaelin_OrkHunt                      Fire Clan: Hunting orcs with Kaelin.
+Leif_GoHunting                      Fire Clan: Hunting with Leif.
+Mort_GuideFireAgain                 Hammer Clan: Follow Mort to the Fire Clan again.
+Mort_GuideFire                      Hammer Clan: Follow Mort to the Fire Clan.
+Mort_GuideWolfAgain                 Hammer Clan: Follow Mort to the Wolf Clan again.
+Mort_GuideWolf                      Hammer Clan: Follow Mort to the Wolf Clan.
+Mort_GuideMineAgain                 Hammer Clan: Follow Mort to the lower mine entrance again.
+Mort_GuideMine                      Hammer Clan: Follow Mort to the lower mine entrance.
+Hauke_GoToCamp                      Hammer Clan: Go to the prospectors' camp with Hauke.
+Hanson_FollowTower                  Wolf Clan: Follow Graypelt to Xardas's tower.
+Hogar_GoToOrks                      Wolf Clan: Go to the southern bridge with Hogar.
+Larson_FindOre                      Wolf Clan: Looking for ore with Larson.
+Ronar_HuntingHut                    Wolf Clan: Take Ronar to his hunting cabin.
+Test_FollowNPC                      Test: (Test_FollowNPC)
+Riordian_Follow                     Braga: Escort Riordian!
+Tufail_Nomads                       Braga: Follow Tufail!
+Mezir_Murat                         Mora Sul: Escort Mezir safely to Murat's oasis.
+Cruz_AmbushSandcrawler              Mora Sul: Follow Cruz to his old campsite.
+Kayor_GoesToAmbushPoint             Mora Sul: Follow Kayor to the meeting point outside Mora Sul.
+Merdartion_GoToGhost1               Mora Sul: Follow Merdarion. (1)
+Merdartion_GoToGhost4               Mora Sul: Follow Merdarion. (4)
+Merdartion_GoToGhost2               Mora Sul: Follow Merdarion. (2)
+Merdartion_GoToGhost3               Mora Sul: Follow Merdarion. (3)
+Mezir_Guide                         Mora Sul: Follow Mezir!
+Kirk_FindTempleKey                  Mora Sul: Kirk and the desert raiders.
+Sanuyem_Bring                       Mora Sul: The way to Merdarion.
+Diego_GuidetoMS                     World: Made it to Mora Sul!
+Diego_Hunt                          World: Snapper hunt.
+Xardas_FindXardas                   Main: Find Xardas!
+Hammerclan_Ore                      Hammer Clan: Hidden ore.
+PC_Hero_FindChumanas                Monastery: Find Akascha's tomb!
+Ramirez_lost                        Mora Sul: Ramirez, the missing Hashishi.
+Enter_Varant                        World: Made it to Varant!
+Nefarius_BringToGrave               World: Take Nefarius to the tomb of Haran Ho.
+PC_Hero_inAlShedim                  World: Al Shedim discovered.
+Diego_inMoraSul                     World: Diego is in Mora Sul.
+Rebells_WipeOut                     Main: Destroy all major rebel camps.
+Adanos_FreeVarant                   Main: Free the desert from the rule of the Hashishin!
+Innos_FreeMyrtana                   Main: Liberate Myrtana!
+Ardea_Revolution                    Ardea: Liberate Ardea from the orcs!
+Faring_Revolution                   Faring: Liberate Faring from the orcs!
+Geldern_Revolution                  Geldern: Liberate Geldern from the orcs!
+KapDun_Revolution                   Cape Dun: Liberate Cape Dun!
+Montera_Revolution                  Montera: Liberate Montera from the orcs!
+Nemora_Wipeout                      Nemora: Destroy the rebel camp Nemora.
+Okara_Wipeout                       Okara: Take Okara apart!
+Reddock_Wipeout                     Reddock: Destroy the rebel camp Reddock.
+Silden_Revolution                   Silden: Liberate Silden from the orcs.
+Trelis_Revolution                   Trelis: Conquer the castle of Trelis!
+Vangard_Revolution                  Vengard: Destroy Vengard, the capital of the humans.
+Kerth_FreeNordmar                   Fire Clan: Liberate Nordmar!
+Nrd_KillOrcCamp_02                  Fire Clan: Orc camp wiped out!!! (2)
+Nrd_KillOrcCamp_01                  Fire Clan: Orc camp wiped out!!! (1)
+Nrd_KillOrcCamp_05                  Fire Clan: Orc camp wiped out!!! (5)
+Nrd_KillOrcCamp_04                  Fire Clan: Orc camp wiped out!!! (4)
+Nrd_KillOrcCamp_03                  Fire Clan: Orc camp wiped out!!! (3)
+Reto_FreeMine                       Hammer Clan: Free the furnace.
+Test_FreeEnclave                    Test: Kill the TestBoss. (Test_FreeEnclave)
+Bakaresh_Revolution                 Bakaresh: Liberate Bakaresh!
+BenErai_Revolution                  Ben Erai: Liberate Ben Erai!
+BenSala_Revolution                  Ben Sala: Liberate Ben Sala!
+Braga_Revolution                    Braga: The liberation of Braga!
+Ishtar_Revolution                   Ishtar: Liberate Ishtar!
+AlShedim_Free                       World: The liberation of Al Shedim.
+Lago_Revolution                     Lago: Liberate Lago!
+MoraSulTemple_Wipeout               Mora Sul: Eliminate the orcs at the temple of Mora Sul.
+MoraSul_Revolution                  Mora Sul: Liberate Mora Sul!
+KapDun_Chest                        Cape Dun: The alchemist's chest.
+Trelis_Ransack                      Trelis: Ransack the castle of Trelis.
+Peasant_Treasure                    Trelis: Ransack the farms!
+Hammerclan_Gold                     Hammer Clan: Tjalf's chest.
+Lardo_SpellQuestTest                Test: Cure the fisherman. (Lardo_SpellQuestTest)
