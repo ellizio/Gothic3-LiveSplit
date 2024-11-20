@@ -1,0 +1,570 @@
+Adanos_DestroyArtefacts             Main: Destroy the five artifacts of Adanos
+PC_Hero_FindAllFiremageCups         Main: Find all the fire chalices of the Fire Mages
+PC_Hero_FindCrown                   Main: Find the crown
+PC_Hero_FindRing_01                 Main: Find the divine ring of life
+PC_Hero_FindRing_02                 Main: Find the divine ring of magic
+PC_Hero_FindArtefacts               Main: Find the five artifacts of Adanos
+PC_Hero_FindRobe                    Main: Find the robe
+PC_Hero_FIndTeleportToKing          Main: Find the teleporter rune that takes you to the king
+PC_Hero_FindAmulet                  Main: The divine artifact of Trelis
+PC_Hero_FindScepter                 Main: The scepter of Varant
+PC_Hero_FindStaff                   Main: The staff of the Eternal Wanderer
+PC_Hero_Bless_FiremageCups          Main: Throw the fire chalices into the sacred fire
+Ali_StealArtefact                   Faring: Ali's artifact
+Flint_BringBooze_01                 Faring: Booze for Mojok
+UrgGosh_BringHerb                   Faring: Bring Ur-Gosh three king's sorrel plants
+Tom_AlisArtefact                    Faring: Take Ali's gift to Tom
+Gnar_BuyFur                         Faring: Wolf skins for Gnar
+Nemrok_GetRuinArtefact              Geldern: Bring Nemrok the artifact from the ruin in the north
+Renwik_BringPlant                   Geldern: Bring Renwik the rare plant king's sorrel
+Grimboll_BringSulfur                Geldern: Bring the shaman Grimboll some sulphur
+Grok_FindDruidsSecret               Geldern: Discover the secret of the druid Runak
+Geldern_Helmet                      Geldern: Find the first paladin's helmet
+Lares_BringGoldChalice              Geldern: Golden plates for Lares
+Nemrok_BringGoldNuggets             Geldern: Nemrok expects a delivery of gold from the mines
+Nemrok_BringSulfurNuggets           Geldern: Nemrok expects a delivery of sulphur from the sulphur mine
+Grok_BringAllFiremageCups           Geldern: The orc shaman Grok wants all the fire chalices
+Geldern_Rings                       Geldern: The seven ancient rings of the alchemists
+KapDun_UrkrassSupplies              Cape Dun: Bring his goods back to Urkrass
+KapDun_Phil_BringWeapons            Cape Dun: Bundles of weapons for Phil
+KapDun_Cyrus_Booze                  Cape Dun: Cyrus needs booze
+KapDun_Harek_BringFood              Cape Dun: Harek wants meat
+KapDun_Alchemist_BringPlants        Cape Dun: Healing plants for the alchemist
+Iomar_BringLampoil                  Cape Dun: Lamp oil for Ardea
+KapDun_Hunter_Fur                   Cape Dun: Pelts for Jens the hunter
+KapDun_Treasure                     Cape Dun: Steal 3 golden goblets from Urkrass's warehouse
+KapDun_Proviantmeister_BringPotions Cape Dun: The quartermaster in Cape Dun needs healing potions
+KapDun_Wenzel_FindSword             Cape Dun: Wenzel's lost sword
+Sanford_BringLetterToRoland         Montera: A message for Okara
+Basir_BringOldGoldChest             Montera: Basir wants his old gold casket
+Marik_BringAshtonChest              Montera: Bring Marik proof that Ashton embezzles gold
+Marik_TestLoyaltyOfMyMen            Montera: How loyal are the orcs' mercenaries?
+Marik_BringBradleysSlaveList        Montera: Marik wants Bradley's slave list.
+Sanford_BringMilkBarrels            Montera: Milk for the warehouse keeper.
+Progan_BringDruidStone              Montera: Porgan's druid stone.
+Marik_BringBradleyStolenListBack    Montera: Return the stolen slave list to Bradley.
+Porgan_BringStonePlant              Montera: Stoneroots for the druid Porgan.
+Thorek_BringOre                     Montera: Thorek wants magic ore for his smithy.
+Sanford_BringWheatSacks             Montera: Wheat for the warehouse keeper.
+Yorik_BringWeaponPacks              Montera: Yorik needs old weapons.
+Russel_BringSupply                  Nemora: Bring Russel the goods from the desert.
+Treslott_BringHerb                  Nemora: Bring Treslott the rare plant herbaceous lobelia.
+Karlen_BringBackMagic               Nemora: Karlen the paladin wants his magic back.
+Dudley_BringSupply                  Nemora: Weapons for Nemora.
+Owen_BringBooze                     Okara: Booze for the prospector.
+Mannig_BringIronOre                 Okara: Bring Mannig some iron ore.
+Candela_BringShadowHorn             Okara: Two shadowbeast horns for Candela.
+Sebastian_BringHealthPlants         Reddock: Bring the Fire Mage Sebastian some healing plants.
+Norris_BringWeapons                 Reddock: Weapons for the rebels in Reddock.
+Grompel_BringSupply                 Silden: A delivery from Nordmar.
+Bozep_BringWoodToStan               Silden: A package of wild berries for Stan the fisherman.
+Gambal_BringMeat                    Silden: Gambal the cook needs heaps of raw meat to feed the orcs in Silden.
+Hatlod_MissingTools                 Silden: Hatlod's lost tools.
+Inog_BringWeaponPacks               Silden: Inog needs five bundles of weapons for the resistance.
+Irmak_GetHalberd                    Silden: Irmak's halberd is missing.
+Kadok_GetSmithHammer                Silden: Kadok is missing his smith's hammer.
+Frillock_BringMeat                  Silden: Roasted meat for Frillock.
+Jerek_BringFood                     Silden: Supply the convict Jerek with roasted meat.
+Jerek_BringWeaponPacks              Silden: Supply the convict Jerek with weapons.
+Temmy_BringFishToGivess             Silden: Take the fish barrels to the mill.
+Lukjan_BringFurPacksToGivess        Silden: Take the hunters' delivery of pelts to the mill.
+Anog_PlunderPassOrks                Silden: Take the orcs' shipment from Nordmar to Anog the rebel.
+Hatlod_Blueprint                    Silden: The quest for the perfect ship.
+Givess_BringWood                    Silden: The wood from the prison camp must be brought to Givess in the mill.
+Ben_BringMyShovel                   Trelis: Ben the servant needs his shovel.
+Kamak_Artefact                      Trelis: Kamak's artifact.
+Milok_BringOldSword                 Trelis: Milok is looking for his old sword.
+Pranck_GivePotion                   Trelis: The orc warrior Pranck needs healing potions.
+Konrad_BringMagic                   Trelis: The paladin Konrad wants his magic back.
+Abe_BringBread                      Vengard: Bring Abe bread for the castle.
+Abe_BringMeat                       Vengard: Bring Abe roast meat for the castle.
+Keldron_BringWeaponPacks            Vengard: Bring Keldron weapons for the castle.
+Vandorn_BringHammer                 Vengard: Bring hammers to Vandorn for the castle.
+Vandorn_BringPickaxe                Vengard: Bring pickaxes to Vandorn for the castle.
+Vandorn_BringSaws                   Vengard: Bring saws to Vandorn for the castle.
+Lee_BringTeleport                   Fire Clan: A teleporter stone for Lee.
+Living_Ancestor_01_BringStone       Fire Clan: Akascha's ancestor stone.
+Living_Ancestor_05_BringStone       Fire Clan: Angir's tomb.
+Thorald_Armor                       Fire Clan: Armor for Thorald.
+Living_Ancestor_04_BringStone       Fire Clan: Baldar's tomb.
+Living_Ancestor_06_BringStone       Fire Clan: Berek's tomb.
+Rathgar_EjnarsHelm                  Fire Clan: Ejnar's helmet.
+Living_Ancestor_02_BringStone       Fire Clan: Ejnar's tomb.
+Kalan_BringSteel                    Fire Clan: Raw materials for Kalan.
+Living_Ancestor_03_BringStone       Fire Clan: Snorre's tomb.
+Leif_BringSabertooth                Fire Clan: Ten sabertooth teeth for Leif.
+Pedar_BringWeaponStuff              Hammer Clan: A shadowbeast horn for Pedar.
+Hauke_BringOre                      Hammer Clan: Hauke needs ore.
+Hjalte_BringMeat                    Hammer Clan: Hjalte is hungry.
+Hjalte_BringBooze                   Hammer Clan: Hjalte is thirsty.
+Ingvar_BringSword                   Hammer Clan: Ingvar wants a sword.
+Ketil_BringFur                      Hammer Clan: Ketil needs 12 buffalo skins.
+Ugolf_MakeBooze                     Hammer Clan: Making booze with Ugolf.
+Stejnar_Ingredients                 Hammer Clan: Stejnar's armor.
+Pedar_BringGoods                    Hammer Clan: Supplies for Pedar.
+Aidan_BringDruidstone               Monastery: Bring Aidan the secret of the druids.
+Innostian_BringHerb                 Monastery: Mana plants for the monastery.
+Pyran_BringPotions                  Monastery: Mana potions for Pyran.
+Jorn_BringArrows                    Wolf Clan: Jorn needs exploding arrows.
+Jensgar_BringFur                    Wolf Clan: Pelts for Jensgar.
+Hanson_BringFur                     Wolf Clan: Take the ice wolf skins to the Wolf Clan.
+Bogir_GetWolfStone                  Wolf Clan: The druid stone of the wolf.
+Test_HasItems                       Test: (Test_HasItems)
+Bakaresh_Schatullen                 Bakaresh: Three caskets.
+Murak_Weapons                       Bakaresh: Words are not enough...
+Vasco_Kraut                         Ben Erai: Swampweed for Vasco.
+Eusebio_Plants                      Ben Erai: Ten cactus flowers.
+Eusebio_Gold                        Ben Erai: Ten gold nuggets.
+Giores_BringWarez                   Ben Sala: Looted goods.
+Enzo_BringSteel                     Ben Sala: Six crates of steel.
+Luca_Leather                        Braga: Dark snapper leather.
+Marus_Weapons                       Braga: Preparations for the liberation of Braga.
+Abbas_Artefakt                      Braga: The chalice of the water vendors.
+Ishtar_Weapons                      Ishtar: Arm the slaves!
+Assassin_Ore                        Ishtar: Bring ten magic ore blanks to Sven the smith.
+Ishtar_Potions                      Ishtar: Potions for the slaves!
+Ishtar_Bastardhunt                  Ishtar: The skins of the rotten beasts.
+Ishtar_Chalice                      Ishtar: The valuable bowl.
+Ishtar_Drugs                        Ishtar: Training materials.
+AlShedim_Explore                    World: Explore the ruin fields of Al Shedim!
+AlShedim_Find_Deadkeeper            World: Find the 10 urns of the guardians of the dead!
+AlShedim_Find_Wise                  World: Find the 3 scrolls of the scholars!
+AlShedim_Find_Healer                World: Find the 5 tankards of the healers!
+AlShedim_Find_Warrior               World: Find the 7 figures of the warriors!
+AlShedim_Find_Priest                World: Find the 7 stone tablets of the priests!
+PC_Hero_AlShedim_TempleKey_05       World: Find the fifth temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_01       World: Find the first temple key of Al Shedim.
+PC_Hero_FindAlShedimTempleKey       World: Find the five keys for the temple of Al Shedim.
+PC_Hero_FindMoraSulTempleKey        World: Find the five keys for the temple of Mora Sul.
+PC_Hero_AlShedim_TempleKey_04       World: Find the fourth temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_02       World: Find the second temple key of Al Shedim.
+PC_Hero_AlShedim_TempleKey_03       World: Find the third temple key of Al Shedim.
+Lago_Lurker                         Lago: Lurker trophies.
+Lago_SiburNarad_Furs                Lago: Sibur's fuzzy dreams.
+Masil_Debt                          Mora Sul: Debt and debility.
+Hamid_Amulett                       Mora Sul: Discreet business.
+Big_Potions                         Mora Sul: Eight endurance potions for the slaves.
+PC_Hero_MoraSul_TempleKey_05        Mora Sul: Find the fifth temple key of Mora Sul.
+Pc_Hero_MoraSul_TempleKey_01        Mora Sul: Find the first temple key of Mora Sul.
+PC_hero_MoraSul_TempleKey_04        Mora Sul: Find the fourth temple key of Mora Sul.
+PC_Hero_MoraSul_TempleKey_02        Mora Sul: Find the second temple key of Mora Sul.
+PC_hero_MoraSul_TempleKey_03        Mora Sul: Find the third temple key of Mora Sul.
+MoraSul_Ilja_GetArtefact            Mora Sul: Ilja wants an artifact from the temple.
+Kalesch_Find4TempleKeys             Mora Sul: Kalesch wants the temple keys of Mora Sul.
+AlShedim_OpenTemple                 Mora Sul: Open the temple of Al Shedim.
+MoraSul_OpenTemple                  Mora Sul: Open the temple of Mora Sul.
+Ismael_BringSword                   Mora Sul: The moonblade.
+Ramon_SoulCups                      Mora Sul: The soul chalices.
+Rhobar_XardasPlan                   Main: Find out for Rhobar what Xardas is planning.
+Zuben_XardasPlan                    Main: Find out for Zuben what Xardas is planning.
+Beliar_Contact                      Main: For Beliar!
+Innos_Contact                       Main: For Innos!
+Adanos_OpenGate                     Main: Open the gate to the unknown land!
+Adanos_OpenGateXardasDead           Main: Open the gate to the unknown land! (Xardas is dead)
+PC_Hero_FifthTemple                 Main: The fifth temple.
+Ardea_Pocket                        Ardea: Jack's rebel gold.
+Hamlar_gotoReddock                  Ardea: Talk to the leader of the rebels in Reddock!
+Tarok_ArenaChamp                    Faring: Become champion of the arena in Mora Sul.
+Flint_BoozeDelivery                 Faring: Distribute booze to the orcs.
+Zakosh_TeachSmith                   Faring: Forging in Faring.
+Tippler_BringIngredients            Faring: Making booze with Tippler.
+Wilson_SellFur                      Faring: Sell the skin to Gnar for 500 gold coins.
+Gnar_EnterCastle                    Faring: The castle of Faring.
+Mojok_JoinHunter                    Faring: The hunters of Faring.
+Geldern_Slave_01_BringSlaves        Geldern: Bring more eager slaves to the wolf mine.
+Nemrok_GetSlavesForWolfMine         Geldern: Find some eager slaves for the wolf mine.
+Grok_FindDruidHunter                Geldern: Find the orcs' druid search party.
+Gunock_ReportGrok                   Geldern: Gunock, the lazy orc.
+Hamil_SolveSecret                   Geldern: Hamil, the audacious artifact trader among the slaves.
+Jared_ReportLares                   Geldern: Jared the artifact trader wants to meet Lares.
+Torn_GimmeStone                     Geldern: Mobilize the people in Geldern for Torn's druid stone.
+Dawson_BringSLD                     Geldern: Talk to Samuel about the destroyed mine.
+Mirzo_ReportNemrokMine              Geldern: Tell the orcs about the abandoned mine in the north.
+Mazin_SolveSecret                   Geldern: The secret of Mirzo, the Hashishin merchant.
+Gotha_Rebuild                       Gotha: Rebuild Gotha.
+Gorn_FreeHim                        Gotha: Rescue Gorn from the orcs in Gotha.
+Urkrass_BuyFiremageCup              Cape Dun: The captured paladin's belongings.
+Bradley_FindWeakSlaves              Montera: Change of shift in the slave camp.
+Marik_TakeSold                      Montera: Collect the rent for Domenik's farm.
+Dennis_ReportBradley                Montera: Dennis wants Bradley to go easy on the slaves.
+Kelvin_GoesTemple                   Montera: Kelvin goes back to work in the temple.
+Kelvin_ReportDennisHeCanStay        Montera: Kelvin the slave wants certainty.
+Marik_ForceTrano                    Montera: Let the mercenary Trano know his pay has been cut.
+KorShack_BringFollockToWork         Montera: Make Folleck go back to work in the castle yard.
+Domenik_ReportMarik                 Montera: Report to the leader of the orcs' mercenaries in Montera.
+Bradley_BringNewSlave               Montera: Tell Dennis that Bradley needs a new slave.
+Leon_GoesTemple                     Montera: The slave Leon is working in the temple again.
+Russel_ReportCharles                Nemora: A message for the rebel Charles.
+Karlen_JoinNemora                   Nemora: A new man for Nemora.
+Hengley_ReportRusselHeIsRobber      Nemora: Hengley the farm raider.
+Hengley_FarmRobber                  Nemora: Rebels stole the rent from Farmon's farm.
+Russel_WhoIsBoss                    Nemora: Who's boss in Nemora?
+Owen_2Okara                         Okara: A homeless prospector.
+Candela_2Okara                      Okara: Candela should go to Okara.
+Fraser_2Okara                       Okara: Fraser should go to Okara.
+Kent_2Okara                         Okara: Kent should go to Okara.
+Mannig_Men4Okara                    Okara: Okara needs more people.
+Rakus_2Okara                        Okara: Rakus the Fire Mage should go to Okara.
+Randall_2Okara                      Okara: Randall should go to Okara.
+Javier_HelpPhilRevolution           Reddock: Find the rebel underground in Cape Dun.
+Kliff_FreeHim                       Reddock: Free Kliff from the orcs on the farm.
+Javier_BringSmith                   Reddock: Reddock needs a smith.
+Givess_BringLukjanMoney             Silden: Bring Lukjan the hunter the money for the pelts.
+Brontobb_BecomeSildenGuard          Silden: Brontobb will stand guard in the city. Denpok needs to be told.
+Frillock_BecomeSildenGuard          Silden: Denpok needs to know that Frillock is guarding the town now.
+Irmak_BecomeSildenGuard             Silden: Denpok should be told that Irmak is guarding the town now.
+Lars_FreeHim                        Silden: Free the Nordmarian Lars from the prison camp.
+Gancka_BecomeSildenGuard            Silden: Gancka is staying in town now. Denpok needs to be told.
+Denpok_EnclaveAccess                Silden: Improve your reputation in Silden.
+Zapotek_TreatInog                   Silden: Inog secretly helps slaves escape.
+Inog_ReportAnog                     Silden: Let Anog know that his brother Inog needs help in Silden.
+Anog_ReportInog                     Silden: Let Inog know that his brother Anog cannot help him.
+Inog_ReportUmbraksSecret            Silden: Talk to the warlord Umbrak about supplies.
+Kadok_BecomeSmith                   Silden: The orcs need a smith for Silden.
+Kapotth_SuspiciousTorn              Trelis: Did the rangers devastate the farm?
+Gatork_ReportKapotth                Trelis: Find out what is wrong with the western farm.
+Pranck_FindAvogadro                 Trelis: Find the runaway alchemist Avogadro.
+Gatork_ReportTempeck                Trelis: No deliveries arriving from the eastern temple.
+Kamak_SearchTempel                  Trelis: Search for survivors in the temple of Trelis.
+Charles_ReportRussel                Trelis: Tell the leader of Nemora about the rebels' situation at the temple of Trelis.
+Pranck_MorePotions                  Trelis: The orc warrior Pranck wants twenty healing potions.
+Vak_BringMoneyForArtefact           Trelis: Vak needs fifty thousand gold coins for the Hashishin.
+Cobryn_FindThordir                  Vengard: Find the lost paladin Thordir.
+Markus_FireCup4Karrypto             Vengard: Take Markus's fire chalice to the head of the Fire Mages.
+Rathgar_GetAlisArtefact             Fire Clan: An ancestor stone for Rathgar.
+Kerth_MightOfTheAncients            Fire Clan: The power of the ancestors.
+Ingvar_OreSmith                     Hammer Clan: Approval from the ore smelters.
+Reto_BringReinforcements            Hammer Clan: Find a troop to attack the mine.
+Ugolf_Teach                         Hammer Clan: Ore for Ugolf.
+Ugolf_Booze                         Hammer Clan: Tunnelrumbler.
+Garik_BringBooze                    Wolf Clan: Garik needs booze.
+Rune_BringBacon                     Wolf Clan: Ham for the woodcutters.
+Grauhaar_WantsMeat                  Wolf Clan: Meat for Graypelt.
+Test_Report                         Test: (Test_Report)
+Bakaresh_Spende                     Bakaresh: Bring Amul the merchants' tribute.
+Bakaresh_Trader                     Bakaresh: Convince the merchants.
+Knut_FindSinikar                    Bakaresh: Find Sinikar!
+Bakaresh_Deal                       Bakaresh: Just a favor...
+Knut_Partner                        Bakaresh: Nomads and raiders.
+Bakaresh_Akrabor                    Bakaresh: Report from the north.
+Bakaresh_Benito                     Bakaresh: Report from the south.
+Sinikar_Slaves                      Bakaresh: Support.
+Bakaresh_Temple_Access              Bakaresh: The temple of Bakaresh.
+Navaras_Check                       Ben Erai: A job for Sancho...
+Sancho_Brief                        Ben Erai: An unexpected message for Sigmor in Bakaresh.
+BenErai_Bounty                      Ben Erai: Bounty hunting: Ben Erai.
+Sancho_abzocke                      Ben Erai: Dirty doings.
+Sancho_SlaveOrder                   Ben Erai: Talk to Vasco.
+Sancho_Stollen                      Ben Erai: The tunnel of Lago.
+BenSala_Save                        Ben Sala: Saving Ben Sala.
+Bernado_Pay                         Braga: Bernado's tribute.
+Jose_Bounty                         Braga: Bounty hunting: Braga.
+Jose_Pay                            Braga: Jose's tribute.
+Luca_Pay                            Braga: Luca's tribute.
+Bernado_Trade                       Braga: Secret dealings.
+Braga_Tribut                        Braga: Tribute from Braga.
+Ishtar_Access                       Ishtar: Access to Ishtar
+Ishtar_Killer                       Ishtar: Customs in Varant.
+Ishtar_Training                     Ishtar: Master of combat.
+Ishtar_Boss                         Ishtar: The instigator of the ore theft.
+Ishtar_Test                         Ishtar: The test of the Hashishin.
+Ishtar_ZubenTrust                   Ishtar: The tribute of the temple.
+Ishtar_ReportKafa                   Ishtar: The wells outside the city.
+Wutras_Gathering                    World: Notify the nomads at Al Shedim.
+Lago_Prisoner                       Lago: Find out who the prisoner is!
+Shakyor_Stone                       Lago: The stone of the lion.
+Nasib_GonzalesSword                 Mora Sul: A sword for Gonzales.
+Nasib_Swampherb                     Mora Sul: A tasty present.
+Nasib_GonzalesWoman                 Mora Sul: A woman for Gonzales.
+Faesul_Deal                         Mora Sul: Artifact trade.
+Nasib_GonzalesGold                  Mora Sul: Gold for Gonzales.
+Hector_Gold                         Mora Sul: Hector's gold.
+Kaffu_Goldback                      Mora Sul: Kaffu wants his gold back.
+Orknarok_Templeslave                Mora Sul: Orknarok the temple slave.
+Nasib_GonzalesAllGifts              Mora Sul: Presents for Gonzales.
+Nasib_GonzalesDebt                  Mora Sul: Promissory notes for Gonzales.
+Hassan_Murder                       Mora Sul: The man who killed Ramirez.
+Yussuf_Deal                         Mora Sul: Yussuf disappears.
+Beliar_KillRhobar                   Main: Kill King Rhobar!
+Beliar_KillXardas                   Main: Kill Xardas!
+Innos_KillZuben                     Main: Kill Zuben!
+Beliar_KillOrcs                     Main: Kill the orc chieftains!
+Kill_Guru                           Main: Where's the guru?
+Jack_KillBandits                    Ardea: Jack and the bilge rats.
+Chris_KillDeer                      Ardea: Kill the shy deer.
+Kan_KillKingAndAllRebells           Faring: Break the last resistance of the Morras!
+Tippler_FreeRuin                    Faring: Eliminate the goblins in the ancient ruins of Faring.
+Wilson_KillWolves                   Faring: Kill the lurkers!
+Zakosh_KillTrolls                   Faring: Kill the three trolls in the hills near Faring.
+Rocko_ClearCave                     Faring: Rocko's cave.
+Bollock_KillRunak                   Geldern: Kill the druid Runak.
+Gunock_KillTorn                     Geldern: Kill the druid Torn.
+Runak_KillBollockBrothers           Geldern: Kill the druid hunting party from Geldern.
+Runak_KillGunock                    Geldern: Kill the leader of the southern druid search party.
+Sulfock_KillSnapper                 Geldern: Kill the threatening snappers outside the sulphur mine.
+Nemrok_KillWolves                   Geldern: Kill the tunnel wolves in the wolf mine.
+Dawson_KillIvan                     Geldern: Kill the unholy mercenary Ivan.
+Samuel_KillMineCrawler              Geldern: Open up the mine north of Geldern and kill all vermin there.
+Gotha_KillAllUndead                 Gotha: Free Gotha from its curse.
+Cyrus_KillOrtega                    Cape Dun: A plague of bandits in the coastal region.
+Uruk_KillKapDunRebel                Cape Dun: Destroy the rebel underground in Cape Dun!
+Bufford_Wolves                      Cape Dun: Kill all the hungry wolf packs around Cape Dun.
+Armon_KillGobbos                    Montera: Cowardly goblins in the night.
+Marik_KillSanford                   Montera: Do away with Sanford.
+Varek_KillRestRebells               Montera: Eliminate the rebel positions around Montera.
+Dennis_KillWolves                   Montera: Find the stray wolves and kill them.
+Daryl_OneByOneOrc                   Montera: Get rid of the slave camp guards.
+Mason_KillCows                      Montera: Kill the cattle in the stockyard.
+Elber_KillKornThieves               Montera: The grain thieves must go.
+Arakos_KillOrcs                     Montera: The thieving orc patrol.
+Kippler_KillKapotth                 Nemora: Clear the orcs out of the farm west of Trelis.
+Rendell_KillTRex                    Nemora: Kill the three monsters north of Nemora.
+Karlen_KillKurt                     Nemora: The renegade paladin at the pass to Varant must die.
+Randall_KillMinecrawler             Okara: A rich mine.
+Candela_KillShadowbeasts            Okara: Hunt the nasty shadowbeasts.
+Fraser_KillBoar                     Okara: Hunt the nasty wild boars.
+Rakus_KillAllUndead                 Okara: Kill the undead that Rakus summoned.
+Kent_KillRipper                     Okara: Malicious ripperbeasts.
+Joey_KillMonters                    Reddock: Clean out the southern caves of Reddock.
+Gelford_KillPeasantOrcs             Reddock: Eliminate the orc patrol on the farm.
+Gelford_KillPatrolOrcs              Reddock: Get rid of the roaming orc patrol between Reddock and Ardea.
+Brenton_KillBoars                   Reddock: Kill the aggressive wild boars.
+Falk_KillSnapper                    Silden: Kill snappers around Silden.
+Zapotek_KillEscapedSlaves           Silden: Kill the slaves who escaped from Silden.
+Brontobb_KillLurker                 Silden: Kill the strange lurkers by the river.
+Zapotek_KillGrompel                 Silden: Kill the town shaman Grompel.
+Umbrak_KillInog                     Silden: Kill the undercover rebel.
+Bram_KillWolves                     Silden: Kill wolves around Silden.
+Umbrak_KillAnog                     Silden: The warlord Umbrak wants Anog the rebel leader dead.
+Steve_KillUndead                    Trelis: Clean out the undead caves.
+Charles_KillTempelOrcs              Trelis: Destroy the orcs in and around the temple of Trelis.
+Josh_KillRipper                     Trelis: Kill the grunting creatures below Josh's farm.
+Gatork_KillOgre                     Trelis: Kill the sneaking ogres in the woods.
+Derec_KillThiefGoblins              Trelis: Kill the thieving goblins near Derec's farm.
+Derec_KillAmbushGoblins             Trelis: Sneaky goblin raid on Derec's farm.
+Kapotth_KillSabertooth              Trelis: The suspicious cave near the farm.
+Vangard_KillBarrierOrcs             Vengard: Destroy the orcs' ring of siege outside of the barrier.
+Markus_KillOrcBosses                Vengard: Eliminate the five leaders of the orc siege inside the barrier.
+Osmund_KillShaman                   Fire Clan: Kill the orc shamans!
+Kaelin_KillOrks                     Fire Clan: Killing orcs!
+Hammerclan_Orks                     Hammer Clan: Bridge orcs.
+Reto_KillTalchef                    Hammer Clan: Kill the boss of the valley.
+Hauke_KillMCs                       Hammer Clan: Kill the minecrawler in the prospectors' camp.
+Nordmar_FatOldBastard               World: The fat bastard is dead!
+Hanson_DeerPlateau                  Wolf Clan: Bag the deers on the plateau!
+Jensgar_KillDrummer                 Wolf Clan: Eliminate the war drummer og the orcs!
+Grim_FreeEastBridge                 Wolf Clan: Free the bridge in the north.
+Hanson_TowerGoblins                 Wolf Clan: Goblin Attack!
+Bogir_KillWhiteShadowbeast          Wolf Clan: Hunt the white shadowbeast!
+Bogir_KillWolf                      Wolf Clan: Kill the White Ripper!
+Corwyn_KillSabertooth               Wolf Clan: Kill the sabertooths outside the woodcutters' camp!
+Test_Kill                           Test: (Test_Kill)
+Bakaresh_KillRaider                 Bakaresh: A lesson in hospitality.
+Bakaresh_Nomads                     Bakaresh: Nomad raiders.
+Bakaresh_Aldo                       Bakaresh: So much for Aldo!
+Bakaresh_Crawler                    Bakaresh: The crawlers' nest.
+Bakaresh_Ruins                      Bakaresh: The ruins of Bakaresh.
+Hurit_Kill                          Ben Erai: Bounty hunting: Hurit.
+Yespas_Kill                         Ben Erai: Bounty hunting: Yespas.
+Vasco_Crawler                       Ben Erai: Crawler hunt.
+Sugut_Kill                          Ben Sala: A banquet for the vultures.
+Temple_Yugul                        Ben Sala: The Cursed One!
+Julio_KillBazir                     Ben Sala: The deal with Basir.
+Zombie_Ruins                        Ben Sala: The ruins.
+Zombie_Stollen                      Ben Sala: The tunnels.
+Asaru_BountyKill                    Braga: Bounty hunting: Asaru.
+Malir_Kill                          Braga: Bounty hunting: Malir.
+Braga_Raider                        Braga: Bounty hunting: Taklar.
+Braga_Ruins                         Braga: The ruin fields of Braga.
+Ishtar_Schakalraid_01               Ishtar: Jackal attack!
+Ishtar_Schakalraid_02               Ishtar: More jackals!
+Ishtar_Orethieves                   Ishtar: Ore thieves.
+Ishtar_Punishment                   Ishtar: The fight with Surus.
+Kafa_Packleader                     Ishtar: Three pack leaders.
+Ishtar_Zarkos                       Ishtar: Zarkos.
+Lago_Bloodflies                     Lago: Bloody bloodflies.
+Lago_Shakyor                        Lago: Bounty hunting: Shakyor, the desert lion.
+Merdarion_KillAllUndead             Mora Sul: Eliminate the commanders of the undead in the fields of ruins.
+Kalesch_Shadowbeast                 Mora Sul: Get rid of the fearless desert racers.
+Hassan_Kill                         Mora Sul: Hassan.
+Cruz_KillSandcrawler                Mora Sul: Injured sandcrawler.
+Bounty_Kaffu                        Mora Sul: Kaffu's guards.
+Gonzales_KillSaturas                Mora Sul: Kill Saturas, the head of the Water Mages.
+Gonzales_KillAllKDW                 Mora Sul: Kill all Water Mages.
+Gonzales_KillCronos                 Mora Sul: Kill the Water Mage Cronos.
+Gonzales_KillMerdarion              Mora Sul: Kill the Water Mage Merdarion.
+Gonzales_KillMyxir                  Mora Sul: Kill the Water Mage Myxir.
+Gonzales_KillNefarius               Mora Sul: Kill the Water Mage Nefarius.
+Gonzales_KillRiordian               Mora Sul: Kill the Water Mage Riordian.
+Gonzales_KillVatras                 Mora Sul: Kill the Water Mage Vatras.
+Bounty_Yussuf                       Mora Sul: Punish the slave Yussuf!
+Nefarius_EnterGrave                 World: Secure the tomb!
+Agenak_DefeatMirzo                  Geldern: Teach Mirzo a lesson.
+Potros_DefeatHim                    Gotha: Defeat Potros.
+Folleck_DefeatHim                   Montera: Folleck is asking for it.
+Topork_Duell                        Reddock: Defeat Topork in a duel.
+Will_DefeatHim                      Silden: Defeat Will.
+Ben_DefeatHim                       Trelis: Hothead Ben needs to be taught a lesson.
+Sivert_Defeat                       Fire Clan: Duel with Sivert.
+Hogar_Duel                          Wolf Clan: Duel with Hogar.
+Test_Defeat                         Test: (Test_Defeat)
+Big_DefeatHim                       Mora Sul: Defeat the fat guy.
+Otis_DriveAwayMerc01                Montera: Make the tired mercenary leave the rebels' meeting point.
+Test_DriveAway                      Test: (Test_DriveAway)
+Sancho_KickLukar                    Ben Erai: Lukar had better get out!
+Curtis_Arena_Goran                  Faring: Defeat Goran in the arena.
+Curtis_Arena_Muff                   Faring: Defeat Moff in the arena.
+Tarok_Arena_Mortis                  Faring: Defeat Mortis in the arena.
+Tarok_Arena_Rozhov                  Faring: Defeat Rozhov in the arena.
+Curtis_Arena_Spike                  Faring: Defeat Spike in the arena.
+Tarok_Arena_Tukash                  Faring: Defeat Tukash in the arena.
+Tarok_Arena_Vigo                    Faring: Defeat Vigo in the arena.
+Agenak_ArenaDefeatDimitar           Geldern: Defeat Dimitar in the arena.
+Agenak_ArenaDefeatGembak            Geldern: Defeat Gembak in the arena.
+Agenak_ArenaDefeatKulak             Geldern: Defeat Kulak in the arena.
+KapDun_Arena_02                     Cape Dun: Defeat Darmok in the arena.
+KapDun_Arena_01                     Cape Dun: Defeat Fadi in the arena.
+Dan_ArenaDefeat                     Montera: Defeat Dan in the arena.
+Fedor_ArenaDefeat                   Montera: Defeat Fedor in the arena.
+Goose_ArenaDefeat                   Montera: Defeat Goose in the arena.
+Ugo_ArenaDefeat                     Montera: Defeat Ugo in the arena.
+Ashton_ArenaDefeat                  Montera: Defeat the champion Ashton in the arena.
+Copper_Arena                        Reddock: Defeat Copper in the arena.
+Joey_Arena                          Reddock: Defeat Joey in the arena.
+Barrack_ArenaDefeatJarock           Silden: Defeat Jarock in the arena.
+Barrack_ArenaDefeatJaroll           Silden: Defeat Jaroll in the arena.
+Barrack_ArenaDefeatTrompok          Silden: Defeat Trompok in the arena.
+Bakaresh_Arena_Achmed               Bakaresh: Defeat Achmed in the arena.
+Bakaresh_Arena_Irhabar              Bakaresh: Defeat Irhabar in the arena.
+Bakaresh_Arena_Mufassa              Bakaresh: Defeat Mufassa in the arena.
+Bakaresh_Arena_Brothers             Bakaresh: The fight for the title.
+Ishtar_Arena_Makas                  Ishtar: Arena fight! (Makas)
+Ishtar_Arena_Musan                  Ishtar: Arena fight! (Musan)
+Ishtar_Arena_Emet                   Ishtar: Arena fight! (Emet)
+Lago_Arena_Grubuz                   Lago: Fight against Grubuz.
+Lago_Arena_Mamuk                    Lago: Fight against Mamuk.
+Felipe_Arena_Angar                  Mora Sul: Defeat Angar in the arena.
+Felipe_Arena_Anktos                 Mora Sul: Defeat Anktos in the arena.
+Felipe_Arena_Oelk                   Mora Sul: Defeat Oelk in the arena.
+Felipe_Arena_Paladin                Mora Sul: Defeat the Paladin in the arena.
+Harek_Away                          Cape Dun: Help Harek escape!
+Gamal_BringSlave                    Cape Dun: Take Harek the slave back to Gamal.
+Sobota_BringSlave01                 Montera: Sobota wants Dan's slave back.
+Sobota_BringSlave02                 Montera: Sobota wants Thorek's slave back.
+Kliff_BringHimToJavierJavier        Reddock: Take Kliff to Javier, the rebel leader in Reddock.
+Quadir_HuntSlave                    Silden: Quadir's hunt for a new slave for Silden.
+Freman_BringSlave_02                Silden: Rescue a Silden slave from the wilderness. (2)
+Freman_BringSlave_03                Silden: Rescue a Silden slave from the wilderness. (3)
+Freman_BringSlave_05                Silden: Rescue a Silden slave from the wilderness. (5)
+Freman_BringSlave_01                Silden: Rescue a Silden slave from the wilderness. (1)
+Freman_BringSlave_04                Silden: Rescue a Silden slave from the wilderness. (4)
+Tragak_BringHimToGrompel            Silden: Tragak wants to see the town shaman Grompel in Silden.
+Georg_BringHim2Cobryn               Vengard: Take the paladin Georg to Cobryn, the commander-in-chief of the paladins.
+Test_BringNPC                       Test: (Test_BringNPC)
+Sancho_Slaves                       Ben Erai: Slaves for Lago.
+Enzo_BringSlave                     Ben Sala: Escort Miguel safely to the village.
+Aila_BringBack                      Braga: Aila.
+Vatras_Guide                        Lago: Escort Vatras safely to Hurit.
+Alima Mora                          Sul: Alima.
+Yasmin Mora                         Sul: Yasmin.
+as_GotoGate                         Main: Go to the portal with Xardas.
+Gorn_ShowReddock                    Ardea: Gorn shows you the rebels' hideout.
+Wilson_GoHunting                    Faring: Go lurker hunting with Wilson.
+Mitch_Trolls                        Faring: Troll hunting with Mitch.
+Geldern_Slave_01_BringPCToWolfmine  Geldern: Follow the particularly eager slave to the wolf mine.
+Gembak_KillIvan                     Geldern: Gembak wants to rough up Ivan, the renegade mercenary.
+Gorn_GothaParty                     Gotha: Hunting demons with Gorn.
+Wenzel_KapDunMetzel                 Cape Dun: Wenzel cleans up.
+Arakos_BringToOrcs                  Montera: Follow Arakos to find the orc patrol.
+Rufus_FleesFromFarm                 Montera: Rufus escapes from the grain farm.
+Rufus_BringsYouToOkara              Montera: The slave Rufus wants to go to Okara.
+Cole_FollowToNemora                 Nemora: Cole the farmhand wants to go to Nemora.
+Karlen_AmbushKurt                   Nemora: Cross the pass to Varant with Karlen.
+Finley_AmbushTrelis                 Nemora: Finley attacks Trelis.
+Finley_ToTrelis                     Nemora: Finley gets all set to attack Trelis.
+Karlen_ShowsYouVarant               Nemora: Karlen the paladin shows you the desert.
+Randall_GoesItoMine                 Okara: Clean out the mine with Randall the fighter.
+Fraser_HuntBoars                    Okara: Go boar hunting with Fraser.
+Rakus_RescueHim                     Okara: Rescue Rakus the Fire Mage from the cave of the undead.
+Lars_FollowHimToPass                Silden: Follow Lars to the pass to Nordmar.
+Pavel_FollowToHunterHut             Silden: Follow Pavel to his hunting cabin.
+Falk_HuntSnapper                    Silden: Go snapper hunting with Falk.
+Grompel_FindRebells                 Silden: Grompel knows the way to the rebels at the Nordmar pass.
+Bram_HuntWolves                     Silden: Hunt the silver wolves with Bram.
+Kamak_Rescue                        Trelis: Help the shaman Kamak leave the temple.
+Pranck_BringAvogadro                Trelis: Take Avogadro the alchemist to Trelis.
+Thordir_BringToCastle               Vengard: Help the paladin Thordir to get to the castle!
+Rathgar_BringToGraveCave            Fire Clan: Accompany Rathgar to the cave tombs.
+Osmund_GoToShaman                   Fire Clan: Find the orc shamans.
+Kaelin_OrkHunt                      Fire Clan: Hunting orcs with Kaelin.
+Leif_GoHunting                      Fire Clan: Hunting with Leif.
+Mort_GuideFireAgain                 Hammer Clan: Follow Mort to the Fire Clan again.
+Mort_GuideFire                      Hammer Clan: Follow Mort to the Fire Clan.
+Mort_GuideWolfAgain                 Hammer Clan: Follow Mort to the Wolf Clan again.
+Mort_GuideWolf                      Hammer Clan: Follow Mort to the Wolf Clan.
+Mort_GuideMineAgain                 Hammer Clan: Follow Mort to the lower mine entrance again.
+Mort_GuideMine                      Hammer Clan: Follow Mort to the lower mine entrance.
+Hauke_GoToCamp                      Hammer Clan: Go to the prospectors' camp with Hauke.
+Hanson_FollowTower                  Wolf Clan: Follow Graypelt to Xardas's tower.
+Hogar_GoToOrks                      Wolf Clan: Go to the southern bridge with Hogar.
+Larson_FindOre                      Wolf Clan: Looking for ore with Larson.
+Ronar_HuntingHut                    Wolf Clan: Take Ronar to his hunting cabin.
+Test_FollowNPC                      Test: (Test_FollowNPC)
+Riordian_Follow                     Braga: Escort Riordian!
+Tufail_Nomads                       Braga: Follow Tufail!
+Mezir_Murat                         Mora Sul: Escort Mezir safely to Murat's oasis.
+Cruz_AmbushSandcrawler              Mora Sul: Follow Cruz to his old campsite.
+Kayor_GoesToAmbushPoint             Mora Sul: Follow Kayor to the meeting point outside Mora Sul.
+Merdartion_GoToGhost1               Mora Sul: Follow Merdarion. (1)
+Merdartion_GoToGhost4               Mora Sul: Follow Merdarion. (4)
+Merdartion_GoToGhost2               Mora Sul: Follow Merdarion. (2)
+Merdartion_GoToGhost3               Mora Sul: Follow Merdarion. (3)
+Mezir_Guide                         Mora Sul: Follow Mezir!
+Kirk_FindTempleKey                  Mora Sul: Kirk and the desert raiders.
+Sanuyem_Bring                       Mora Sul: The way to Merdarion.
+Diego_GuidetoMS                     World: Made it to Mora Sul!
+Diego_Hunt                          World: Snapper hunt.
+Xardas_FindXardas                   Main: Find Xardas!
+Hammerclan_Ore                      Hammer Clan: Hidden ore.
+PC_Hero_FindChumanas                Monastery: Find Akascha's tomb!
+Ramirez_lost                        Mora Sul: Ramirez, the missing Hashishi.
+Enter_Varant                        World: Made it to Varant!
+Nefarius_BringToGrave               World: Take Nefarius to the tomb of Haran Ho.
+PC_Hero_inAlShedim                  World: Al Shedim discovered.
+Diego_inMoraSul                     World: Diego is in Mora Sul.
+Rebells_WipeOut                     Main: Destroy all major rebel camps.
+Adanos_FreeVarant                   Main: Free the desert from the rule of the Hashishin!
+Innos_FreeMyrtana                   Main: Liberate Myrtana!
+Ardea_Revolution                    Ardea: Liberate Ardea from the orcs!
+Faring_Revolution                   Faring: Liberate Faring from the orcs!
+Geldern_Revolution                  Geldern: Liberate Geldern from the orcs!
+KapDun_Revolution                   Cape Dun: Liberate Cape Dun!
+Montera_Revolution                  Montera: Liberate Montera from the orcs!
+Nemora_Wipeout                      Nemora: Destroy the rebel camp Nemora.
+Okara_Wipeout                       Okara: Take Okara apart!
+Reddock_Wipeout                     Reddock: Destroy the rebel camp Reddock.
+Silden_Revolution                   Silden: Liberate Silden from the orcs.
+Trelis_Revolution                   Trelis: Conquer the castle of Trelis!
+Vangard_Revolution                  Vengard: Destroy Vengard, the capital of the humans.
+Kerth_FreeNordmar                   Fire Clan: Liberate Nordmar!
+Nrd_KillOrcCamp_02                  Fire Clan: Orc camp wiped out!!! (2)
+Nrd_KillOrcCamp_01                  Fire Clan: Orc camp wiped out!!! (1)
+Nrd_KillOrcCamp_05                  Fire Clan: Orc camp wiped out!!! (5)
+Nrd_KillOrcCamp_04                  Fire Clan: Orc camp wiped out!!! (4)
+Nrd_KillOrcCamp_03                  Fire Clan: Orc camp wiped out!!! (3)
+Reto_FreeMine                       Hammer Clan: Free the furnace.
+Test_FreeEnclave                    Test: Kill the TestBoss. (Test_FreeEnclave)
+Bakaresh_Revolution                 Bakaresh: Liberate Bakaresh!
+BenErai_Revolution                  Ben Erai: Liberate Ben Erai!
+BenSala_Revolution                  Ben Sala: Liberate Ben Sala!
+Braga_Revolution                    Braga: The liberation of Braga!
+Ishtar_Revolution                   Ishtar: Liberate Ishtar!
+AlShedim_Free                       World: The liberation of Al Shedim.
+Lago_Revolution                     Lago: Liberate Lago!
+MoraSulTemple_Wipeout               Mora Sul: Eliminate the orcs at the temple of Mora Sul.
+MoraSul_Revolution                  Mora Sul: Liberate Mora Sul!
+KapDun_Chest                        Cape Dun: The alchemist's chest.
+Trelis_Ransack                      Trelis: Ransack the castle of Trelis.
+Peasant_Treasure                    Trelis: Ransack the farms!
+Hammerclan_Gold                     Hammer Clan: Tjalf's chest.
+Lardo_SpellQuestTest                Test: Cure the fisherman. (Lardo_SpellQuestTest)
