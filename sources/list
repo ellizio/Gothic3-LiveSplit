@@ -8,7 +8,8 @@ sk_7 "Script.dll" 66DEC 30 170 2F4
 sk_8 "Script.dll" 66DEC 30 170 364
 sk_9 "Script.dll" 66DEC 30 170 3D4
 sk_10 "Script.dll" 66DEC 30 170 444
-sk_11 "Script.dll" 66DEC 30 170 4B4
+
+sk_11 "Script.dll" 66DEC 30 170 4B4d
 sk_12 "Script.dll" 66DEC 30 170 524
 sk_13 "Script.dll" 66DEC 30 170 594
 sk_14 "Script.dll" 66DEC 30 170 604
@@ -18,6 +19,7 @@ sk_17 "Script.dll" 66DEC 30 170 FFFFF174
 sk_18 "Script.dll" 66DEC 30 170 FFFFF254
 sk_19 "Script.dll" 66DEC 30 170 FFFFF2C4
 sk_20 "Script.dll" 66DEC 30 170 FFFFF334
+
 sk_21 "Script.dll" 66DEC 30 170 FFFFF3A4
 sk_22 "Script.dll" 66DEC 30 170 FFFFF414
 sk_23 "Script.dll" 66DEC 30 170 FFFFF484
@@ -28,6 +30,7 @@ sk_27 "Script.dll" 66DEC 30 170 FFFFF644
 sk_28 "Script.dll" 66DEC 30 170 FFFFF6B4
 sk_29 "Script.dll" 66DEC 30 170 FFFFF724
 sk_30 "Script.dll" 66DEC 30 170 FFFFF794
+
 sk_31 "Script.dll" 66DEC 30 170 FFFFF804
 sk_32 "Script.dll" 66DEC 30 170 FFFFF874
 sk_33 "Script.dll" 66DEC 30 170 FFFFF8E4
@@ -38,6 +41,7 @@ sk_37 "Script.dll" 66DEC 30 170 FFFFFAA4
 sk_38 "Script.dll" 66DEC 30 170 FFFFFDB4
 sk_39 "Script.dll" 66DEC 30 170 FFFFFE24
 sk_40 "Script.dll" 66DEC 30 170 FFFFFE94
+
 sk_41 "Script.dll" 66DEC 30 170 FFFFFF04
 sk_42 "Script.dll" 66DEC 30 170 FFFFFF74
 sk_43 "Script.dll" 66DEC 30 170 FFFFFFE4
@@ -48,6 +52,7 @@ sk_47 "Script.dll" 66DEC 30 170 914
 sk_48 "Script.dll" 66DEC 30 170 984
 sk_49 "Script.dll" 66DEC 30 170 9F4
 sk_50 "Script.dll" 66DEC 30 170 A64
+
 sk_51 "Script.dll" 66DEC 30 170 Ad4
 sk_52 "Script.dll" 66DEC 30 170 B44
 sk_53 "Script.dll" 66DEC 30 170 BB4
@@ -58,6 +63,7 @@ sk_57 "Script.dll" 66DEC 30 C8 54
 sk_58 "Script.dll" 66DEC 30 CC 54
 sk_59 "Script.dll" 66DEC 30 D0 54
 sk_60 "Script.dll" 66DEC 30 D4 54
+
 sk_61 "Script.dll" 66DEC 30 D8 54
 sk_62 "Script.dll" 66DEC 30 DC 54
 sk_63 "Script.dll" 66DEC 30 E0 54
@@ -68,4 +74,5 @@ sk_67 "Script.dll" 66DEC 30 170 FFFFFB84
 sk_68 "Script.dll" 66DEC 30 170 FFFFFBF4
 sk_69 "Script.dll" 66DEC 30 170 FFFFFC64
 sk_70 "Script.dll" 66DEC 30 170 FFFFFCD4
+
 sk_71 "Script.dll" 66DEC 30 170 FFFFFD44
