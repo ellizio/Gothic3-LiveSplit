@@ -6,6 +6,7 @@ namespace Helper
     public class Helper
     {
         public Condition CreateQuestCondition(string name) => Condition.ForQuest(name);
+        public Condition CreateSkillCondition(string name) => Condition.ForSkill(name);
         public Condition CreateSaveCondition() => Condition.ForSave();
         
         public Split CreateSplit(params Condition[] conditions) => new Split(conditions);

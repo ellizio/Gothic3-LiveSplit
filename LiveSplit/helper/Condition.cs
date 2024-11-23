@@ -3,6 +3,7 @@
     public class Condition
     {
         private const string QuestType = "quest";
+        private const string SkillType = "skill";
         private const string SaveType = "save";
         
         public string Type { get; }
@@ -23,6 +24,7 @@
         public void Complete() => Completed = true;
         
         internal static Condition ForQuest(string name) => new Condition(QuestType, name);
+        internal static Condition ForSkill(string name) => new Condition(SkillType, name);
         internal static Condition ForSave() => new Condition(SaveType);
     }
 }
