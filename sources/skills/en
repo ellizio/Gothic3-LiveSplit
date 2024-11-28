@@ -1,0 +1,77 @@
+It_Perk_1H_1            Fighting: Swordfighter
+It_Perk_1H_2            Fighting: Strong swordfighter
+It_Perk_1H_3            Fighting: Master swordsman
+It_Perk_1H1H_1          Fighting: Fight with two blades
+It_Perk_1H1H_2          Fighting: Master of two blades
+It_Perk_Orcslayer       Fighting: Orc slayer
+It_Perk_Axe_1           Fighting: Large weapons
+It_Perk_Axe_2           Fighting: Large weapons II
+It_Perk_Axe_3           Fighting: Large weapons III
+It_Perk_Crossbow_1      Fighting: Heavy crossbow
+It_Perk_Crossbow_2      Fighting: Crossbowman
+It_Perk_Crossbow_3      Fighting: Master archer
+It_Perk_Shield_1        Fighting: Shield parry
+It_Perk_Shield_2        Fighting: Strong shield parry
+It_Perk_Paladin         Fighting: Paladin
+It_Perk_MasterGladiator Fighting: Regeneration
+
+It_Perk_Bow_1           Hunting: Bow
+It_Perk_Bow_2           Hunting: Archer
+It_Perk_Bow_3           Hunting: Master archer
+It_Perk_Hunter_1        Hunting: Game hunter
+It_Perk_Hunter_2        Hunting: Big game hunter
+It_Perk_OrcHunter       Hunting: Orc hunter
+It_Perk_Sneak_2         Hunting: Silent hunter
+It_Perk_TrophySkin      Hunting: Take animal skins
+It_Perk_TrophyFur       Hunting: Take reptile hides
+It_Perk_TrophyTeeth     Hunting: Teeth, claws, and horns
+
+It_Perk_Staff_1         Magic: Staff fighting
+It_Perk_Staff_2         Magic: Staff fighting II
+It_Perk_Staff_3         Magic: Staff fighting III
+It_Perk_StaffMagic      Magic: Magic staves
+It_Perk_LightArmor      Magic: Improve robes
+It_Perk_Learn           Magic: Learn quickly
+It_Perk_Druid           Magic: Druid
+It_Perk_Firemage        Magic: Fire mage
+It_Perk_Watermage       Magic: Water mage
+It_Perk_Darkmage        Magic: Dark mage
+It_Perk_MasterMage      Magic: Mana regeneration
+
+It_Perk_Smith_1         Smith: Smith
+It_Perk_Smith_2         Smith: Forge ore weapons
+It_Perk_Smith_3         Smith: Forge weapons from pure ore
+It_Perk_Mining          Smith: Prospector
+It_Perk_SharpenBlade    Smith: Hone blade
+It_Perk_HeavyArmor      Smith: Improve armor
+
+It_Perk_LockPick_1      Thief: Pick simple locks
+It_Perk_LockPick_2      Thief: Pick difficult locks
+It_Perk_LockPick_3      Thief: Pick impossible locks
+It_Perk_PickPocket_1    Thief: Simple pickpocketing
+It_Perk_PickPocket_2    Thief: Difficult pickpocketing
+It_Perk_PickPocket_3    Thief: Impossible pickpocketing
+It_Perk_Sneak_1         Thief: Sneak
+It_Perk_Barter          Thief: Bargain
+It_Perk_Excuse          Thief: Make excuses
+It_Perk_KnockOut        Thief: Knock down
+It_Perk_Assassin        Thief: Murder
+It_Perk_MasterThief     Thief: Master thief
+
+It_Perk_PotionHP        Alchemy: Brew healing potions
+It_Perk_PotionMP        Alchemy: Brew mana potions
+It_Perk_PotionPerm      Alchemy: Potions with permanent effects
+It_Perk_PotionPoison    Alchemy: Make poison
+It_Perk_PotionTransform Alchemy: Brew transformation potions
+It_Perk_PoisonBlade     Alchemy: Poison blade
+It_Perk_PoisonArrow     Alchemy: Make poison arrows
+It_Perk_FireArrow       Alchemy: Make fire arrows
+It_Perk_ExplosiveArrow  Alchemy: Make exploding arrows
+It_Perk_SharpArrow      Alchemy: Make sharp arrows
+
+It_Perk_Acrobatic       Other: Acrobatics
+It_Perk_Sprinter        Other: Endurance of the wolf
+It_Perk_ResistCold      Other: Resistance to cold
+It_Perk_ResistHeat      Other: Resistance to heat
+It_Perk_ImmuneToDisease Other: Resistance to diseases
+It_Perk_ImmuneToPoison  Other: Poison resistance

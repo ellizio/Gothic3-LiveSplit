@@ -4,13 +4,14 @@ import {Dropdown, DropdownChangeEvent} from "primereact/dropdown";
 import {Button} from "primereact/button";
 
 import {SharedContext} from "../../../../App";
-import {QUEST} from "../../../../consts";
+import {QUEST, SAVE, SKILL} from "../../../../consts";
 
 import './styles.css'
 
 const types = [
-    { value: "quest", label: 'Quest' },
-    { value: 'save', label: 'Save' }
+    { value: QUEST, label: 'Quest' },
+    // { value: SKILL, label: 'Skill' },
+    { value: SAVE, label: 'Save' }
 ]
 
 declare type ConditionComponentProps = {
@@ -26,27 +27,40 @@ declare type ConditionComponentProps = {
 }
 
 export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => {
-    const [valueEnabled, setValueEnabled] = useState(props.type === QUEST)
+    const [valueEnabled, setValueEnabled] = useState(props.type === QUEST || props.type === SKILL)
     const [valuePlaceholder, setValuePlaceholder] = useState('')
 
     const sharedContext = useContext(SharedContext);
-    const values = useMemo(() => {
+    const [questsValues, skillsValues] = useMemo(() => {
         let quests = sharedContext.quests;
-        return quests.map(q => { return { value: q.id, label: q.name } })
+        let skills = sharedContext.skills;
+        // TODO: refactor
+        return [quests.map(q => { return { value: q.id, label: q.name } }), skills.map(q => { return { value: q.id, label: q.name } })]
     }, [sharedContext.quests]);
 
     useEffect(() => {
-        setValueEnabled(props.type === QUEST)
-        setValuePlaceholder(props.type === QUEST ? 'Select quest...' : '')
+        // TODO: refactor
+        setValueEnabled(props.type === QUEST || props.type === SKILL)
+        if (props.type === QUEST)
+            setValuePlaceholder('Select quest...')
+        else if (props.type === SKILL)
+            setValuePlaceholder('Select skill...')
+        else
+            setValuePlaceholder('')
     }, [props.type])
 
     const onTypeChanged = (e: DropdownChangeEvent) => {
         // TODO: move to useEffect?
         props.onTypeChange?.(e.target.value)
 
+        // TODO: refactor
         if (e.target.value === QUEST) {
             setValueEnabled(true);
             setValuePlaceholder('Select quest...')
+        }
+        else if (e.target.value === SKILL) {
+            setValueEnabled(true);
+            setValuePlaceholder('Select skill...')
         }
         else {
             setValueEnabled(false);
@@ -73,7 +87,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                 value={props.value}
                 placeholder={valuePlaceholder}
                 disabled={!valueEnabled}
-                options={values}
+                options={props.type === QUEST ? questsValues : skillsValues} // TODO: refactor
                 checkmark
                 filter
                 virtualScrollerOptions={{ itemSize: 42, scrollHeight: '300px' }}

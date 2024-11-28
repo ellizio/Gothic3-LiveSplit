@@ -21,19 +21,22 @@ import {SplitsGenerator} from "./helpers/splits-generator";
 import {DataRetriever} from "./helpers/data-retriever";
 import {Downloader} from "./helpers/downloader";
 
-import {Quest, SharedContextValues, Split} from "./types";
-import {HELPER_FILENAME, QUEST, SCRIPT_FILENAME, SPLITS_FILENAME} from "./consts";
+import {Quest, SharedContextValues, Skill, Split} from "./types";
+import {HELPER_FILENAME, QUEST, SCRIPT_FILENAME, SKILL, SPLITS_FILENAME} from "./consts";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
 function App() {
     // Global
     const [quests, setQuests] = useState<Quest[]>([]);
+    const [skills, setSkills] = useState<Skill[]>([]);
     const [scriptTemplate, setScriptTemplate] = useState<string>('');
     const [splitsTemplate, setSplitsTemplate] = useState<string>('');
     useEffect(() => {
         DataRetriever.retrieveQuests()
             .then(quests => setQuests(quests))
+        // DataRetriever.retrieveSkills()
+        //     .then(skills => setSkills(skills))
         DataRetriever.retrieveScriptTemplate()
             .then(template => setScriptTemplate(template))
         DataRetriever.retrieveSplitsTemplate()
@@ -61,17 +64,19 @@ function App() {
     const onSplitsChanged = (splits: Split[]) => {
         setSplits(splits)
 
-        const valid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value)))
-        console.log(valid)
-        console.log(splits)
-        setGenerateEnabled(valid)
+        // TODO: refactor
+        const generationValid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value) || (c.type === SKILL && !c.value)))
+        setGenerateEnabled(generationValid)
+
+        const splitsValid = splits.every(s => s.name)
+        setSplitsValid(splitsValid)
     }
 
     // Downloading
     const [splitsValid, setSplitsValid] = useState(false);
 
     const onDownloadScriptClicked = () => {
-        const scriptText = new ScriptGenerator(scriptTemplate, quests).generate(splits)
+        const scriptText = new ScriptGenerator(scriptTemplate, quests, skills).generate(splits)
         Downloader.downloadScript(scriptText)
     }
 
@@ -83,7 +88,7 @@ function App() {
     }
 
     return (
-        <SharedContext.Provider value={{ quests }}>
+        <SharedContext.Provider value={{ quests, skills }}>
             <Swiper
                 direction={'vertical'}
                 pagination={{
@@ -92,7 +97,7 @@ function App() {
                 scrollbar={{
                     draggable: false
                 }}
-                noSwiping={false}
+                noSwiping={true}
                 noSwipingClass='swiper-slide'
                 className="mySwiper"
                 onSlideChange={(s: SwiperClass) => onSlideChanged(s.activeIndex)}
