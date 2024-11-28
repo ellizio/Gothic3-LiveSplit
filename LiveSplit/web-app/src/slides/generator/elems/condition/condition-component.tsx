@@ -4,14 +4,14 @@ import {Dropdown, DropdownChangeEvent} from "primereact/dropdown";
 import {Button} from "primereact/button";
 
 import {SharedContext} from "../../../../App";
-import {QUEST, SKILL} from "../../../../consts";
+import {QUEST, SAVE, SKILL} from "../../../../consts";
 
 import './styles.css'
 
 const types = [
-    { value: "quest", label: 'Quest' },
-    // { value: "skill", label: 'Skill' },
-    { value: 'save', label: 'Save' }
+    { value: QUEST, label: 'Quest' },
+    { value: SKILL, label: 'Skill' },
+    { value: SAVE, label: 'Save' }
 ]
 
 declare type ConditionComponentProps = {
@@ -31,12 +31,15 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
     const [valuePlaceholder, setValuePlaceholder] = useState('')
 
     const sharedContext = useContext(SharedContext);
-    const questsValues = useMemo(() => {
+    const [questsValues, skillsValues] = useMemo(() => {
         let quests = sharedContext.quests;
-        return quests.map(q => { return { value: q.id, label: q.name } })
+        let skills = sharedContext.skills;
+        // TODO: refactor
+        return [quests.map(q => { return { value: q.id, label: q.name } }), skills.map(q => { return { value: q.id, label: q.name } })]
     }, [sharedContext.quests]);
 
     useEffect(() => {
+        // TODO: refactor
         setValueEnabled(props.type === QUEST || props.type === SKILL)
         if (props.type === QUEST)
             setValuePlaceholder('Select quest...')
@@ -50,6 +53,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
         // TODO: move to useEffect?
         props.onTypeChange?.(e.target.value)
 
+        // TODO: refactor
         if (e.target.value === QUEST) {
             setValueEnabled(true);
             setValuePlaceholder('Select quest...')
@@ -83,7 +87,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                 value={props.value}
                 placeholder={valuePlaceholder}
                 disabled={!valueEnabled}
-                options={questsValues}
+                options={props.type === QUEST ? questsValues : skillsValues} // TODO: refactor
                 checkmark
                 filter
                 virtualScrollerOptions={{ itemSize: 42, scrollHeight: '300px' }}

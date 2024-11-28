@@ -6,12 +6,12 @@ import Handlebars from "handlebars";
 export class ScriptGenerator {
     private readonly template: string
     private readonly quests: Quest[]
-    private readonly skills: Skill[];
+    private readonly skills: Skill[]
 
-    constructor(template: string, quests: Quest[]) {
+    constructor(template: string, quests: Quest[], skills: Skill[]) {
         this.template = template
         this.quests = quests
-        this.skills = [];
+        this.skills = skills
     }
 
     generate(splits: Split[]): string {
@@ -25,7 +25,7 @@ export class ScriptGenerator {
                 if (condition.type === QUEST)
                     uniqueQuests.add(this.quests.find(q => q.id === condition.value)!)
                 else if (condition.type === SKILL)
-                    uniqueSkills.add(this.skills.find(s => s.id == condition.value)!)
+                    uniqueSkills.add(this.skills.find(s => s.id === condition.value)!)
             }
         }
 
