@@ -22,7 +22,7 @@ import {DataRetriever} from "./helpers/data-retriever";
 import {Downloader} from "./helpers/downloader";
 
 import {Quest, SharedContextValues, Skill, Split} from "./types";
-import {HELPER_FILENAME, QUEST, SCRIPT_FILENAME, SPLITS_FILENAME} from "./consts";
+import {HELPER_FILENAME, QUEST, SCRIPT_FILENAME, SKILL, SPLITS_FILENAME} from "./consts";
 
 export const SharedContext = React.createContext<SharedContextValues>(null!);
 
@@ -64,7 +64,8 @@ function App() {
     const onSplitsChanged = (splits: Split[]) => {
         setSplits(splits)
 
-        const generationValid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value)))
+        // TODO: refactor
+        const generationValid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value) || (c.type === SKILL && !c.value)))
         setGenerateEnabled(generationValid)
 
         const splitsValid = splits.every(s => s.name)
