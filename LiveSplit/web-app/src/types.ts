@@ -10,6 +10,13 @@ export declare type Quest = {
     offsets: string[]
 }
 
+export declare type Skill = {
+    id: string,
+    name: string,
+    baseAddress: string,
+    offsets: string[]
+}
+
 
 export declare type Condition = {
     type: string,

@@ -61,10 +61,11 @@ function App() {
     const onSplitsChanged = (splits: Split[]) => {
         setSplits(splits)
 
-        const valid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value)))
-        console.log(valid)
-        console.log(splits)
-        setGenerateEnabled(valid)
+        const generationValid = !splits.some(s => s.conditions.some(c => c.type === '' || (c.type === QUEST && !c.value)))
+        setGenerateEnabled(generationValid)
+
+        const splitsValid = splits.every(s => s.name)
+        setSplitsValid(splitsValid)
     }
 
     // Downloading
@@ -92,7 +93,7 @@ function App() {
                 scrollbar={{
                     draggable: false
                 }}
-                noSwiping={false}
+                noSwiping={true}
                 noSwipingClass='swiper-slide'
                 className="mySwiper"
                 onSlideChange={(s: SwiperClass) => onSlideChanged(s.activeIndex)}

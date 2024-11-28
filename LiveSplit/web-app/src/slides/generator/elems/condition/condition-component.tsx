@@ -4,12 +4,13 @@ import {Dropdown, DropdownChangeEvent} from "primereact/dropdown";
 import {Button} from "primereact/button";
 
 import {SharedContext} from "../../../../App";
-import {QUEST} from "../../../../consts";
+import {QUEST, SKILL} from "../../../../consts";
 
 import './styles.css'
 
 const types = [
     { value: "quest", label: 'Quest' },
+    // { value: "skill", label: 'Skill' },
     { value: 'save', label: 'Save' }
 ]
 
@@ -26,18 +27,23 @@ declare type ConditionComponentProps = {
 }
 
 export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => {
-    const [valueEnabled, setValueEnabled] = useState(props.type === QUEST)
+    const [valueEnabled, setValueEnabled] = useState(props.type === QUEST || props.type === SKILL)
     const [valuePlaceholder, setValuePlaceholder] = useState('')
 
     const sharedContext = useContext(SharedContext);
-    const values = useMemo(() => {
+    const questsValues = useMemo(() => {
         let quests = sharedContext.quests;
         return quests.map(q => { return { value: q.id, label: q.name } })
     }, [sharedContext.quests]);
 
     useEffect(() => {
-        setValueEnabled(props.type === QUEST)
-        setValuePlaceholder(props.type === QUEST ? 'Select quest...' : '')
+        setValueEnabled(props.type === QUEST || props.type === SKILL)
+        if (props.type === QUEST)
+            setValuePlaceholder('Select quest...')
+        else if (props.type === SKILL)
+            setValuePlaceholder('Select skill...')
+        else
+            setValuePlaceholder('')
     }, [props.type])
 
     const onTypeChanged = (e: DropdownChangeEvent) => {
@@ -47,6 +53,10 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
         if (e.target.value === QUEST) {
             setValueEnabled(true);
             setValuePlaceholder('Select quest...')
+        }
+        else if (e.target.value === SKILL) {
+            setValueEnabled(true);
+            setValuePlaceholder('Select skill...')
         }
         else {
             setValueEnabled(false);
@@ -73,7 +83,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                 value={props.value}
                 placeholder={valuePlaceholder}
                 disabled={!valueEnabled}
-                options={values}
+                options={questsValues}
                 checkmark
                 filter
                 virtualScrollerOptions={{ itemSize: 42, scrollHeight: '300px' }}

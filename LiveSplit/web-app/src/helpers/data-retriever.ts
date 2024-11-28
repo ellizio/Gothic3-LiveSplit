@@ -10,14 +10,14 @@ export class DataRetriever {
             .then(text => {
                 const map = new Map<string, string>()
                 for (const line of text.split(/[\r\n]+/)) {
-                    const index = line.indexOf(' ')
-                    map.set(line.substring(0, index), line.substring(index))
+                    const index = line.trimStart().indexOf(' ')
+                    map.set(line.substring(0, index), line.substring(index).trim())
                 }
                 return map;
             })
 
         return quests.split(/[\r\n]+/).map(q => {
-            const parts = q.split(' ');
+            const parts = q.split(/\s+/);
             return {
                 id: parts[0],
                 name: names.get(parts[0]) ?? 'Error :(',
