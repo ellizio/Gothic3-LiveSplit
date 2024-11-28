@@ -35,8 +35,8 @@ function App() {
     useEffect(() => {
         DataRetriever.retrieveQuests()
             .then(quests => setQuests(quests))
-        DataRetriever.retrieveSkills()
-            .then(skills => setSkills(skills))
+        // DataRetriever.retrieveSkills()
+        //     .then(skills => setSkills(skills))
         DataRetriever.retrieveScriptTemplate()
             .then(template => setScriptTemplate(template))
         DataRetriever.retrieveSplitsTemplate()

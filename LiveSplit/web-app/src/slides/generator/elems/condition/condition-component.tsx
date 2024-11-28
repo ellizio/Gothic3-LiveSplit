@@ -10,7 +10,7 @@ import './styles.css'
 
 const types = [
     { value: QUEST, label: 'Quest' },
-    { value: SKILL, label: 'Skill' },
+    // { value: SKILL, label: 'Skill' },
     { value: SAVE, label: 'Save' }
 ]
 
