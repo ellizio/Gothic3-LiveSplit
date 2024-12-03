@@ -4,10 +4,10 @@
 }
 
 .value-dropdown {
-    min-width: 32rem;
+    min-width: 44rem;
     text-align: left;
 }
 
 .delete-button {
-    min-width: 48px;
+    min-width: 41px !important;
 }
