@@ -103,7 +103,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
                     className="delete-button"
                     onClick={onDeleteClicked}
             />
-            { !props.deleteEnabled && <div style={{ minWidth: '48px' }} /> }
+            { !props.deleteEnabled && <div style={{ minWidth: '41px' }} /> }
         </div>
     );
 }
