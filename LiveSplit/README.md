@@ -14,7 +14,7 @@
 
 
 ## Restrictions
-> [!NOTE]
+> [!WARNING]
 > Currently the auto splitter script only works with English
 
 > [!NOTE]
@@ -23,7 +23,7 @@
 
 ## Generation
 1. Open [generator](https://ellizio.github.io/Gothic3-LiveSplit/). Then click **Start**
-2. Fill (TODO)
+2. Create splits and specify conditions
 3. Click **Generate**. Then download script (Gothic3-LiveSplit.asl) and helper (Gothic3-LiveSplit.dll)
 4. _(Optional) Download splits (Gothic3-LiveSplit.lss)_
 
