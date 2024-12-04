@@ -5,21 +5,20 @@
 ---
 
 
-## Pre requirements ???
+## Prerequisites
 
 - Installed LiveSplit
-- Installed Gothic 3 v[TODO] (Steam version) + Community Patch v1.75.14
-> ⚠️️ Currently the auto splitter script only works with English [TODO ???]
-> 
-> ⚠️ Working with other patches or mods is not guaranteed
+- Installed Gothic 3 + Community Patch v1.75.14
+> [!WARNING]
+> Work with other patches and mods is not guaranteed
 
 
 ## Restrictions
-⚠️️ Currently the auto splitter script does not support auto start and load removing. You can use a separate script for this
+> [!NOTE]
+> Currently the auto splitter script only works with English
 
-
-## How it works
-
+> [!NOTE]
+> Currently the auto splitter script does not support auto start and load removing. You can use a separate script for this
 
 
 ## Generation

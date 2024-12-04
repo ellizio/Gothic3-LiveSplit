@@ -19,6 +19,9 @@
 - Triggers a split for both a single event and a sequence of events
 
 
+## How it works
+
+
 ## Usage
 
 Follow [instructions](/LiveSplit/README.md)
