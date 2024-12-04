@@ -29,7 +29,7 @@ export const SharedContext = React.createContext<SharedContextValues>(null!);
 function App() {
     // Global
     const [quests, setQuests] = useState<Quest[]>([]);
-    const [skills, setSkills] = useState<Skill[]>([]);
+    const [skills] = useState<Skill[]>([]);
     const [scriptTemplate, setScriptTemplate] = useState<string>('');
     const [splitsTemplate, setSplitsTemplate] = useState<string>('');
     useEffect(() => {

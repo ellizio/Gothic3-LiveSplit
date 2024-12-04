@@ -36,7 +36,7 @@ export const ConditionComponent: React.FC<ConditionComponentProps> = (props) => 
         let skills = sharedContext.skills;
         // TODO: refactor
         return [quests.map(q => { return { value: q.id, label: q.name } }), skills.map(q => { return { value: q.id, label: q.name } })]
-    }, [sharedContext.quests]);
+    }, [sharedContext.quests, sharedContext.skills]);
 
     useEffect(() => {
         // TODO: refactor
